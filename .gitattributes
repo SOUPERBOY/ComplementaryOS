@@ -1,0 +1,25 @@
+# Debian package license docs - treat as binary (no diff, no text conversion)
+LICENSES/packages/copyright/** -diff -text
+LICENSES/packages/readme/** -diff -text
+LICENSES/packages/changelog/** -diff -text
+LICENSES/packages/news/** -diff -text
+LICENSES/packages/package-list.txt -diff
+
+# Compressed files
+*.gz binary
+*.xz binary
+*.zst binary
+
+# Source code files - handle line endings
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+
+# Binary files
+*.iso binary
+*.qcow2 binary
+*.img binary
+*.squashfs binary
