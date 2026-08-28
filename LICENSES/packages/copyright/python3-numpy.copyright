@@ -1,0 +1,181 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: numpy
+Upstream-Contact: NumPy Developers <numpy-dev@numpy.org>
+Source: https://github.com/numpy/numpy
+Files-Excluded:
+ .gitattributes
+ doc/source/_static/scipy-mathjax
+
+Files: *
+Copyright: 2005-2025, NumPy Developers <numpy-dev@numpy.org>
+License: BSD-3-Clause
+
+Files: debian/*
+Copyright: 2010-2022, Sandro Tosi <morph@debian.org>
+           2024, Timo Röhling <roehling@debian.org>
+License: BSD-3-Clause
+
+Files: debian/dh_numpy3
+Copyright: 2010, Piotr Ożarowski <piotr@debian.org>
+           2012, Jakub Wilk <jwilk@debian.org>
+           2025, Timo Röhling <roehling@debian.org>
+License: Expat
+
+Files: numpy/_core/include/numpy/libdivide/*
+Copyright: 2010-2019, ridiculous_fish <libdivide@ridiculousfish.com>
+           2016-2019, Kim Walisch <kim.walisch@gmail.com>
+License: Zlib
+
+Files: numpy/_core/src/multiarray/dragon4.c
+       numpy/_core/src/multiarray/dragon4.h
+Copyright: 2014, Ryan Juckett
+License: Expat
+
+Files: numpy/_core/src/highway/*
+Copyright: 2019-2024, Google LLC
+License: Apache-2 or BSD-3-Clause
+
+Files: numpy/_core/src/npysort/x86-simd-sort/*
+Copyright: 2022-2023, Intel Corporation
+           2021, Serge Sans Paille
+License: BSD-3-Clause
+
+Files: numpy/_core/src/umath/svml/*
+Copyright: 2022-2023, Intel Corporation
+License: BSD-3-Clause
+
+Files: numpy/fft/pocketfft/*
+Copyright: 2010-2022, Max Planck Society
+           2019-2020, Peter Bell
+	   2003-2007, Matteo Frigo (Massachusetts Institute of Technology)
+	   2024, Tan Ping Liang
+License: BSD-3-Clause
+
+Files: numpy/linalg/lapack_lite/*
+Copyright: 1992-2013, The University of Tennessee and The University of Tennessee Research Foundation
+           2000-2013, The University of California Berkeley
+           2006-2013, The University of Colorado Denver
+License: BSD-3-Clause
+
+Files: numpy/random/src/mt19937/*
+Copyright: 2003-2005, Jean-Sebastien Roy <js@jeannot.org>
+           1997-2002, Makoto Matsumoto and Takuji Nishimura
+License: BSD-3-clause or Expat
+
+Files: numpy/random/src/pcg64/*
+       numpy/random/src/sfc64/*
+Copyright: 2014-2018, Melissa O'Neill <oneill@pcg-random.org>
+License: Expat
+
+Files: numpy/random/src/splitmix64/*
+Copyright: 2015, Sebastiano Vigna <vigna@acm.org>
+License: CC0
+
+Files: vendored-meson/meson/*
+Copyright: 2012-2023, The Meson development team
+License: Apache-2
+
+Files: vendored-meson/meson/mesonbuild/compilers/c_function_attributes.py
+       vendored-meson/meson/test?cases/frameworks/6?gettext/data3/*
+Copyright: 2013, Gabriele Svelto <gabriele.svelto@gmail.com>
+           2015-2021, Matthias Klumpp <matthias@tenstral.net>
+           2019, Takao Fujiwara <takao.fujiwara1@gmail.com>
+License: FSFAP
+
+Files: .spin/*
+Copyright: 2021-2022, Scientific Python project
+License: BSD-3-Clause
+
+License: Apache-2
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+     http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, you can find the full license text in
+ "/usr/share/common-licenses/Apache-2.0".
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+ THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0
+ To the extent possible under law, the author has dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ On Debian systems, you can find the full license text in
+ "/usr/share/common-licenses/CC0-1.0".
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: FSFAP
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved.  This file is offered as-is, without any
+ warranty.
+
+License: ZLib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.

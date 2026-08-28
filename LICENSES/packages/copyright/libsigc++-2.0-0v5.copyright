@@ -1,0 +1,130 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libsigc++
+Source: https://download.gnome.org/sources/libsigc++
+Files-Excluded: untracked
+Comment: Let's build the html help from source
+
+Files: *
+Copyright: 2003-2022 The libsigc++ Development Team
+           Murray Cumming <murrayc@murrayc.com>
+           Martin Schulze <mschulze@cvs.gnome.org>
+           Cedric Gustin <cedric.gustin@swing.be> (win32 support)
+           Timothy M. Shead <tshead@k-3d.com> and James Lin <jameslin@vmware.com> (MSVC support)
+           Damien Carbery <Damien.Carbery@Sun.COM> (Sun FORTE C++ support)
+           Takashi Takekawa <takekawa@users.sourceforge.jp> (Intel C++ support)
+           Andreas Rottmann <rottmann@users.sourceforge.net> (make system)
+           Karl Einar Nelson <kenelson@ece.ucdavis.edu> (initial version 1.9.4)
+License: LGPL-3.0-or-later
+Comment:
+ License holder retrieved from AUTHORS file.
+
+Files:
+ build/ax_boost_base.m4
+Copyright:
+ 2008 Thomas Porschberg <thomas@randspringer.de>
+ 2009 Peter Adolphs
+License: permissive-axboost-1
+
+Files:
+ build/ax_boost_system.m4
+Copyright:
+ 2008 Thomas Porschberg <thomas@randspringer.de>
+ 2008 Michael Tindal
+ 2008 Daniel Casimiro <dan.casimiro@gmail.com>
+License: permissive-axboost-1
+
+Files:
+ build/ax_boost_timer.m4
+Copyright:
+ 2012 Xiyue Deng <manphiz@gmail.com>
+ 2012 Murray Cumming <murrayc@openismus.com>
+License: permissive-axboost-1
+
+Files: examples/*.cc
+       tests/*.cc
+Copyright: 2002-2016 The libsigc++ Development Team
+License: Public-Domain
+ Assigned to the public domain.  Use as you wish without restriction.
+
+Files:
+ tests/test_cpp11_lambda.cc
+ tests/test_track_obj.cc
+ tests/testutilities.*
+ tests/test_visit_each.cc
+ tests/CMakeLists.txt
+ CMakeLists.txt
+ sigc++/CMakeLists.txt
+ sigc++/*.h
+ sigc++/*.cc
+ sigc++/adaptors/*
+ sigc++/functors/*
+Copyright: 2002-2016 The libsigc++ Development Team
+License: LGPL-2.1-or-later
+
+Files:
+ tests/test_bind_refptr.cc
+Copyright: 2002 - 2016, The gtkmm Development Team
+License: LGPL-2.1-or-later
+
+Files:
+ tests/test_tuple_cdr.cc
+ tests/test_tuple_end.cc
+ tests/test_tuple_for_each.cc
+ tests/test_tuple_start.cc
+ tests/test_tuple_transform_each.cc
+Copyright: 2016 Murray Cumming
+License: GPL-3.0-or-later
+
+
+Files:
+ docs/docs/Makefile.am
+ docs/docs/doc-manual.am
+ examples/Makefile.am
+ tests/Makefile.am
+ Makefile.am
+ configure.ac
+ sigc++/filelist.am
+ sigc++/Makefile.am
+Copyright: 2009 Openismus GmbH
+License: LGPL-2.1-or-later
+
+License: LGPL-3.0-or-later
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 3.0 of the License, or (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2.1-or-later
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: GPL-3.0-or-later
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: permissive-axboost-1
+ Copying and distribution of this file, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice
+ and this notice are preserved. This file is offered as-is, without any
+ warranty.

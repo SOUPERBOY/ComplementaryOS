@@ -1,0 +1,8 @@
+This package ships static libraries and they are compiled with -fPIC
+to let reverse dependencies use the static libraries as part of shared
+libraries and PIE binaries.
+
+The exception is discussed in this thread:
+ https://lists.debian.org/debian-devel/2016/09/msg00277.html
+
+ -- Balint Reczey <balint@balintreczey.hu>, Thu, 29 Sep 2016 13:47:13 +0200

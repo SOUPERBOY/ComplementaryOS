@@ -1,0 +1,103 @@
+Zsh for Debian
+==============
+
+You may find more uptodate information about Debian's zsh packages at
+https://wiki.debian.org/Zsh
+
+ -- Axel Beckert <abe@debian.org>, Wed,  5 Sep 2018 02:51:49 +0200
+
+This version of zsh has been compiled with support for maildir
+folders in MAIL and MAILPATH.
+
+ -- Clint Adams <schizo@debian.org>
+
+
+Using bash completion scripts with zsh
+--------------------------------------
+
+See http://zshwiki.org/home/convert/bash for instructions and example
+code on how to use bash completion scripts with zsh.
+
+ -- Axel Beckert <abe@debian.org>, Tue, 26 May 2015 14:46:31 +0200
+
+
+How to use the zsh-dbgsym package
+---------------------------------
+
+To install the zsh-dbgsym package you first need to add the APT
+repository for debug packages. Since this APT repo is rather huge, but
+seldomly needed, it's usually not available on your average Debian
+mirror. As root or with sudo edit the file /etc/apt/sources.list (or
+add a new file /etc/apt/sources.list.d/dbgpkg.list) with the following
+contents:
+
+  deb http://debug.mirrors.debian.org/debian-debug/ <your-release>-debug <your-archive>
+
+and replace <your-release> and <your-archive> with the according
+values for your installation. E.g. on Debian Buster it probably looks
+like this:
+
+  deb http://debug.mirrors.debian.org/debian-debug/ buster-debug main
+
+After having edited the file, run "apt update" with root
+permissions (e.g. with sudo).
+
+See https://wiki.debian.org/AutomaticDebugPackages and
+https://michael-prokop.at/blog/2017/05/26/the-newinstretch-game-dbgsym-packages-in-debianstretch/
+for details.
+
+Afterwards execute in the first terminal:
+
+  sudo apt install zsh-dbgsym
+  apt source zsh
+  cd zsh-*
+
+In the second terminal invoke 'zsh -f' (or drop the '-f' if you
+don't want to start with a clean Zsh session). Execute all the
+relevant steps right *before* you can trigger the problem you
+want to inspect using gdb.
+
+Return to the first terminal where you're standing in Zsh's
+source directory.  Identify the process id of the Zsh instance
+you want to debug ("ps aux | grep '[z]sh'") and use it for $PID.
+Then execute:
+
+  gdb $(find . -type d -printf '-d %p ') attach $PID
+
+Now you can use the usual gdb commands like step / continue / ...
+to debug the Zsh process at source level.
+
+ -- Michael Prokop <mika@debian.org> and Axel Beckert <abe@debian.org>
+
+
+Load-path for functions from other packages
+-------------------------------------------
+
+In response to #620452, the zsh-binary from Debian's zsh package started to
+provide two entries to $fpath (the search path for loadable functions) for
+other packages to drop function files into:
+
+  - /usr/share/zsh/vendor-completions for functions that add functionality to
+    zsh's function based completion system (compsys)
+
+  - /usr/share/zsh/vendor-functions for all other functions
+
+If you maintain another Debian package that wants to add functions to zsh's
+function load-path, please use the those conventions when installing function
+files.
+
+ -- Frank Terbeck <ft@bewatermyfriend.org>, Wed, 21 May 2014 13:15:58 +0200
+
+
+Patch series management functionality
+-------------------------------------
+
+vcs_info is a zsh contributed function for showing information from version
+control systems (git, hg, svn, ...) at the prompt.
+
+Maintainers of Debian packagers may find it useful to enable vcs_info's patch
+series functionality when managing their packages' patch series.  See
+/usr/share/doc/zsh/examples/Misc/vcs_info-examples for examples and the
+vcs_info section in the manual[1] for reference.
+
+[1] zshcontrib(1), or one of the other formats provided by the zsh-doc package.

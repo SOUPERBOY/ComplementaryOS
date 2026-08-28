@@ -1,0 +1,24 @@
+The Debian release of NumPy 2 and later comes with improved Multi-Arch support
+for binary Python extensions:
+
+
+ 1. `pkg-config numpy --cflags` works out of the box. There is no need to
+    set PKG_CONFIG_PATH as documented in the reference manual.
+
+    If you want to remain compatible with other distributions, we recommend
+    overriding PKG_CONFIG_PATH only if necessary, e.g.,
+
+    : "${PKG_CONFIG:=pkg-config}"
+    if ! $PKG_CONFIG --exists numpy; then
+        export PKG_CONFIG_PATH=$(numpy-config --pkgconfigdir)
+    fi
+
+
+ 2. numpy-config and `numpy.get_include()` query the MULTIARCH configuration
+    variable from the sysconfig module. For cross builds, set the
+    _PYTHON_SYSCONFIGDATA_NAME environment variable, e.g.
+
+    export _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata__${DEB_HOST_ARCH_OS}_${DEB_HOST_MULTIARCH}
+
+
+ -- Timo Röhling <roehling@debian.org>  Mon, 16 Sep 2024 22:53:54 +0200

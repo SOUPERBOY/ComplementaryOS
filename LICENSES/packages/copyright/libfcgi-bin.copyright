@@ -1,0 +1,108 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/FastCGI-Archives/fcgi2/tags
+
+Files: *
+Copyright: 1996 Open Market, Inc.
+License: FASTCGI
+
+Files: debian/*
+Copyright: 2003-2010 Tatsuki Sugiura <sugi@nemui.org>
+           2017-2021 Boris Pek <tehnick-8@yandex.ru>
+License: FASTCGI
+
+Files: include/fcgio.h libfcgi/fcgio.cpp
+Copyright: (c) 2001 Rob Saccoccio and Chelsea Networks
+License: No-charge-or-royalty-with-recognition
+ You are free to use this software without charge or royalty
+ as long as this notice is not removed or altered, and recognition
+ is given to the author(s)
+ .
+ This code is offered as-is without any warranty either expressed or
+ implied; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  If it breaks, you get to keep
+ both halves.
+
+Files: examples/echo-cpp.cpp
+Copyright: (c) 2001  Rob Saccoccio and Chelsea Networks
+ All rights reserved.
+License: BSD-3-clause
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+ .
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+  3. The name of the author may not be used to endorse or promote products
+     derived from this software without specific prior written permission.
+ .
+  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: libfcgi/strerror.c
+Copyright: (c) 1988 Regents of the University of California.
+ All rights reserved.
+License: BSD-4-clause-UC
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: FASTCGI
+ This FastCGI application library source and object code (the
+ "Software") and its documentation (the "Documentation") are
+ copyrighted by Open Market, Inc ("Open Market").  The following terms
+ apply to all files associated with the Software and Documentation
+ unless explicitly disclaimed in individual files.
+ .
+ Open Market permits you to use, copy, modify, distribute, and license
+ this Software and the Documentation for any purpose, provided that
+ existing copyright notices are retained in all copies and that this
+ notice is included verbatim in any distributions.  No written
+ agreement, license, or royalty fee is required for any of the
+ authorized uses.  Modifications to this Software and Documentation may
+ be copyrighted by their authors and need not follow the licensing
+ terms described here.  If modifications to this Software and
+ Documentation have new licensing terms, the new terms must be clearly
+ indicated on the first page of each file where they apply.
+ .
+ OPEN MARKET MAKES NO EXPRESS OR IMPLIED WARRANTY WITH RESPECT TO THE
+ SOFTWARE OR THE DOCUMENTATION, INCLUDING WITHOUT LIMITATION ANY
+ WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  IN
+ NO EVENT SHALL OPEN MARKET BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY
+ DAMAGES ARISING FROM OR RELATING TO THIS SOFTWARE OR THE
+ DOCUMENTATION, INCLUDING, WITHOUT LIMITATION, ANY INDIRECT, SPECIAL OR
+ CONSEQUENTIAL DAMAGES OR SIMILAR DAMAGES, INCLUDING LOST PROFITS OR
+ LOST DATA, EVEN IF OPEN MARKET HAS BEEN ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGES.  THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS".
+ OPEN MARKET HAS NO LIABILITY IN CONTRACT, TORT, NEGLIGENCE OR
+ OTHERWISE ARISING OUT OF THIS SOFTWARE OR THE DOCUMENTATION.

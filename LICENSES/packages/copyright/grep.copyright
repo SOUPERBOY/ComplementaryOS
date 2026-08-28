@@ -1,0 +1,720 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: grep
+Upstream-Contact: bug-grep@gnu.org
+Source: https://savannah.gnu.org/projects/grep
+  git://git.savannah.gnu.org/grep.git
+
+Files:
+ *
+Copyright:
+ 1992, 1997-2002, 2004-2012 Free Software Foundation, Inc.
+ 2004, Stepan Kasal <kasal@ucw.cz>
+ 2007, Tony Abou-Assaleh <taa@acm.org>
+ 2009-2012, Jim Meyering <jim@meyering.net> and Paolo Bonzini <bonzini@gnu.org>
+License: GPL-3+
+
+Files:
+ debian/*
+Copyright:
+ 2025 Otto Kekäläinen <otto@debian.org>
+ 2009-2025 Santiago Ruano Rincón <santiago@debian.org>
+ 2005-2024 Anibal Monsalve Salazar <anibal@debian.org>
+ 2003-2004 Ryan M. Golbeck <rmgolbeck@debian.org>
+ 2003, Jeff Bailey <jbailey@nisa.net>
+ 2003, Clint Adams <schizo@debian.org>
+ 2001 Robert van der Meulen <rvdm@debian.org>
+ 1996-2000 Wichert Akkerman <wakkerma@debian.org>
+License: GPL-3+
+
+Files:
+ INSTALL
+ TODO
+Copyright:
+ 1994-1996, 1999-2002, 2004-2017, 2020-2023 Free Software Foundation, Inc.
+License: FSFAP
+
+Files:
+ NEWS
+Copyright:
+ 1994-1996, 1999-2002, 2004-2017, 2020-2023 Free Software Foundation, Inc.
+License: FSFAP or GFDL-1.3+
+
+Files:
+ tests/backref
+Copyright:
+ 2001, 2006, 2009-2023 Free Software Foundation, Inc.
+License: FSFAP
+
+Files:
+ tests/backref-alt
+Copyright:
+ 2015-2023 Free Software Foundation, Inc.
+License: FSFAP
+
+Files:
+ tests/backslash-*
+Copyright:
+ 2020-2023 Free Software Foundation, Inc.
+License: FSFAP
+
+Files:
+ tests/bre*
+ tests/ere*
+ tests/pcre*
+ tests/spencer1*
+ tests/binary-file-matches
+ tests/c-locale
+ tests/dfa-invalid-utf8
+ tests/empty
+ tests/empty-line-mb
+ tests/encoding-error
+ tests/false-match-mb-non-utf8
+ tests/fgrep-longest
+ tests/file
+ tests/fmbtest
+ tests/foad1
+ tests/khadafy
+ tests/multibyte-white-space
+ tests/options
+ tests/proc
+ tests/status
+ tests/triple-backref
+ tests/two-chars
+ tests/two-files
+ tests/version-pcre
+ tests/yesno
+Copyright:
+ 2001, 2006, 2009-2023 Free Software Foundation, Inc.
+License: FSFAP
+
+Files:
+ configure
+Copyright:
+ 1992-1996, 1998-2017, 2020-2023 Free Software Foundation, Inc.
+License: FSFUL
+
+Files:
+ aclocal.m4
+ build-aux/config.rpath
+Copyright:
+ 1996-2023 Free Software Foundation, Inc.
+License: FSFULLR
+
+Files:
+ m4/*.m4
+Copyright:
+ 1996-2023 Free Software Foundation, Inc.
+License: FSFULLR
+
+Files:
+ m4/gettext.m4
+ m4/intl-thread-locale.m4
+ m4/intlmacosx.m4
+ m4/lcmessage.m4
+ m4/nls.m4
+ m4/po.m4
+ m4/progtest.m4
+Copyright:
+ 1992-2023 Free Software Foundation, Inc.
+License: FSFULLR and/or GPL and/or LGPL
+
+Files:
+ build-aux/install-sh
+Copyright:
+ 1994 X Consortium
+License: X11
+
+Files:
+ gnulib-tests/inet_pton.c
+Copyright:
+ 2006, 2008-2023 Free Software Foundation, Inc.
+ 1996, 1999, Internet Software Consortium
+License: ISC or LGPL-2.1+
+
+Files:
+ lib/fts.c
+ lib/fts_.h
+Copyright:
+ 2004-2023 Free Software Foundation, Inc.
+ 1990, 1993, 1994, The Regents of the University of California
+License: BSD-3-clause or GPL-3+
+
+Files:
+ doc/grep.info
+ doc/grep.texi
+Copyright:
+ 1992-2023 Free Software Foundation, Inc.
+License: GFDL-1.3+
+
+Files:
+ gnulib-tests/alloca.c
+Copyright:
+ 2011-2023 Free Software Foundation, Inc.
+License: public-domain
+
+Files:
+ po/Makefile.in.in
+Copyright:
+ 1995-1997, 2000-2007, 2009-2010, Ulrich Drepper <drepper@gnu.ai.mit.edu>
+License: GPL
+
+Files:
+ gnulib-tests/_Noreturn.h
+ gnulib-tests/arg-nonnull.h
+ gnulib-tests/c++defs.h
+ gnulib-tests/warn-on-use.h
+ lib/_Noreturn.h
+ lib/arg-nonnull.h
+ lib/c++defs.h
+ lib/warn-on-use.h
+Copyright:
+ 2011-2023 Free Software Foundation, Inc.
+License: LGPL-2+
+
+Files:
+ build-aux/gnupload
+Copyright:
+ 2004-2023 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files:
+ m4/gnulib-comp.m4
+Copyright:
+ 1992-2023 Free Software Foundation, Inc.
+License: GPL-3+
+
+Files:
+ m4/sigaltstack.m4
+ m4/stack-direction.m4
+Copyright:
+ 1992-2023 Free Software Foundation, Inc.
+License: GPL
+
+Files:
+ gnulib-tests/altstack-util.h
+ gnulib-tests/mmap-anon-util.h
+ gnulib-tests/test-dynarray.c
+ gnulib-tests/test-sigsegv-catch-*
+Copyright:
+ 2010-2023 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files:
+ lib/str-kmp.h
+Copyright:
+ 2005-2023 Free Software Foundation, Inc.
+License: LGPL-3+
+
+Files:
+ gnulib-tests/putenv.c
+ gnulib-tests/setlocale.c
+ gnulib-tests/symlink.c
+Copyright:
+ 1991, 1994, 1997-1998, 2000, 2003-2023 Free Software Foundation, Inc.
+License: LGPL-3+
+
+Files:
+ lib/fchdir.c
+ lib/i-ring.c
+ lib/i-ring.h
+ lib/mbrlen.c
+ lib/mbscasecmp.c
+ lib/mbslen.c
+ lib/mbsstr.c
+ lib/mbuiter.c
+ lib/mbuiter.h
+ lib/memrchr.c
+ lib/obstack.c
+ lib/obstack.h
+ lib/strtoimax.c
+ lib/strtol.c
+ lib/strtoll.c
+ lib/strtoul.c
+ lib/strtoull.c
+ lib/strtoumax.c
+ lib/version-etc-fsf.c
+ lib/version-etc.c
+ lib/version-etc.h
+ lib/wctob.c
+ lib/xbinary-io.c
+ lib/xbinary-io.h
+Copyright:
+ 2006-2023 Free Software Foundation, Inc.
+License: LGPL-3+
+
+Files:
+ lib/sigsegv.c
+ lib/sigsegv.in.h
+ lib/stackvma.c
+ lib/stackvma.h
+Copyright:
+ 1993-2023 Free Software Foundation, Inc.
+ 2018, Nylon Chen <nylon7@andestech.com>
+License: GPL-2+
+
+Files:
+ gnulib-tests/accept.c
+ gnulib-tests/anytostr.c
+ gnulib-tests/arpa_inet.in.h
+ gnulib-tests/asnprintf.c
+ gnulib-tests/bind.c
+ gnulib-tests/c-strcasestr.c
+ gnulib-tests/c-strcasestr.h
+ gnulib-tests/connect.c
+ gnulib-tests/fdopen.c
+ gnulib-tests/float+.h
+ gnulib-tests/float.c
+ gnulib-tests/float.in.h
+ gnulib-tests/fpucw.h
+ gnulib-tests/gettimeofday.c
+ gnulib-tests/glthread/thread.c
+ gnulib-tests/glthread/thread.h
+ gnulib-tests/hash-pjw.c
+ gnulib-tests/hash-pjw.h
+ gnulib-tests/imaxtostr.c
+ gnulib-tests/inttostr.c
+ gnulib-tests/inttostr.h
+ gnulib-tests/ioctl.c
+ gnulib-tests/itold.c
+ gnulib-tests/listen.c
+ gnulib-tests/localename-table.c
+ gnulib-tests/localename-table.h
+ gnulib-tests/localename.c
+ gnulib-tests/localename.h
+ gnulib-tests/nanosleep.c
+ gnulib-tests/netinet_in.in.h
+ gnulib-tests/offtostr.c
+ gnulib-tests/perror.c
+ gnulib-tests/printf-args.c
+ gnulib-tests/printf-args.h
+ gnulib-tests/printf-parse.c
+ gnulib-tests/printf-parse.h
+ gnulib-tests/pselect.c
+ gnulib-tests/pthread-thread.c
+ gnulib-tests/pthread.in.h
+ gnulib-tests/pthread_sigmask.c
+ gnulib-tests/sched.in.h
+ gnulib-tests/select.c
+ gnulib-tests/setenv.c
+ gnulib-tests/setsockopt.c
+ gnulib-tests/sigprocmask.c
+ gnulib-tests/size_max.h
+ gnulib-tests/sleep.c
+ gnulib-tests/snprintf.c
+ gnulib-tests/socket.c
+ gnulib-tests/sockets.c
+ gnulib-tests/sockets.h
+ gnulib-tests/str-two-way.h
+ gnulib-tests/strerror_r.c
+ gnulib-tests/sys_ioctl.in.h
+ gnulib-tests/sys_select.in.h
+ gnulib-tests/sys_socket.c
+ gnulib-tests/sys_socket.in.h
+ gnulib-tests/sys_time.in.h
+ gnulib-tests/sys_uio.in.h
+ gnulib-tests/thread-optim.h
+ gnulib-tests/time.c
+ gnulib-tests/uinttostr.c
+ gnulib-tests/umaxtostr.c
+ gnulib-tests/unsetenv.c
+ gnulib-tests/vasnprintf.c
+ gnulib-tests/vasnprintf.h
+ gnulib-tests/w32sock.h
+ gnulib-tests/windows-thread.c
+ gnulib-tests/windows-thread.h
+ gnulib-tests/windows-tls.c
+ gnulib-tests/windows-tls.h
+ gnulib-tests/xsize.c
+ gnulib-tests/xsize.h
+Copyright:
+ 2008-2023 Free Software Foundation, Inc.
+License: LGPL-2.1+
+
+Files:
+ lib/alignof.h
+ lib/alloca.in.h
+ lib/assert.in.h
+ lib/assure.h
+ lib/attribute.h
+ lib/basename-lgpl.c
+ lib/basename-lgpl.h
+ lib/binary-io.c
+ lib/binary-io.h
+ lib/bitrotate.c
+ lib/bitrotate.h
+ lib/btowc.c
+ lib/c-ctype.c
+ lib/c-ctype.h
+ lib/c-strcase.h
+ lib/c-strcasecmp.c
+ lib/c-strcaseeq.h
+ lib/c-strncasecmp.c
+ lib/calloc.c
+ lib/cdefs.h
+ lib/cloexec.c
+ lib/cloexec.h
+ lib/close.c
+ lib/closedir.c
+ lib/ctype.in.h
+ lib/dirent-private.h
+ lib/dirent.in.h
+ lib/dirfd.c
+ lib/dirname-lgpl.c
+ lib/dirname.h
+ lib/dup.c
+ lib/dup2.c
+ lib/dynarray.h
+ lib/errno.in.h
+ lib/error.c
+ lib/error.in.h
+ lib/exitfail.c
+ lib/exitfail.h
+ lib/fcntl.c
+ lib/fcntl.in.h
+ lib/fd-hook.c
+ lib/fd-hook.h
+ lib/filename.h
+ lib/filenamecat-lgpl.c
+ lib/filenamecat.h
+ lib/flexmember.h
+ lib/fnmatch.c
+ lib/fnmatch.in.h
+ lib/fnmatch_loop.c
+ lib/fopen.c
+ lib/free.c
+ lib/fstat.c
+ lib/getcwd-lgpl.c
+ lib/getdtablesize.c
+ lib/getopt-cdefs.in.h
+ lib/getopt-core.h
+ lib/getopt-ext.h
+ lib/getopt-pfx-core.h
+ lib/getopt-pfx-ext.h
+ lib/getopt.c
+ lib/getopt.in.h
+ lib/getopt1.c
+ lib/getopt_int.h
+ lib/getpagesize.c
+ lib/getprogname.c
+ lib/getprogname.h
+ lib/gettext.h
+ lib/glthread/lock.c
+ lib/glthread/lock.h
+ lib/glthread/threadlib.c
+ lib/hard-locale.c
+ lib/hard-locale.h
+ lib/hash.c
+ lib/hash.h
+ lib/ialloc.c
+ lib/ialloc.h
+ lib/iconv.c
+ lib/iconv.in.h
+ lib/iconv_close.c
+ lib/iconv_open-aix.gperf
+ lib/iconv_open-hpux.gperf
+ lib/iconv_open-irix.gperf
+ lib/iconv_open-osf.gperf
+ lib/iconv_open-solaris.gperf
+ lib/iconv_open-zos.gperf
+ lib/iconv_open.c
+ lib/idx.h
+ lib/ignore-value.h
+ lib/intprops-internal.h
+ lib/intprops.h
+ lib/inttypes.in.h
+ lib/isatty.c
+ lib/isblank.c
+ lib/iswblank.c
+ lib/iswdigit.c
+ lib/iswxdigit.c
+ lib/langinfo.in.h
+ lib/lc-charset-dispatch.c
+ lib/lc-charset-dispatch.h
+ lib/libc-config.h
+ lib/limits.in.h
+ lib/localcharset.c
+ lib/localcharset.h
+ lib/locale.in.h
+ lib/localeconv.c
+ lib/lseek.c
+ lib/lstat.c
+ lib/malloc.c
+ lib/malloc/dynarray-skeleton.c
+ lib/malloc/dynarray.h
+ lib/malloc/dynarray_at_failure.c
+ lib/malloc/dynarray_emplace_enlarge.c
+ lib/malloc/dynarray_finalize.c
+ lib/malloc/dynarray_resize.c
+ lib/malloc/dynarray_resize_clear.c
+ lib/malloca.c
+ lib/malloca.h
+ lib/mbchar.c
+ lib/mbchar.h
+ lib/mbiter.c
+ lib/mbiter.h
+ lib/mbrtowc-impl-utf8.h
+ lib/mbrtowc-impl.h
+ lib/mbrtowc.c
+ lib/mbsinit.c
+ lib/mbsrtowcs-impl.h
+ lib/mbsrtowcs-state.c
+ lib/mbsrtowcs.c
+ lib/mbtowc-impl.h
+ lib/mbtowc-lock.c
+ lib/mbtowc-lock.h
+ lib/mbtowc.c
+ lib/memchr.c
+ lib/memchr.valgrind
+ lib/memchr2.c
+ lib/memchr2.h
+ lib/memchr2.valgrind
+ lib/mempcpy.c
+ lib/minmax.h
+ lib/msvc-inval.c
+ lib/msvc-inval.h
+ lib/msvc-nothrow.c
+ lib/msvc-nothrow.h
+ lib/nl_langinfo-lock.c
+ lib/nl_langinfo.c
+ lib/open.c
+ lib/opendir.c
+ lib/pathmax.h
+ lib/pipe.c
+ lib/raise.c
+ lib/rawmemchr.c
+ lib/rawmemchr.valgrind
+ lib/read.c
+ lib/readdir.c
+ lib/realloc.c
+ lib/reallocarray.c
+ lib/regcomp.c
+ lib/regex.c
+ lib/regex.h
+ lib/regex_internal.c
+ lib/regex_internal.h
+ lib/regexec.c
+ lib/safe-read.c
+ lib/safe-read.h
+ lib/same-inode.h
+ lib/setlocale-lock.c
+ lib/setlocale_null.c
+ lib/setlocale_null.h
+ lib/signal.in.h
+ lib/stat-time.c
+ lib/stat-time.h
+ lib/stat-w32.c
+ lib/stat-w32.h
+ lib/stat.c
+ lib/stdarg.in.h
+ lib/stdckdint.in.h
+ lib/stddef.in.h
+ lib/stdint.in.h
+ lib/stdio-impl.h
+ lib/stdio-read.c
+ lib/stdio-write.c
+ lib/stdio.in.h
+ lib/stdlib.in.h
+ lib/stpcpy.c
+ lib/str-two-way.h
+ lib/strdup.c
+ lib/streq.h
+ lib/strerror-override.c
+ lib/strerror-override.h
+ lib/strerror.c
+ lib/striconv.c
+ lib/striconv.h
+ lib/string.in.h
+ lib/stripslash.c
+ lib/strnlen.c
+ lib/strnlen1.c
+ lib/strnlen1.h
+ lib/strstr.c
+ lib/sys-limits.h
+ lib/sys_stat.in.h
+ lib/sys_types.in.h
+ lib/time.in.h
+ lib/unictype/bitmap.h
+ lib/unistd.c
+ lib/unistd.in.h
+ lib/unistr.in.h
+ lib/unistr/u8-mbtoucr.c
+ lib/unistr/u8-uctomb-aux.c
+ lib/unistr/u8-uctomb.c
+ lib/unitypes.in.h
+ lib/uniwidth.in.h
+ lib/uniwidth/cjk.h
+ lib/uniwidth/width.c
+ lib/uniwidth/width0.h
+ lib/uniwidth/width2.h
+ lib/verify.h
+ lib/wchar.in.h
+ lib/wcrtomb.c
+ lib/wctomb-impl.h
+ lib/wctomb.c
+ lib/wctype-h.c
+ lib/wctype.in.h
+ lib/wcwidth.c
+ lib/windows-initguard.h
+ lib/windows-mutex.c
+ lib/windows-mutex.h
+ lib/windows-once.c
+ lib/windows-once.h
+ lib/windows-recmutex.c
+ lib/windows-recmutex.h
+ lib/windows-rwlock.c
+ lib/windows-rwlock.h
+ lib/wmemchr-impl.h
+ lib/wmemchr.c
+ lib/wmempcpy.c
+ lib/xalloc-oversized.h
+Copyright:
+ 2003-2004, 2006, 2009-2023 Free Software Foundation, Inc.
+License: LGPL-2.1+
+
+Files:
+ tests/pcre-infloop
+Copyright:
+ 2014-2023 Free Software Foundation, Inc.
+License: GPL-3+
+
+Files:
+ tests/Coreutils.pm
+ tests/CuSkip.pm
+ tests/CuTmpdir.pm
+Copyright:
+ 1992-2023 Free Software Foundation, Inc.
+License: GPL-3+
+
+License: GPL
+ On a Debian system, the complete text of the GNU General Public License
+ version 3 can be found in the file /usr/share/common-licenses/GPL-3.
+
+License: GPL-3+
+ Copyright (C) 1992, 1997, 1998, 1999, 2000, 2001, 2002, 2004,
+ 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+ .
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ Comment:
+ .
+ On a Debian system you can find a copy of this license in
+ /usr/share/common-licenses/GPL-3.
+
+License: GPL-2+
+ On a Debian system, the complete text of the GNU General Public License
+ version 2 can be found in the file /usr/share/common-licenses/GPL-2.
+
+License: LGPL
+ On a Debian system, the complete text of the GNU Lesser General Public
+ License version 3 can be found in the file /usr/share/common-licenses/LGPL-3.
+
+License: LGPL-3+
+ On a Debian system, the complete text of the GNU Lesser General Public
+ License version 3 can be found in the file /usr/share/common-licenses/LGPL-3.
+
+License: LGPL-2.1+
+ On a Debian system, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in the file /usr/share/common-licenses/LGPL-2.1.
+
+License: LGPL-2+
+ On a Debian system, the complete text of the GNU Lesser General Public
+ License version 2 can be found in the file /usr/share/common-licenses/LGPL-2.
+
+License: GFDL-1.3+
+ On a Debian system, the complete text of the GNU Free Documentation License
+ version 1.3 can be found in the file /usr/share/common-licenses/GFDL-1.3.
+
+License: FSFAP
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved. This file is offered as-is,
+ without warranty of any kind.
+
+License: FSFUL
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+License: FSFULLR
+ This file is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+License: X11
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of the X Consortium shall not be
+ used in advertising or otherwise to promote the sale, use or other dealings in
+ the Software.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: public-domain
+ This work is in the public domain.

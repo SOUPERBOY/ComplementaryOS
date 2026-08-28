@@ -1,0 +1,466 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/RsyncProject/rsync
+Upstream-Name: rsync
+Upstream-Contact: Andrew Tridgell <andrew@tridgell.net>
+Files-Excluded: zlib/*
+                popt/*
+Comment: The zlib/ and popt/ directories were excluded because they contain
+         bundled libraries that are already provided
+
+Files: *
+Copyright: 1996 Paul Mackerras <paulus@ozlabs.org>
+           1996-2011 Andrew Tridgell <andrew@tridgell.net>
+           2003-2024 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: main.c
+       io.c
+       progress.c
+       delete.c
+       cleanup.c
+       flist.c
+       pipe.c
+       generator.c
+       util1.c
+       rsync.h
+       exclude.c
+       util2.c
+       hlink.c
+       lib/permstring.c
+Copyright: 1996 Paul Mackerras <paulus@ozlabs.org>
+           1996-2001 Andrew Tridgell <andrew@tridgell.net>
+           2001, 2002 Martin Pool <mbp@samba.org>
+           2002-2024 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: log.c
+       socket.c
+       clientname.c
+       syscall.c
+       options.c
+       lib/compat.c
+       clientserver.c
+       fileio.c
+Copyright: 1992-2001 Andrew Tridgell <tridge@samba.org>
+           2000-2002 Martin Pool <mbp@samba.org>
+           2002-2023 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: t_stub.c
+       t_unsafe.c
+       tls.c
+       loadparm.c
+       trimslash.c
+Copyright: 2001, 2002 Martin Pool <mbp@samba.org>
+           2003-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: xattrs.c
+       lib/sysxattrs.c
+Copyright: 2003-2022 Wayne Davison <wayne@opencoder.net>
+           2004 Red Hat, Inc
+License: GPL-3+
+
+Files: config.guess
+Copyright: 1992-2023 Free Software Foundation, Inc.
+License: GPL-3+
+
+Files: simd-checksum-x86_64.cpp
+Copyright: 1996 Paul Mackerras <paulus@ozlabs.org>
+           1996 Andrew Tridgell <tridge@samba.org>
+           2004-2020 Wayne Davison <wayne@opencoder.net>
+           2020 Jorrit Jongma <git@jongma.org>
+License: GPL-3+
+
+Files: batch.c
+Copyright: 1999 Weiss
+           2004 Chris Shoemaker
+           2004-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: chmod.c
+Copyright: 2002 Scott Howard
+           2005-2020 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: lib/md5.c
+Copyright: 2001-2003 Christophe Devine
+           2007-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: byteorder.h
+       access.c
+       backup.c
+       authenticate.c
+       errcode.h
+       lib/mdfour.c
+       connection.c
+Copyright: 1992-2000 Andrew Tridgell <tridge@samba.org>
+           2002-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: lib/getpass.c
+Copyright: 2013 Roman Donchenko
+License: GPL-3+
+
+Files: lib/sysacls.c
+       lib/sysacls.h
+Copyright: 2000 Jeremy Allison
+           2007-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: io.h
+       rounding.c
+       case_N.h
+       ifuncs.h
+       wildtest.c
+       inums.h
+       itypes.h
+       usage.c
+Copyright: 2003-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+
+
+Files: params.c
+Copyright: Karl Auer
+           Christopher Hertel
+License: GPL-3+
+
+Files: hashtable.c
+Copyright: 2003-2022 Wayne Davison <wayne@opencoder.net>
+           2006 Bob Jenkins <bob_jenkins@burtleburtle.net>
+License: GPL-3+ and public-domain
+
+Files: checksum.c
+Copyright: 1996 Paul Mackerras <paulus@ozlabs.org>
+           1996 Andrew Tridgell <andrew@tridgell.net>
+           2004-2023 Wayne Davison <wayne@opencoder.net>
+License: GPL-3+ with OpenSSL-xxhash exception
+
+Files: getgroups.c
+Copyright: 2002 Martin Pool <mbp@samba.org>
+           2003-2020 Wayne Davison <wayne@opencoder.net>
+License: GPL-3
+
+Files: testsuite/hands.test
+       testsuite/ssh-basic.test
+       testsuite/longdir.test
+Copyright: 1998, 1999 Philip Hands <phil@hands.com>
+           2001, 2002 Martin Pool <mbp@samba.org>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: testsuite/exclude.test
+       testsuite/alt-dest.test
+       testsuite/chmod.test
+       testsuite/backup.test
+       testsuite/fuzzy.test
+       testsuite/chmod-temp-dir.test
+       testsuite/relative.test
+       testsuite/itemize.test
+       testsuite/merge.test
+       testsuite/files-from.test
+       testsuite/delete.test
+       testsuite/wildmatch.test
+       md-convert
+Copyright: 2003-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: testsuite/duplicates.test
+       testsuite/daemon.test
+       testsuite/trimslash.test
+       testsuite/unsafe-byname.test
+       testsuite/chgrp.test
+       testsuite/hardlinks.test
+       testsuite/chmod-option.test
+       testsuite/symlink-ignore.test
+       testsuite/devices.test
+       testsuite/daemon-gzip-upload.test
+       testsuite/chown.test
+Copyright: 2001, 2002 Martin Pool <mbp@samba.org>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: support/instant-rsyncd
+       testsuite/executability.test
+       testsuite/acls-default.test
+Copyright: Matt McCutchen <matt@mattmccutchen.net>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: support/rrsync
+Copyright: 2004 Joe Smith <js-cgi@inwap.com>
+                Wayne Davison <wayne@opencoder.net>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: testsuite/batch-mode.test
+Copyright: 2004 Chris Shoemaker <c.shoemaker@cox.net>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: testsuite/protected-regular.test
+Copyright: 2021 Achim Leitner <aleitner@lis-engineering.de>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: testsuite/unsafe-links.test
+Copyright: Vladimír Michl <Vladimir.Michl@hlubocky.del.cz>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: packaging/solaris/build_pkg.sh
+Copyright: Jens Apel <jens.apel@web.de>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: lib/wildmatch.c
+Copyright: 1986 Rich $alz <rsalz@bbn.com>
+                Wayne Davison <wayne@opencoder.net>
+License: GPL-3 with OpenSSL-xxhash exception
+
+Files: config.sub
+Copyright: 1992-2023 Free Software Foundation, Inc.
+License: GPL-3 with Autoconf-data exception
+
+Files: testsuite/daemon-gzip-download.test
+Copyright: 2001, 2002 Martin Pool <mbp@samba.org>
+License: GPL-2+
+
+Files: runtests.sh
+Copyright: 2001, 2002 Martin Pool <mbp@samba.org>
+           2003-2022 Wayne Davison <wayne@opencoder.net>
+License: GPL-2
+
+Files: testsuite/rsync.fns
+       testhelp/maketree.py
+Copyright: 2001, 2002 Martin Pool <mbp@samba.org>
+License: GPL-2
+
+Files: lib/getaddrinfo.c
+Copyright: 1994 The Regents of the University of California
+           1996-2007 The PostgreSQL Global Development Group
+           2007 Jeremy Allison
+License: PostgreSQL
+
+Files: lib/addrinfo.h
+Copyright: 1994 The Regents of the University of California
+           1996-2007 The PostgreSQL Global Development Group
+License: PostgreSQL
+
+Files: lib/inet_pton.c
+       lib/inet_ntop.c
+Copyright: 1996-2001 Internet Software Consortium
+License: ISC
+
+Files: lib/snprintf.c
+Copyright: 1995 Patrick Powell
+License: snprintf
+
+Files: configure.sh
+Copyright: 1992-1996, 1998-2017, 2020-2021 Free Software Foundation, Inc.
+License: FSF-unlimited
+
+Files: aclocal.m4
+Copyright: 1996-2021 Free Software Foundation, Inc.
+License: FSFULLR
+
+Files: lib/md5-asm-x86_64.S
+Copyright: 2004, Marc Bevand
+License: public-domain
+
+Files: debian/*
+Copyright: 1996-2000, 2002 Philip Hands <phil@hands.com>
+           1999 Joel Klecker <espy@debian.org>
+           2000 Adam Heath <doogie@debian.org>
+           2001, 2022 Colin Walters <walters@debian.org>
+           2002 Noel Koethe <noel@debian.org>
+           2002 Wichert Akkerman <wakkerma@debian.org>
+           2002 Michael Stone <mstone@debian.org>
+           2004 Martin Schulze <joey@infodrom.org>
+           2003-2017, 2019 Paul Slootman <paul@debian.org>
+           2006 Norbert Tretkowski <nobse@backports.org>
+           2007 Steve Kemp <skx@debian.org>
+           2007 Nico Golde <nion@debian.org>
+           2008 Moritz Muehlenhoff <jmm@debian.org>
+           2008 Alexander Wirt <formorer@debian.org>
+           2009, 2010 Micah Anderson <micah@debian.org>
+           2017 Salvatore Bonaccorso <carnil@debian.org>
+           2017 Thorsten Alteholz <debian@alteholz.de>
+           2018, 2019, 2022 Chris Lamb <lamby@debian.org>
+           2018 Aurelien Jarno <aurel32@debian.org>
+           2018 YunQiang Su <syq@debian.org>
+           2018-2024 Samuel Henrique <samueloph@debian.org>
+           2020, 2021 Sergio Durigan Junior <sergiodj@debian.org>
+           2021 Helmut Grohne <helmut@subdivi.de>
+           2021 刘建强 <liujianqiang@uniontech.com>
+           2022 Juri Grabowski <debian@jugra.de>
+           2023 Aquila Macedo <aquilamacedo@riseup.net>
+           2024 Matheus Polkorny <mpolkorny@gmail.com>
+           2025 Alex <alex@puer-robustus.eu>
+License: GPL-3+
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian GNU/Linux systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3`
+
+License: GPL-3+ with OpenSSL-xxhash exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ In addition, as a special exception, the copyright holders give
+ permission to dynamically link rsync with the OpenSSL and xxhash
+ libraries when those libraries are being distributed in compliance
+ with their license terms, and to distribute a dynamically linked
+ combination of rsync and these libraries.  This is also considered
+ to be covered under the GPL's System Libraries exception.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, see <https://www.gnu.org/licenses/>.
+
+License: GPL-3
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, see <https://www.gnu.org/licenses/>.
+
+License: GPL-3 with OpenSSL-xxhash exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, see <https://www.gnu.org/licenses/>.
+ .
+ In addition, as a special exception, the copyright holders give
+ permission to dynamically link rsync with the OpenSSL and xxhash
+ libraries when those libraries are being distributed in compliance
+ with their license terms, and to distribute a dynamically linked
+ combination of rsync and these libraries.  This is also considered
+ to be covered under the GPL's System Libraries exception.
+
+License: GPL-3 with Autoconf-data exception
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that
+ program.  This Exception is an additional permission under section 7
+ of the GNU General Public License, version 3 ("GPLv3").
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, see <https://www.gnu.org/licenses/>.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version
+ 2 as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this program; if not, see <https://www.gnu.org/licenses/>.
+
+License: PostgreSQL
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose, without fee, and without a written agreement
+ is hereby granted, provided that the above copyright notice and this paragraph
+ and the following paragraphs appear in all copies.
+ .
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+ SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
+ ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
+ THE AUTHOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ THE AUTHOR SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS"
+ BASIS, AND THE AUTHOR HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
+ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+License: ISC
+ Permission to use, copy, modify, and distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND INTERNET SOFTWARE CONSORTIUM
+ DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL
+ INTERNET SOFTWARE CONSORTIUM BE LIABLE FOR ANY SPECIAL, DIRECT,
+ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING
+ FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+ NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION
+ WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: snprintf
+ This code is based on code written by Patrick Powell (papowell@astart.com)
+ It may be used for any purpose as long as this notice remains intact
+ on all source code distributions.
+
+License: FSF-unlimited
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+License: FSFULLR
+ This file is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+License: public-domain
+ This file was explicitly placed in the public domain by its author. The
+ original publication can be found at:
+ https://www.zorinaq.com/papers/md5-amd64.html

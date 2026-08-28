@@ -1,0 +1,5 @@
+OVMF.amdsev.fd
+  This is a stateless image that provides AMD SEV-SNP functionality,
+  enabling support for for SEV-secured Virtual Machine Remote Attestation.
+
+ -- dann frazier <dannf@debian.org>, Sat, 20 Dec 2025 11:12:57 -0700

@@ -1,0 +1,469 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libexif
+Upstream-Contact: Dan Fandrich
+Source: https://libexif.github.io/
+
+Files: *
+Copyright: 2001-2009 Lutz Müller
+           2004-2009 Jan Patera
+           2004      Joerg Hoh
+           2005-2006 Hubert Figuiere
+           2002-2007 Hans Ulrich Niedermann
+           2007-2025 Dan Fandrich
+           2017-2025 Marcus Meissner
+License: LGPL-2.1-or-later
+
+Files: .appveyor.yml
+       .cirrus.yml
+       contrib/examples/photographer.c
+       contrib/examples/thumbnail.c
+       contrib/examples/write-exif.c
+Copyright: none
+License: CC0-1.0
+         "Placed into the public domain by Dan Fandrich"
+
+Files: .github/dependabot.yml
+Copyright: 2023 Google LLC
+License: MIT
+
+Files: .github/workflows/ci.yml
+Copyright: 2024 Dan Fandrich
+License: CC0-1.0
+
+Files: .github/workflows/cifuzz.yml
+Copyright: 2022 David Korczynski, et al.
+License: LGPL-2.1-or-later
+
+Files: .github/workflows/codeql.yml
+Copyright: 2020 GitHub
+License: MIT
+
+Files: .github/workflows/reuse.yml
+Copyright: 2022 Free Software Foundation Europe e.V.
+License: CC0-1.0
+
+Files: .gitignore
+       AUTHORS
+       ChangeLog
+       NEWS
+Copyright: 2000-2023 libexif Contributors
+License: LGPL-2.1-or-later
+
+Files: README-Win32.txt
+       binary-dist/Makefile.am
+       doc/README.apidocs
+       libexif-uninstalled.pc.in
+       libexif/exif.h
+       libexif/exif-system.h
+       m4m/gp-check-shell-environment.m4
+       m4m/gp-config-msg.m4
+       m4m/gp-documentation.m4
+       test/inc-comparetool.sh
+       test/test-integers.c
+       test/test-parse.c
+       test/test-parse-from-data.c
+       test/nls/Makefile.am
+       test/nls/check-codeset.in
+       test/nls/check-localedir.in
+       test/nls/check-nls.in
+       test/nls/print-localedir.c
+       test/nls/test-codeset.c
+Copyright: 2005-2021 Hans Ulrich Niedermann
+License: LGPL-2.1-or-later
+
+Files: SECURITY.md
+       TODO
+Copyright: 2020-2021 Marcus Meissner
+License: LGPL-2.1-or-later
+
+Files: libexif.spec.in
+Copyright: 2002 Mark Pulford
+           2003 Peter Bieringer
+License: LGPL-2.1-or-later
+
+Files: contrib/Makefile.am
+       doc/footer.html
+       test/test-extract.c
+       test/test-null.c
+       test/test-sorted.c
+       test/test-tagtable.c
+Copyright: 2008-2022 Dan Fandrich
+License: LGPL-2.1-or-later
+
+Files: contrib/aolserver/*
+Copyright: 2000 Curtis Galloway
+License: MIT
+
+Files: contrib/c++/*
+Copyright: 2002-2003 Hans Meine
+License: LGPL-2.1-or-later
+
+Files: contrib/examples/cam_features.c
+Copyright: 2005 Naysawn Naderi
+License: BSD-3-Clause
+
+Files: contrib/watcom/*
+Copyright: 2004-2008 Angela Wrobel
+License: LicenseRef-Wrobel
+
+Files: debian/*
+Copyright: 2002-2004 Christophe Barbe
+           2004-2007 Frederic Peters
+           2009-2014 Emmanuel Bouthenot
+                2023 Andreas Metzler
+           2017-2026 Hugh McMaster
+License: GPL-2.0
+Comment: GPL-2.0-or-later
+
+Files: doc/Doxyfile.in
+       doc/Doxyfile-internals.in
+Copyright: 1997-2015 Dimitri van Heesch
+License: GPL-2.0
+Comment: GPL-2.0-only
+
+Files: doc/Makefile.am
+       libexif/libexif.sym
+       m4m/Makefile.am
+       test/nls/test-nls.c
+Copyright: 2005-2009 Hans Ulrich Niedermann, et al.
+License: LGPL-2.1-or-later
+
+Files: libexif/Makefile.am
+       libexif/canon/Makefile-files
+       libexif/fuji/Makefile-files
+       libexif/olympus/Makefile-files
+       libexif/olympus/mnote-olympus-entry.c
+       libexif/pentax/Makefile-files
+       po/POTFILES.in
+       test/Makefile.am
+Copyright: 2001-2021 Lutz Müller, et al.
+License: LGPL-2.1-or-later
+
+Files: libexif/exif-byte-order.c
+       libexif/exif-byte-order.h
+       libexif/exif-content.c
+       libexif/exif-content.h
+       libexif/exif-data.c
+       libexif/exif-data.h
+       libexif/exif-data-type.h
+       libexif/exif-entry.c
+       libexif/exif-entry.h
+       libexif/exif-format.c
+       libexif/exif-format.h
+       libexif/exif-ifd.c
+       libexif/exif-ifd.h
+       libexif/exif-loader.c
+       libexif/exif-loader.h
+       libexif/exif-log.c
+       libexif/exif-log.h
+       libexif/exif-mem.c
+       libexif/exif-mem.h
+       libexif/exif-mnote-data.c
+       libexif/exif-mnote-data.h
+       libexif/exif-mnote-data-priv.h
+       libexif/exif-tag.c
+       libexif/exif-tag.h
+       libexif/i18n.h
+       libexif/exif-utils.c
+       libexif/exif-utils.h
+       libexif/canon/exif-mnote-data-canon.h
+       libexif/canon/mnote-canon-entry.h
+       libexif/canon/mnote-canon-tag.c
+       libexif/canon/mnote-canon-tag.h
+       libexif/fuji/exif-mnote-data-fuji.c
+       libexif/fuji/exif-mnote-data-fuji.h
+       libexif/fuji/mnote-fuji-entry.c
+       libexif/fuji/mnote-fuji-entry.h
+       libexif/fuji/mnote-fuji-tag.c
+       libexif/fuji/mnote-fuji-tag.h
+       libexif/olympus/exif-mnote-data-olympus.c
+       libexif/olympus/exif-mnote-data-olympus.h
+       libexif/olympus/mnote-olympus-entry.h
+       libexif/olympus/mnote-olympus-tag.c
+       libexif/olympus/mnote-olympus-tag.h
+       libexif/pentax/exif-mnote-data-pentax.c
+       libexif/pentax/exif-mnote-data-pentax.h
+       libexif/pentax/mnote-pentax-entry.c
+       libexif/pentax/mnote-pentax-entry.h
+       libexif/pentax/mnote-pentax-tag.c
+       libexif/pentax/mnote-pentax-tag.h
+       test/test-mem.c
+       test/test-mnote.c
+       test/test-value.c
+Copyright: 2001-2005 Lutz Müller
+License: LGPL-2.1-or-later
+
+Files: libexif/exif-gps-ifd.c
+       libexif/exif-gps-ifd.h
+       test/test-gps.c
+Copyright: 2020 Heiko Lewin
+License: LGPL-2.1-or-later
+
+Files: libexif/apple/*
+Copyright: 2018 zhanwang-sky
+License: LGPL-2.1-or-later
+
+Files: libexif/canon/exif-mnote-data-canon.c
+       libexif/canon/mnote-canon-entry.c
+Copyright: 2002-2003 Lutz Müller
+           2003 Matthieu Castet
+License: LGPL-2.1-or-later
+
+Files: m4m/failmalloc.m4
+       m4m/stdint.m4
+       test/check-failmalloc.sh
+       test/check-mnote.sh
+       test/extract-parse.sh
+       test/parse-regression.sh
+       test/swap-byte-order.sh
+Copyright: 2018-2024 Dan Fandrich, et al.
+License: LGPL-2.1-or-later
+
+Files: po/be.po
+Copyright: 2009 Rosetta Contributors
+           2009 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/bs.po
+Copyright: 2010 Rosetta Contributors
+           2010 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/cs.po
+Copyright: 2007-2010 Jan Patera
+License: LGPL-2.1-or-later
+
+Files: po/da.po
+Copyright: 2009-2010, 2012, 2016 Joe Hansen
+           2009 Lars Christian Jensen
+           2010 Torben Grøn Helligsø
+           2016 Lutz Müller
+License: LGPL-2.1-or-later
+
+Files: po/de.po
+Copyright: 2002 Lutz Müller
+           2004-2010 Marcus Meissner
+           2011 Mario Blättermann
+           2011-2012, 2021 Christian Kirbach
+License: LGPL-2.1-or-later
+
+Files: po/en_AU.po
+Copyright: 2010 Rosetta Contributors
+           2010 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/en_CA.po
+Copyright: 2007 Lutz Müller and others
+           2007-2009 Dan Fandrich
+License: LGPL-2.1-or-later
+
+Files: po/en_GB.po
+Copyright: 2006 Rosetta Contributors
+           2006 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/es.po
+Copyright: 2002-2021 Free Software Foundation, Inc.
+           2002 Fabian Mandelbaum
+           2014-2015, 2020-2021 Antonio Ceballos
+License: LGPL-2.1-or-later
+
+Files: po/fr.po
+Copyright: 2002 Arnaud Launay
+           2016 Free Software Foundation, Inc.
+           2016 Frédéric Marchal
+           2020-2021 Stéphane Aulery
+License: LGPL-2.1-or-later
+
+Files: po/it.po
+Copyright: 2010 Lutz Müller and others
+           2010 Sergio Zanchetta
+License: LGPL-2.1-or-later
+
+Files: po/ja.po
+Copyright: 2009 Lutz Müller and others
+           2009-2010 Tadashi Jokagi
+License: LGPL-2.1-or-later
+
+Files: po/ka.po
+Copyright: 2023 Lutz Müller and others
+           2023 Temuri Doghonadze
+License: LGPL-2.1-or-later
+
+Files: po/ms.po
+Copyright: 2013 Rosetta Contributors
+           2013 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/nl.po
+Copyright: 2007-2008 Freek de Kruijf
+           2008-2010 Erwin Poeze
+           2009-2010 Lutz Müller and others
+License: LGPL-2.1-or-later
+
+Files: po/pl.po
+Copyright: 2005-2021 Jakub Bogusz
+           2006-2010 Free Software Foundation, Inc.
+License: LGPL-2.1-or-later
+
+Files: po/pt.po
+Copyright: 2007 Rosetta Contributors
+           2007 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/pt_BR.po
+Copyright: 2007 Lutz Müller and others
+License: BSD-3-Clause
+
+Files: po/ro.po
+Copyright: 2023 Lutz Müller and others
+           2023 Remus-Gabriel Chelu
+License: LGPL-2.1-or-later
+
+Files: po/ru.po
+Copyright: 2006 Lutz Müller and others
+           2006 Alexandre Prokoudine
+License: LGPL-2.1-or-later
+
+Files: po/sk.po
+Copyright: 2007 Lutz Müller and others
+           2007-2009, 2011-2012 Ivan Masár
+License: LGPL-2.1-or-later
+
+Files: po/sq.po
+Copyright: 2009 Rosetta Contributors
+           2009 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/sr.po
+Copyright: 2020 Free Software Foundation, Inc.
+           2020-2021 Мирослав Николић
+License: LGPL-2.1-or-later
+
+Files: po/sv.po
+Copyright: 2007, 2009, 2016, 2022 Free Software Foundation, Inc.
+           2007, 2009 Daniel Nylander
+           2016, 2022 Sebastian Rasmussen
+           2022 Luna Jernberg
+License: LGPL-2.1-or-later
+
+Files: po/tr.po
+Copyright: 2009 Rosetta Contributors
+           2009 Canonical Ltd
+License: LGPL-2.1-or-later
+
+Files: po/uk.po
+Copyright: 2012 Lutz Müller and others
+           2012-2013, 2016, 2018, 2020-2021 Yuri Chornoivan
+License: LGPL-2.1-or-later
+
+Files: po/vi.po
+Copyright: 2006-2010 Clytie Siddall
+           2012, 2015-2016, 2020, 2022-2023 Trần Ngọc Quân
+           2016 Free Software Foundation, Inc.
+License: LGPL-2.1-or-later
+
+Files: po/zh_CN.po
+Copyright: 2021 Lutz Müller and others
+           2021 Boyuan YANG
+License: LGPL-2.1-or-later
+
+Files: test/test-fuzzer.c
+       test/test-fuzzer-persistent.c
+Copyright: 2002 Lutz Müller
+           2007 Hans Ulrich Niedermann
+License: LGPL-2.1-or-later
+
+Files: test/testdata/*_makernote_variant_*.jpg*
+Copyright: 2018 Google, Inc.
+License: LGPL-2.1-or-later
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+  * Redistributions in binary form must reproduce the above
+    copyright notice, this list of conditions and the following
+    disclaimer in the documentation and/or other materials provided
+    with the distribution.
+ .
+  * Neither the name of the <ORGANIZATION> nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ On Debian systems, the complete text of the CC0 Public Domain Dedication
+ can be found in "/usr/share/common-licenses/CC0-1.0".
+
+License: GPL-2.0
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2.1-or-later
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1`.
+
+License: LicenseRef-Wrobel
+ LICENSE: no restrictions at all, but USE ON YOUR OWN RISK ONLY.
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

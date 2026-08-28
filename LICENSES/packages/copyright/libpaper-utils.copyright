@@ -1,0 +1,154 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libpaper
+Upstream-Contact: Reuben Thomas <rrt@sc3d.org>
+Source: https://github.com/rrthomas/libpaper/
+Files-Excluded: libgnu src/libgnu
+Comment: Exclude the vendored libgnu so it is not used accidentally.
+
+Files: *
+License: Expat
+Comment:
+ LGPL-2.1+ is in the header of many source files.
+ We build without --enable-relocatable and README says:
+ The libpaper package is distributed under the MIT license (if built without
+ `--enable-relocatable`; ...), or the GNU Lesser General
+ Public License, version 2.1, or, at your option, any later version (if built
+ with `--enable-relocatable`; ...), ...
+Copyright: 2013-2024, Reuben Thomas <rrt@sc3d.org>
+
+Files: lib/paperspecs
+License: public-domain
+ README: The file ‘paperspecs’ is in the public domain.
+ man: The original list of paper names came from Ghostscript 3.68's gs_stadt.ps.
+Copyright: 1995, 1996, Yves Arrouye <yves@debian.org>
+           2000, 2001, Adrian Bunk <bunk@fs.tum.de>
+           2013, 2021, Reuben Thomas <rrt@sc3d.org>
+
+Files: src/paper.c
+       src/tbl_opts.h
+Copyright: 2021-2022 Reuben Thomas <rrt@sc3d.org>.
+License: GPL-3+
+
+Files: build-aux/install-reloc
+       build-aux/libtool-reloc
+Copyright: 2003-2022 Free Software Foundation, Inc.
+License: GPL-3+
+
+Files: debian/*
+License: GPL-2
+Copyright: 1995, 1996, Yves Arrouye <yves@debian.org>
+           2000, 2001, Adrian Bunk <bunk@fs.tum.de>
+           2002-2004 Stephen Zander
+           2004 Fabio M. Di Nitto
+           2004 Frank Lichtenheld
+           2006-2019 Giuseppe Sacco
+           2013-2022, Reuben Thomas <rrt@sc3d.org>
+Comment: See more individual copyrights in debian/po/*
+
+Files: debian/patches/*
+Copyright: Bastian Germann
+License: Expat
+
+Files: build-aux/bootstrap.in
+       build-aux/extract-trace
+       build-aux/funclib.sh
+       build-aux/inline-source
+       build-aux/options-parser
+Copyright: 2004-2019 Bootstrap Authors
+License: Expat or GPL-2+
+ This is free software.  There is NO warranty; not even for
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ This file is dual licensed under the terms of the MIT license
+ <https://opensource.org/licenses/MIT>, and GPL version 2 or later
+ <http://www.gnu.org/licenses/gpl-2.0.html>.  You must apply one of
+ these licenses when using or redistributing this software or any of
+ the files within it.  See the URLs above, or the file `LICENSE`
+ included in the Bootstrap distribution for the full license texts.
+
+Files: build-aux/install-sh
+Copyright: 1994 X Consortium
+License: X11
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+ TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of the X Consortium shall not
+ be used in advertising or otherwise to promote the sale, use or other deal-
+ ings in this Software without prior written authorization from the X Consor-
+ tium.
+Comment:
+ FSF changes to this file are in the public domain.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation;
+ version 2 of the License.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, see
+ <https://www.gnu.org/licenses/>.
+Comment:
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation;
+ version 3 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, see
+ <https://www.gnu.org/licenses/>.
+Comment:
+ On Debian systems, the full text of the GNU General Public
+ License version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.

@@ -1,0 +1,937 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libpcap
+Upstream-Contact: tcpdump-workers@tcpdump.org
+Source: https://www.tcpdump.org/release/
+
+Files: *
+Copyright: The Regents of the University of California
+License: BSD-3-clause-var3
+Comment: No explicit license found for files pcap-dll.rc and rpcapd/rpcapd.rc,
+ using license from LICENSE
+
+Files:
+ aclocal.m4
+ bpf_dump.c
+ bpf_image.c
+ etherent.c
+ ethertype.h
+ extract.h
+ gencode.*
+ grammar.y.in
+ lbl/*
+ llc.h
+ nametoaddr.c
+ optimize.c
+ optimize.h
+ pcap.3pcap.in
+ pcap_activate.3pcap
+ pcap-bpf.c
+ pcap_breakloop.3pcap
+ pcap_can_set_rfmon.3pcap
+ pcap_close.3pcap
+ pcap-common.*
+ pcap_compile.3pcap.in
+ pcap-config.1
+ pcap_create.3pcap
+ pcap_datalink.3pcap.in
+ pcap_datalink_name_to_val.3pcap
+ pcap_datalink_val_to_name.3pcap
+ pcap-dlpi.c
+ pcap_dump.3pcap
+ pcap_dump_close.3pcap
+ pcap_dump_file.3pcap
+ pcap_dump_flush.3pcap
+ pcap_dump_ftell.3pcap
+ pcap_dump_open.3pcap.in
+ pcap_file.3pcap
+ pcap_fileno.3pcap
+ pcap-filter.manmisc.in
+ pcap_findalldevs.3pcap
+ pcap_freecode.3pcap
+ pcap_geterr.3pcap
+ pcap_get_required_select_timeout.3pcap
+ pcap_get_selectable_fd.3pcap
+ pcap_init.3pcap
+ pcap_inject.3pcap
+ pcap_is_swapped.3pcap
+ pcap-libdlpi.c
+ pcap_lib_version.3pcap
+ pcap-linktype.manmisc.in
+ pcap_list_datalinks.3pcap.in
+ pcap_list_tstamp_types.3pcap.in
+ pcap_lookupdev.3pcap
+ pcap_lookupnet.3pcap
+ pcap_loop.3pcap
+ pcap_major_version.3pcap
+ pcap_next_ex.3pcap
+ pcap-nit.c
+ pcap-null.c
+ pcap_offline_filter.3pcap
+ pcap_open_dead.3pcap.in
+ pcap_open_live.3pcap
+ pcap_open_offline.3pcap.in
+ pcap-pf.c
+ pcap-savefile.manfile.in
+ pcap_set_buffer_size.3pcap
+ pcap_set_datalink.3pcap
+ pcap_setdirection.3pcap
+ pcap_setfilter.3pcap
+ pcap_set_immediate_mode.3pcap.in
+ pcap_setnonblock.3pcap
+ pcap_set_promisc.3pcap
+ pcap_set_protocol_linux.3pcap
+ pcap_set_rfmon.3pcap
+ pcap_set_snaplen.3pcap
+ pcap_set_timeout.3pcap
+ pcap_set_tstamp_type.3pcap.in
+ pcap_snapshot.3pcap
+ pcap-snit.c
+ pcap-snoop.c
+ pcap_stats.3pcap
+ pcap_statustostr.3pcap
+ pcap_strerror.3pcap
+ pcap-tstamp.manmisc.in
+ pcap_tstamp_type_name_to_val.3pcap
+ pcap_tstamp_type_val_to_name.3pcap
+ pcap-usb-linux-common.h
+ pcap-util.*
+ rpcapd/log.*
+ rpcapd/Makefile.in
+ rpcapd/rpcapd-config.manfile.in
+ savefile.c
+ scanner.l
+ sf-pcap.*
+ sf-pcapng.*
+ testprogs/can_set_rfmon_test.c
+ testprogs/capturetest.c
+ testprogs/filtertest.c
+ testprogs/Makefile.in
+ testprogs/nonblocktest.c
+ testprogs/opentest.c
+ testprogs/reactivatetest.c
+ testprogs/selpolltest.c
+ testprogs/threadsignaltest.c
+ testprogs/valgrindtest.c
+ testprogs/versiontest.c
+ testprogs/writecaptest.c
+Copyright: 1987-2000 The Regents of the University of California
+License: BSD-4-clause-UC-LBL
+
+Files:
+ charconv.*
+ diag-control.h
+ fad-getad.c
+ fad-gifc.c
+ fad-glifc.c
+ fmtutils.*
+ ftmacros.h
+ nametoaddr.h
+ pcap.c
+ pcap.h
+ pcap/compiler-tests.h
+ pcap/funcattrs.h
+ pcap-int.h
+ pcap-namedb.h
+ pcap/namedb.h
+ pcap-rpcap.h
+ pcap/socket.h
+ portability.h
+ testprogs/unix.h
+ thread-local.h
+ varattrs.h
+Copyright: 1993-1998 The Regents of the University of California
+License: BSD-4-clause-CSEG-LBL
+
+Files:
+ pcap/pcap.h
+Copyright:
+ 1993, 1994, 1995, 1996, 1997 The Regents of the University of California.
+ 2002-2003 NetGroup, Politecnico di Torino (Italy)
+License: BSD-4-clause-CSEG-LBL and BSD-3-clause-Torino
+
+Files:
+ arcnet.h
+ missing/getopt.c
+ pcap/vlan.h
+ pflog.h
+ rpcapd/fileconf.c
+Copyright: 1982-1994 The Regents of the University of California.
+License: BSD-4-clause-UCB
+
+Files:
+ bpf_filter.c
+ pcap-bpf.h
+ pcap/can_socketcan.h
+ pcap/ipnet.h
+ pcap/sll.h
+Copyright: 1990-1997 The Regents of the University of California
+License: BSD-4-clause-enet
+
+Files:
+ atmuni31.h
+ sunatmpos.h
+Copyright: 1997 Yen Yen Lim and North Dakota State University
+License: BSD-4-clause-NDSU
+
+Files: ieee80211.h
+Copyright:
+ 2001 Atsushi Onoe
+ 2002-2005 Sam Leffler, Errno Consulting
+License: BSD-3-clause or GPL-2
+
+Files: instrument-functions.c
+Copyright:
+ 2022, 2023 The Tcpdump Group and contributors.
+License: BSD-2-clause
+Comment: See https://github.com/the-tcpdump-group/libpcap/issues/1625
+
+Files: missing/strlcat.c
+       missing/strlcpy.c
+Copyright: 1998-2015, Todd C. Miller <Todd.Miller@courtesan.com>
+License: ISC
+
+Files:
+ missing/strtok_r.c
+Copyright:
+ 1988, 1993 The Regents of the University of California.
+ 1998 Softweyr LLC.
+License: BSD-3-clause-Softweyr
+
+Files:
+ mkdep
+Copyright:
+ 1994, 1996 The Regents of the University of California.
+License: NTP-UCB
+
+Files:
+ nlpid.h
+Copyright:
+ 1996 Juniper Networks, Inc.
+License: BSD-3-clause-Juniper
+
+Files:
+ pcap-airpcap.*
+ pcap-new.c
+ pcap-npf.c
+ pcap/pcap-inttypes.h
+ pcap-rpcap.c
+ pcap-types.h
+ rpcap-protocol.*
+Copyright:
+ 1999-2005 NetGroup, Politecnico di Torino (Italy)
+ 2005-2010 CACE Technologies, Davis (California)
+License: BSD-3-clause-NetGroup-CACE
+
+Files:
+ pcap/bluetooth.h
+ pcap-bt-linux.*
+ pcap/usb.h
+ pcap-usb-linux.h
+Copyright:
+ 2006 Paolo Abeni (Italy)
+License: BSD-3-clause-var2
+
+Files:
+ pcap/bpf.h
+ pcap/dlt.h
+Copyright:
+ 1990-1997 The Regents of the University of California.
+License: BSD-3-clause-enet
+
+Files:
+ pcap-bt-monitor-linux.*
+Copyright:
+ 2014 Michal Labedzki for Tieto Corporation
+License: BSD-3-clause-var2
+
+Files:
+ pcap-dbus.c
+ pcap-netfilter-linux.*
+Copyright:
+ 2011-2012 Jakub Zawadzki
+License: BSD-3-clause-var2
+
+Files:
+ pcap-dpdk.*
+Copyright:
+ 2018 jingle YANG.
+License: BSD-2-clause-var2
+
+Files:
+ pcap_get_tstamp_precision.3pcap.in
+Copyright:
+ 2013 Michal Sekletar
+License: BSD-3-clause-var3
+
+Files:
+ pcap-haiku.c
+Copyright:
+ 2006-2010 Haiku, Inc.
+License: Expat
+
+Files:
+ pcap-linux.c
+Copyright:
+ 2000 Torsten Landschoff <torsten@debian.org>
+ 2000 Sebastian Krahmer  <krahmer@cs.uni-potsdam.de>
+ 2007-2008 Johannes Berg
+ 2007 Andy Lutomirski
+ 2007 Mike Kershaw
+ 2008 Gábor Stefanik
+License: BSD-3-clause-pcap-linux
+
+Files:
+ pcap-netmap.c
+Copyright:
+ 2014 Luigi Rizzo.
+License: BSD-2-clause-var2
+
+Files:
+ pcap/nflog.h
+Copyright:
+ 2013, Petar Alilovic, Faculty of Electrical Engineering and Computing, University of Zagreb
+License: BSD-2-clause-var2
+
+Files:
+ pcap-rdmasniff.c
+Copyright:
+ 2017 Pure Storage, Inc.
+License: BSD-3-clause-var2
+
+Files:
+ pcap-sita.c
+Copyright:
+ 2007 Fulko Hew, SITA INC Canada, Inc <fulko.hew@sita.aero>
+License: BSD-3-clause-var3
+
+Files:
+ pcap-tc.*
+Copyright:
+ 2008 CACE Technologies, Davis (California)
+License: BSD-3-clause-CACE
+
+Files:
+ pcap-usb-linux.c
+Copyright:
+ 2006 Paolo Abeni (Italy)
+License: BSD-3-clause
+
+Files:
+ ppp.h
+Copyright:
+ 1989 by Carnegie Mellon.
+License: NTP-CM
+
+Files:
+ rpcapd/config_params.h
+ rpcapd/daemon.*
+ rpcapd/fileconf.h
+ rpcapd/rpcapd.*
+ rpcapd/win32-svc.*
+ sockutils.*
+ sslutils.*
+Copyright:
+ 2002-2003 NetGroup, Politecnico di Torino (Italy)
+License: BSD-3-clause-Torino
+
+Files:
+ cmake/Modules/FindFseeko.cmake
+ cmake/Modules/FindLFS.cmake
+Copyright:
+ 2016 Julian Andres Klode <jak@debian.org>
+License: Expat
+
+Files:
+ config.guess
+ config.sub
+Copyright:
+ 1992-2024 Free Software Foundation, Inc.
+License: GPL-3+-with-Autoconf-exception
+
+Files:
+ configure
+Copyright:
+ 1992-1996, 1998-2017, 2020-2021 Free Software Foundation, Inc.
+License: FSFUL
+
+Files:
+ install-sh
+Copyright:
+ 1994 X Consortium
+License: X11
+
+Files: debian/*
+Copyright:
+ 1997 Karl Sackett <krs@debian.org>
+ 1997-1998 Peter Tobias <tobias@et-inf.fho-emden.de>
+ 1998 Turbo Fredriksson <turbo@debian.org>
+ 1999-2003 Torsten Landschoff <torsten@debian.org>
+ 2000 Anand Kumria <wildfire@progsoc.org>
+ 2003-2025 Romain Francoise <rfrancoise@debian.org>
+ 2024 Benjamin Drung <bdrung@debian.org>
+ 2026 Peter Wienemann <wiene@debian.org>
+License: BSD-3-clause
+Comment: The copyright holders for Debian packaging have only been
+ partially recorded in the past. The above list was reconstructed from
+ the debian/changelog file in 2026.
+
+License: BSD-4-clause-UC-LBL
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that: (1) source code distributions
+ retain the above copyright notice and this paragraph in its entirety, (2)
+ distributions including binary code include the above copyright notice and
+ this paragraph in its entirety in the documentation or other materials
+ provided with the distribution, and (3) all advertising materials mentioning
+ features or use of this software display the following acknowledgement:
+ ``This product includes software developed by the University of California,
+ Lawrence Berkeley Laboratory and its contributors.'' Neither the name of
+ the University nor the names of its contributors may be used to endorse
+ or promote products derived from this software without specific prior
+ written permission.
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+License: BSD-4-clause-CSEG-LBL
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+      This product includes software developed by the Computer Systems
+      Engineering Group at Lawrence Berkeley Laboratory.
+ 4. Neither the name of the University nor of the Laboratory may be used
+    to endorse or promote products derived from this software without
+    specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD-4-clause-UCB
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+      This product includes software developed by the University of
+      California, Berkeley and its contributors.
+ 4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD-4-clause-enet
+ This code is derived from the Stanford/CMU enet packet filter,
+ (net/enet.c) distributed as part of 4.3BSD, and code contributed
+ to Berkeley by Steven McCanne and Van Jacobson both of Lawrence
+ Berkeley Laboratory.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+      This product includes software developed by the University of
+      California, Berkeley and its contributors.
+ 4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD-4-clause-NDSU
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+      This product includes software developed by Yen Yen Lim and
+      North Dakota State University
+ 4. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-2
+ This software may be distributed under the terms of the GNU General Public
+ License ("GPL") version 2 as published by the Free Software Foundation.
+ .
+ On Debian GNU/Linux systems, the complete text of the GNU General Public
+ License can be found in /usr/share/common-licenses/GPL-2.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that: (1) source code
+ distributions retain the above copyright notice and this paragraph
+ in its entirety, and (2) distributions including binary code include
+ the above copyright notice and this paragraph in its entirety in
+ the documentation or other materials provided with the distribution.
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND
+ WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT
+ LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE.
+
+License: ISC
+ Permission to use, copy, modify, and distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: BSD-3-clause-Softweyr
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notices, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notices, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY SOFTWEYR LLC, THE REGENTS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL SOFTWEYR LLC, THE
+ REGENTS, OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause-Juniper
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that: (1) source code distributions
+ retain the above copyright notice and this paragraph in its entirety, (2)
+ distributions including binary code include the above copyright notice and
+ this paragraph in its entirety in the documentation or other materials
+ provided with the distribution.  The name of Juniper Networks may not
+ be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+License: BSD-3-clause-NetGroup-CACE
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the Politecnico di Torino, CACE Technologies
+ nor the names of its contributors may be used to endorse or promote
+ products derived from this software without specific prior written
+ permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause-var2
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote
+ products derived from this software without specific prior written
+ permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause-enet
+ This code is derived from the Stanford/CMU enet packet filter,
+ (net/enet.c) distributed as part of 4.3BSD, and code contributed
+ to Berkeley by Steven McCanne and Van Jacobson both of Lawrence
+ Berkeley Laboratory.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD-3-clause-var3
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+   1. Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in
+      the documentation and/or other materials provided with the
+      distribution.
+   3. The names of the authors may not be used to endorse or promote
+      products derived from this software without specific prior
+      written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+License: BSD-2-clause-var2
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+   1. Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS''AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the Software
+ is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+License: BSD-3-clause-pcap-linux
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ 3. The names of the authors may not be used to endorse or promote
+    products derived from this software without specific prior
+    written permission.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ Modifications:     Added PACKET_MMAP support
+                    Paolo Abeni <paolo.abeni@email.it>
+                    Added TPACKET_V3 support
+                    Gabor Tatarka <gabor.tatarka@ericsson.com>
+ .
+                    based on previous works of:
+                    Simon Patarin <patarin@cs.unibo.it>
+                    Phil Wood <cpw@lanl.gov>
+ .
+ Monitor-mode support for mac80211 includes code taken from the iw
+ command; the copyright notice for that code is
+ .
+ Copyright (c) 2007, 2008     Johannes Berg
+ Copyright (c) 2007           Andy Lutomirski
+ Copyright (c) 2007           Mike Kershaw
+ Copyright (c) 2008           Gábor Stefanik
+ .
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+ AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD-3-clause-CACE
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. Neither the name of CACE Technologies nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: NTP-CM
+ Permission to use, copy, modify, and distribute this program for any
+ purpose and without fee is hereby granted, provided that this copyright
+ and permission notice appear on all copies and supporting documentation,
+ the name of Carnegie Mellon not be used in advertising or publicity
+ pertaining to distribution of the program without specific prior
+ permission, and notice be given in supporting documentation that copying
+ and distribution is by permission of Carnegie Mellon and Stanford
+ University.  Carnegie Mellon makes no representations about the
+ suitability of this software for any purpose.  It is provided "as is"
+ without express or implied warranty.
+
+License: BSD-3-clause-Torino
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the Politecnico di Torino nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-3+-with-Autoconf-exception
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that
+ program.  This Exception is an additional permission under section 7
+ of the GNU General Public License, version 3 ("GPLv3").
+ .
+ On Debian GNU/Linux systems, the complete text of the GNU General Public
+ License can be found in /usr/share/common-licenses/GPL-3.
+
+License: FSFUL
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+License: X11
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+ TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of the X Consortium shall not
+ be used in advertising or otherwise to promote the sale, use or other deal-
+ ings in this Software without prior written authorization from the X Consor-
+ tium.
+ .
+ FSF changes to this file are in the public domain.
+
+License: NTP-UCB
+ Redistribution and use in source and binary forms are permitted
+ provided that this notice is preserved and that due credit is given
+ to the University of California at Berkeley. The name of the University
+ may not be used to endorse or promote products derived from this
+ software without specific prior written permission. This software
+ is provided ``as is'' without express or implied warranty.

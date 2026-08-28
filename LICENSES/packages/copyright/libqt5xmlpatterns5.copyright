@@ -1,0 +1,189 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qtxmlpatterns-everywhere-src
+Source: https://download.qt.io/official_releases/qt/*/submodules/
+
+Files: *
+Copyright: 2016-2019 The Qt Company Ltd.
+License: LGPL-3 or GPL-2+
+
+Files: debian/*
+Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
+           2007-2012 Sune Vuorela <debian@pusling.com>
+           2008-2012 Modestas Vainius <modax@debian.org>
+           2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
+           2005-2007 Brian Nelson <pyro@debian.org>
+           2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
+           2014-2026 Dmitry Shachnev <mitya57@debian.org>
+           2018 Simon Quigley <tsimonq2@ubuntu.com>
+License: LGPL-3 or GPL-2+
+
+Files: tests/* tools/*
+Copyright: 2016-2019 The Qt Company Ltd.
+License: GPL-3 with Qt-1.0 exception
+
+Files: examples/* src/xmlpatterns/doc/snippets/*
+Copyright: 2017 The Qt Company Ltd.
+License: BSD-3-clause
+ You may use this file under the terms of the BSD license as follows:
+ .
+ "Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+   * Neither the name of The Qt Company Ltd and its Subsidiary(-ies) nor the
+     names of its contributors may be used to endorse or promote products
+     derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+
+Files: src/xmlpatterns/parser/qquerytransformparser.cpp
+       src/xmlpatterns/parser/qquerytransformparser_p.h
+Copyright: 1984-2019 Free Software Foundation, Inc.
+           2016 The Qt Company Ltd.
+License: LGPL-3 or GPL-2+
+
+Files: src/xmlpatterns/api/qtxmlpatternsglobal.h
+Copyright: 2016 Intel Corporation.
+License: LGPL-3 or GPL-2+
+
+Files: src/xmlpatterns/environment/qreportcontext_p.h
+       src/xmlpatterns/environment/createReportContext.xsl
+Copyright: 2005 W3C (MIT, ERCIM, Keio), All Rights Reserved
+           2016 The Qt Company Ltd.
+License: LGPL-3 or GPL-2+
+
+Files: src/xmlpatterns/schema/schemas/xml.xsd
+Copyright: 2007 W3C (MIT, ERCIM, Keio, Beihang)
+License: W3C-20150513
+
+Files: *.qdoc
+Copyright: 2017-2018 The Qt Company Ltd.
+License: GFDL-NIV-1.3
+
+License: LGPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version 3
+ as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 3 can be found in /usr/share/common-licenses/LGPL-3.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in /usr/share/common-licenses/GPL-2.
+
+License: GPL-3 with Qt-1.0 exception
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
+ .
+ The Qt Company GPL Exception 1.0
+ Exception 1:
+ .
+ As a special exception you may create a larger work which contains the
+ output of this application and distribute that work under terms of your
+ choice, so long as the work is not otherwise derived from or based on
+ this application and so long as the work does not in itself generate
+ output that contains the output from this application in its original
+ or modified form.
+ .
+ Exception 2:
+ .
+ As a special exception, you have permission to combine this application
+ with Plugins licensed under the terms of your choice, to produce an
+ executable, and to copy and distribute the resulting executable under
+ the terms of your choice. However, the executable must be accompanied
+ by a prominent notice offering all users of the executable the entire
+ source code to this application, excluding the source code of the
+ independent modules, but including any changes you have made to this
+ application, under the terms of this license.
+
+License: GFDL-NIV-1.3
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation; with
+ no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
+
+License: W3C-20150513
+ W3C® SOFTWARE NOTICE AND LICENSE
+ .
+ This license came from:
+ https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
+ .
+ This work is being provided by the copyright holders under the following
+ license.
+ .
+ License
+ By obtaining and/or copying this work, you (the licensee) agree that you have
+ read, understood, and will comply with the following terms and conditions.
+ .
+ Permission to copy, modify, and distribute this work, with or without
+ modification, for any purpose and without fee or royalty is hereby granted,
+ provided that you include the following on ALL copies of the work or portions
+ thereof, including modifications:
+ .
+  - The full text of this NOTICE in a location viewable to users of the
+    redistributed or derivative work.
+  - Any pre-existing intellectual property disclaimers, notices, or terms and
+    conditions. If none exist, the W3C Software and Document Short Notice
+    should be included.
+  - Notice of any changes or modifications, through a copyright statement on
+    the new code or document such as "This software or document includes
+    material copied from or derived from [title and URI of the W3C document].
+    Copyright © [YEAR] W3C® (MIT, ERCIM, Keio, Beihang)."
+ .
+ Disclaimers
+ THIS WORK IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS
+ OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES
+ OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF
+ THE SOFTWARE OR DOCUMENT WILL NOT INFRINGE ANY THIRD PARTY PATENTS,
+ COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
+ .
+ COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR
+ CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENT.
+ .
+ The name and trademarks of copyright holders may NOT be used in advertising
+ or publicity pertaining to the work without specific, written prior
+ permission. Title to copyright in this work will at all times remain with
+ copyright holders.

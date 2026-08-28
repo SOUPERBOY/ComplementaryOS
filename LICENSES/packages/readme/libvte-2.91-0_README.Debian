@@ -1,0 +1,23 @@
+vte2.91 for Debian
+==================
+
+Making new tabs keep the working directory of the current tab
+-------------------------------------------------------------
+
+Several vte2.91-based terminal emulators aim to open new tabs in the same
+working directory as the current tab, but this does not work automatically
+and some extra configuration is needed.
+
+For bash users, add to ~/.bashrc or /etc/bash.bashrc:
+
+    if [ -e /etc/profile.d/vte-2.91.sh ]; then
+        . /etc/profile.d/vte-2.91.sh
+    fi
+
+For zsh users, add the same code to ~/.zshrc or /etc/zsh/zshrc.
+
+This is needed because of a limitation of Debian's interactive shells:
+/etc/profile.d is only loaded by login shells (it is not loaded by
+interactive non-login shells such as those that are typically run by
+terminal emulators), and there is no similar mechanism for interactive
+shell initialization like bashrc.d (#675008, #894999) and zshrc.d (#776663).

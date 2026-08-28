@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: alacritty
+Upstream-Contact:
+ Christian Duerr <contact@christianduerr.com>
+ Joe Wilm <joe@jwilm.com>
+Source: https://github.com/alacritty/alacritty
+
+Files: *
+Copyright: 2016-2024 The Alacritty Project
+License: Apache-2.0
+
+Files: debian/*
+Copyright:
+ 2021-2025 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2021-2025 James McCoy <jamessan@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0

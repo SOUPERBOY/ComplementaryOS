@@ -1,0 +1,73 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libiec61883
+Source: https://www.kernel.org/pub/linux/libs/ieee1394
+
+Files: *
+Copyright: 2002-2004 Kristian Høgsberg <krh@bitplanet.net> (cip and amdtp)
+           2002-2004 Dan Maas <dmaas@dcine.com> (dv, mpeg-2, tsbuffer)
+           2002-2004 Dan Dennedy <dan@dennedy.org> (dv, plug, cmp, mpeg-2)
+           2002-2004 Charles Yates <charles.yates@pandora.be> (deque)
+           2002-2004 Hugo Villeneuve <hugo@hugovil.com> (amdtp)
+           2002-2004 Jim Westfall <jwestfall@surrealistic.net> (mpeg-2)
+           2002-2004 Pieter Palmers <pieterp@joow.be> (amdtp)
+           2002-2004 Ushodaya Enterprises Limited
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2005, Marcio Roberto Teixeira <marciotex@gmail.com>
+           2006, Loic Minier <lool@dooz.org>
+License: LGPL-2.1+
+
+Files: src/iec61883-private.h
+       src/iec61883.h
+Copyright: 2004 Kristian Hogsberg
+           2004 Dan Dennedy
+           2004 Dan Maas
+License: LGPL-2+
+
+Files: examples/plugctl.c
+       examples/plugreport.c
+Copyright: 2002-2004 Dan Dennedy <dan@dennedy.org>
+License: GPL-2+
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Library General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in `/usr/share/common-licenses/GPL-2'.

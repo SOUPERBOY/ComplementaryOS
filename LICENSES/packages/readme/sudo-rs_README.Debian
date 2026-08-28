@@ -1,0 +1,12 @@
+Because /usr/bin/{su,sudo,visudo} already exist, we are installing them into
+/usr/lib/cargo/bin/ and creating symlinks from these files to:
+/usr/bin/su-rs
+/usr/bin/sudo-rs
+/usr/bin/visudo-rs
+
+export PATH=/usr/lib/cargo/bin/:$PATH
+will pick these programs instead of the regular one
+
+Once sudo-rs is more stable, we might replace the original one.
+
+ -- Sylvestre Ledru <sylvestre@debian.org>, Fri, 15 Sep 2023 09:12:04 +0200

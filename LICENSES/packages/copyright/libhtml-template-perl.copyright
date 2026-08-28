@@ -1,0 +1,47 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: Sam Tregar <sam@tregar.com>
+Source: https://metacpan.org/release/HTML-Template
+Upstream-Name: HTML-Template
+
+Files: *
+Copyright: 2000-2011, Sam Tregar <sam@tregar.com>
+ 2012, Michael Peters <mpeters@plusthree.com>
+License: Artistic or GPL-1+
+
+Files: t/testlib/IO/Capture/ErrorMessages.pm
+Copyright: 2003, Mark Reynolds and Jon Morgan
+License: Artistic or GPL-1+
+
+Files: t/testlib/IO/Capture/Stdout.pm t/testlib/IO/Capture/Stderr.pm
+Copyright: 2003, Mark Reynolds
+License: Artistic or GPL-1+
+
+Files: t/testlib/IO/Capture.pm
+Copyright:
+ 2003, Mark Reynolds and Jon Morgan
+ 2004-2005, Mark Reynolds
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright:
+ 2000-2003, Sander Smeenk <ssmeenk@debian.org>
+ 2005, 2007, 2010, Florian Ernst <florian@debian.org>
+ 2011, Nicholas Bamber <nicholas@periapt.co.uk>
+ 2012, Fabrizio Regalli <fabreg@fabreg.it>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

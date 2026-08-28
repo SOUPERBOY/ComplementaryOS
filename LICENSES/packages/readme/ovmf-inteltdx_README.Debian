@@ -1,0 +1,9 @@
+OVMF.inteltdx.ms.fd
+  This is a unified image that includes both the code and varstore.
+  It provides the support for Intel TDX (Trust Domain eXtension)
+  confidential Virtual Machine.
+
+  This image has secure boot enabled and the default Microsoft certificates
+  are pre-enrolled.
+
+ -- dann frazier <dannf@debian.org>, Sat, 20 Dec 2025 11:12:28 -0700

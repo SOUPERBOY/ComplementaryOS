@@ -1,0 +1,726 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: ipxe
+Source: git://git.ipxe.org/ipxe.git
+
+Files: *
+Copyright: *No copyright*
+License: GPL-2+ or UBDL
+
+Files: src/drivers/net/hfa384x.h
+ src/drivers/net/p80211hdr.h
+ src/drivers/net/wlan_compat.h
+Copyright: 1999, AbsoluteValue Systems, Inc.
+License: GPL-2
+
+Files: src/arch/i386/prefix/dskprefix.S
+Copyright: 1991-1992, Linus Torvalds
+License: GPL-2
+
+Files: src/core/stringextra.c
+Copyright: 1991-1992, Linus Torvalds
+  2004, Tobias Lorenz
+License: GPL-2
+
+Files: src/drivers/infiniband/MT25218_PRM.h
+ src/drivers/infiniband/MT25408_PRM.h
+Copyright: 2004, Mellanox Technologies Ltd.
+License: GPL-2
+
+Files: src/drivers/infiniband/qib_7220_regs.h
+ src/drivers/infiniband/qib_7322_regs.h
+Copyright: 2008-2009, QLogic Corporation.
+License: GPL-2
+
+Files: src/arch/i386/core/basemem_packet.c
+ src/arch/i386/core/cachedhcp.c
+ src/arch/i386/core/rdtsc_timer.c
+ src/arch/i386/core/runtime.c
+ src/arch/i386/drivers/net/undi.c
+ src/arch/i386/drivers/net/undiload.c
+ src/arch/i386/drivers/net/undinet.c
+ src/arch/i386/drivers/net/undionly.c
+ src/arch/i386/drivers/net/undipreload.c
+ src/arch/i386/drivers/net/undirom.c
+ src/arch/i386/firmware/pcbios/basemem.c
+ src/arch/i386/firmware/pcbios/bios_console.c
+ src/arch/i386/firmware/pcbios/e820mangler.S
+ src/arch/i386/firmware/pcbios/fakee820.c
+ src/arch/i386/firmware/pcbios/hidemem.c
+ src/arch/i386/firmware/pcbios/memmap.c
+ src/arch/i386/firmware/pcbios/pnpbios.c
+ src/arch/i386/hci/commands/pxe_cmd.c
+ src/arch/i386/image/bootsector.c
+ src/arch/i386/image/bzimage.c
+ src/arch/i386/image/elfboot.c
+ src/arch/i386/image/initrd.c
+ src/arch/i386/image/multiboot.c
+ src/arch/i386/image/pxe_image.c
+ src/arch/i386/image/sdi.c
+ src/arch/i386/interface/pcbios/bios_reboot.c
+ src/arch/i386/interface/pcbios/bios_smbios.c
+ src/arch/i386/interface/pcbios/bios_timer.c
+ src/arch/i386/interface/pcbios/int13.c
+ src/arch/i386/interface/pcbios/memtop_umalloc.c
+ src/arch/i386/interface/pcbios/pcibios.c
+ src/arch/i386/interface/pcbios/rtc_entropy.c
+ src/arch/i386/interface/pcbios/rtc_time.c
+ src/arch/i386/interface/pcbios/vesafb.c
+ src/arch/i386/interface/pxe/pxe_call.c
+ src/arch/i386/interface/pxe/pxe_entry.S
+ src/arch/i386/interface/pxe/pxe_file.c
+ src/arch/i386/interface/pxe/pxe_loader.c
+ src/arch/i386/interface/pxe/pxe_preboot.c
+ src/arch/i386/interface/pxe/pxe_tftp.c
+ src/arch/i386/interface/pxe/pxe_udp.c
+ src/arch/i386/interface/pxe/pxe_undi.c
+ src/arch/i386/interface/pxeparent/pxeparent.c
+ src/arch/i386/interface/vmware/guestinfo.c
+ src/arch/i386/interface/vmware/guestrpc.c
+ src/arch/i386/interface/vmware/vmconsole.c
+ src/arch/i386/interface/vmware/vmware.c
+ src/arch/i386/prefix/exeprefix.S
+ src/arch/i386/prefix/isaromprefix.S
+ src/arch/i386/prefix/libprefix.S
+ src/arch/i386/prefix/mromprefix.S
+ src/arch/i386/prefix/pciromprefix.S
+ src/arch/i386/prefix/unlzma.S
+ src/arch/i386/transitions/liba20.S
+ src/arch/i386/transitions/librm_test.c
+ src/arch/x86/core/cpuid.c
+ src/arch/x86/core/cpuid_settings.c
+ src/arch/x86/core/debugcon.c
+ src/arch/x86/core/pcidirect.c
+ src/arch/x86/core/pic8259.c
+ src/arch/x86/core/pit8254.c
+ src/arch/x86/core/vram_settings.c
+ src/arch/x86/core/x86_bigint.c
+ src/arch/x86/core/x86_io.c
+ src/arch/x86/core/x86_string.c
+ src/arch/x86/core/x86_tcpip.c
+ src/arch/x86/drivers/hyperv/hyperv.c
+ src/arch/x86/drivers/xen/hvm.c
+ src/arch/x86/hci/commands/cpuid_cmd.c
+ src/arch/x86/include/bits/string.h
+ src/arch/x86/interface/efi/efi_entropy.c
+ src/arch/x86/interface/efi/efix86_nap.c
+ src/arch/x86/prefix/efidrvprefix.c
+ src/arch/x86/prefix/efiprefix.c
+ src/core/acpi.c
+ src/core/ansicol.c
+ src/core/ansicoldef.c
+ src/core/ansiesc.c
+ src/core/assert.c
+ src/core/base16.c
+ src/core/base64.c
+ src/core/basename.c
+ src/core/bitmap.c
+ src/core/blockdev.c
+ src/core/cpio.c
+ src/core/ctype.c
+ src/core/cwuri.c
+ src/core/debug.c
+ src/core/debug_md5.c
+ src/core/device.c
+ src/core/downloader.c
+ src/core/edd.c
+ src/core/exec.c
+ src/core/fbcon.c
+ src/core/getkey.c
+ src/core/getopt.c
+ src/core/image.c
+ src/core/init.c
+ src/core/interface.c
+ src/core/iobuf.c
+ src/core/isqrt.c
+ src/core/job.c
+ src/core/linebuf.c
+ src/core/lineconsole.c
+ src/core/list.c
+ src/core/log.c
+ src/core/malloc.c
+ src/core/memblock.c
+ src/core/memmap_settings.c
+ src/core/menu.c
+ src/core/monojob.c
+ src/core/null_reboot.c
+ src/core/null_sanboot.c
+ src/core/null_time.c
+ src/core/nvo.c
+ src/core/open.c
+ src/core/params.c
+ src/core/parseopt.c
+ src/core/pending.c
+ src/core/pinger.c
+ src/core/pixbuf.c
+ src/core/posix_io.c
+ src/core/process.c
+ src/core/profile.c
+ src/core/refcnt.c
+ src/core/resolv.c
+ src/core/settings.c
+ src/core/string.c
+ src/core/time.c
+ src/core/timer.c
+ src/core/uri.c
+ src/core/uuid.c
+ src/core/version.c
+ src/core/vsprintf.c
+ src/core/wchar.c
+ src/core/xfer.c
+ src/core/xferbuf.c
+ src/crypto/asn1.c
+ src/crypto/axtls_aes.c
+ src/crypto/bigint.c
+ src/crypto/cbc.c
+ src/crypto/certstore.c
+ src/crypto/chap.c
+ src/crypto/cms.c
+ src/crypto/crypto_null.c
+ src/crypto/deflate.c
+ src/crypto/drbg.c
+ src/crypto/entropy.c
+ src/crypto/hash_df.c
+ src/crypto/hmac.c
+ src/crypto/hmac_drbg.c
+ src/crypto/md5.c
+ src/crypto/null_entropy.c
+ src/crypto/ocsp.c
+ src/crypto/privkey.c
+ src/crypto/random_nz.c
+ src/crypto/rbg.c
+ src/crypto/rootcert.c
+ src/crypto/rsa.c
+ src/crypto/sha1.c
+ src/crypto/sha224.c
+ src/crypto/sha256.c
+ src/crypto/sha384.c
+ src/crypto/sha512.c
+ src/crypto/sha512_224.c
+ src/crypto/sha512_256.c
+ src/crypto/x509.c
+ src/drivers/bitbash/bitbash.c
+ src/drivers/bitbash/i2c_bit.c
+ src/drivers/bitbash/spi_bit.c
+ src/drivers/block/ata.c
+ src/drivers/block/scsi.c
+ src/drivers/bus/cdc.c
+ src/drivers/bus/pci.c
+ src/drivers/bus/pci_settings.c
+ src/drivers/bus/pcibackup.c
+ src/drivers/bus/pcivpd.c
+ src/drivers/bus/usb.c
+ src/drivers/infiniband/mlx_bitops.h
+ src/drivers/infiniband/qib7322.c
+ src/drivers/infiniband/qib7322.h
+ src/drivers/infiniband/qib_genbits.pl
+ src/drivers/net/dm96xx.c
+ src/drivers/net/ecm.c
+ src/drivers/net/efi/nii.c
+ src/drivers/net/efi/snp.c
+ src/drivers/net/efi/snpnet.c
+ src/drivers/net/efi/snponly.c
+ src/drivers/net/intel.c
+ src/drivers/net/intelx.c
+ src/drivers/net/ipoib.c
+ src/drivers/net/mii.c
+ src/drivers/net/myson.c
+ src/drivers/net/natsemi.c
+ src/drivers/net/ncm.c
+ src/drivers/net/netfront.c
+ src/drivers/net/netvsc.c
+ src/drivers/net/phantom/nx_bitops.h
+ src/drivers/net/realtek.c
+ src/drivers/net/skeleton.c
+ src/drivers/net/smsc75xx.c
+ src/drivers/net/vmxnet3.c
+ src/drivers/net/vmxnet3.h
+ src/drivers/nvs/nvs.c
+ src/drivers/nvs/nvsvpd.c
+ src/drivers/nvs/spi.c
+ src/drivers/nvs/threewire.c
+ src/drivers/usb/ehci.c
+ src/drivers/usb/usbhub.c
+ src/drivers/usb/usbnet.c
+ src/drivers/usb/xhci.c
+ src/hci/commands/autoboot_cmd.c
+ src/hci/commands/config_cmd.c
+ src/hci/commands/console_cmd.c
+ src/hci/commands/dhcp_cmd.c
+ src/hci/commands/fcmgmt_cmd.c
+ src/hci/commands/ifmgmt_cmd.c
+ src/hci/commands/image_cmd.c
+ src/hci/commands/image_trust_cmd.c
+ src/hci/commands/ipstat_cmd.c
+ src/hci/commands/login_cmd.c
+ src/hci/commands/lotest_cmd.c
+ src/hci/commands/menu_cmd.c
+ src/hci/commands/neighbour_cmd.c
+ src/hci/commands/nvo_cmd.c
+ src/hci/commands/param_cmd.c
+ src/hci/commands/pci_cmd.c
+ src/hci/commands/ping_cmd.c
+ src/hci/commands/profstat_cmd.c
+ src/hci/commands/reboot_cmd.c
+ src/hci/commands/route_cmd.c
+ src/hci/commands/sanboot_cmd.c
+ src/hci/commands/sync_cmd.c
+ src/hci/commands/vlan_cmd.c
+ src/hci/editstring.c
+ src/hci/jumpscroll.c
+ src/hci/mucurses/widgets/editbox.c
+ src/hci/readline.c
+ src/hci/shell.c
+ src/hci/tui/login_ui.c
+ src/hci/tui/menu_ui.c
+ src/hci/tui/settings_ui.c
+ src/image/efi_image.c
+ src/image/elf.c
+ src/image/png.c
+ src/image/pnm.c
+ src/image/script.c
+ src/image/segment.c
+ src/include/errno.h
+ src/include/hci/ifmgmt_cmd.h
+ src/include/ipxe/bitops.h
+ src/include/ipxe/fip.h
+ src/interface/bofm/bofm.c
+ src/interface/efi/efi_autoboot.c
+ src/interface/efi/efi_bofm.c
+ src/interface/efi/efi_console.c
+ src/interface/efi/efi_debug.c
+ src/interface/efi/efi_driver.c
+ src/interface/efi/efi_file.c
+ src/interface/efi/efi_guid.c
+ src/interface/efi/efi_hii.c
+ src/interface/efi/efi_init.c
+ src/interface/efi/efi_pci.c
+ src/interface/efi/efi_reboot.c
+ src/interface/efi/efi_smbios.c
+ src/interface/efi/efi_snp.c
+ src/interface/efi/efi_snp_hii.c
+ src/interface/efi/efi_strings.c
+ src/interface/efi/efi_time.c
+ src/interface/efi/efi_timer.c
+ src/interface/efi/efi_uaccess.c
+ src/interface/efi/efi_umalloc.c
+ src/interface/efi/efi_utils.c
+ src/interface/efi/efi_wrap.c
+ src/interface/hyperv/vmbus.c
+ src/interface/linux/linux_entropy.c
+ src/interface/linux/linux_pci.c
+ src/interface/linux/linux_smbios.c
+ src/interface/linux/linux_time.c
+ src/interface/smbios/smbios.c
+ src/interface/smbios/smbios_settings.c
+ src/interface/xen/xenbus.c
+ src/interface/xen/xenstore.c
+ src/net/aoe.c
+ src/net/arp.c
+ src/net/dhcpopts.c
+ src/net/dhcppkt.c
+ src/net/eth_slow.c
+ src/net/ethernet.c
+ src/net/fakedhcp.c
+ src/net/fc.c
+ src/net/fcels.c
+ src/net/fcns.c
+ src/net/fcoe.c
+ src/net/fcp.c
+ src/net/fragment.c
+ src/net/icmp.c
+ src/net/icmpv4.c
+ src/net/icmpv6.c
+ src/net/infiniband.c
+ src/net/infiniband/ib_cm.c
+ src/net/infiniband/ib_mcast.c
+ src/net/infiniband/ib_mi.c
+ src/net/infiniband/ib_packet.c
+ src/net/infiniband/ib_pathrec.c
+ src/net/infiniband/ib_sma.c
+ src/net/infiniband/ib_smc.c
+ src/net/iobpad.c
+ src/net/ipv6.c
+ src/net/ndp.c
+ src/net/neighbour.c
+ src/net/netdev_settings.c
+ src/net/netdevice.c
+ src/net/nullnet.c
+ src/net/pccrc.c
+ src/net/ping.c
+ src/net/rarp.c
+ src/net/retry.c
+ src/net/rndis.c
+ src/net/socket.c
+ src/net/tcp/ftp.c
+ src/net/tcp/http.c
+ src/net/tcp/httpcore.c
+ src/net/tcp/https.c
+ src/net/tcp/iscsi.c
+ src/net/tcp/syslogs.c
+ src/net/tls.c
+ src/net/udp/dhcp.c
+ src/net/udp/dhcpv6.c
+ src/net/udp/slam.c
+ src/net/udp/syslog.c
+ src/net/udp/tftp.c
+ src/net/validator.c
+ src/net/vlan.c
+ src/tests/aes_cbc_test.c
+ src/tests/base16_test.c
+ src/tests/base64_test.c
+ src/tests/bigint_test.c
+ src/tests/bofm_test.c
+ src/tests/byteswap_test.c
+ src/tests/cbc_test.c
+ src/tests/cms_test.c
+ src/tests/crc32_test.c
+ src/tests/deflate_test.c
+ src/tests/digest_test.c
+ src/tests/dns_test.c
+ src/tests/entropy_sample.c
+ src/tests/hash_df_test.c
+ src/tests/hmac_drbg_test.c
+ src/tests/ipv4_test.c
+ src/tests/ipv6_test.c
+ src/tests/list_test.c
+ src/tests/math_test.c
+ src/tests/md5_test.c
+ src/tests/memcpy_test.c
+ src/tests/memset_test.c
+ src/tests/ocsp_test.c
+ src/tests/pccrc_test.c
+ src/tests/pixbuf_test.c
+ src/tests/png_test.c
+ src/tests/pnm_test.c
+ src/tests/profile_test.c
+ src/tests/rsa_test.c
+ src/tests/setjmp_test.c
+ src/tests/settings_test.c
+ src/tests/sha1_test.c
+ src/tests/sha256_test.c
+ src/tests/sha512_test.c
+ src/tests/string_test.c
+ src/tests/tcpip_test.c
+ src/tests/test.c
+ src/tests/tests.c
+ src/tests/time_test.c
+ src/tests/uri_test.c
+ src/tests/vsprintf_test.c
+ src/tests/x509_test.c
+ src/usr/autoboot.c
+ src/usr/dhcpmgmt.c
+ src/usr/fcmgmt.c
+ src/usr/ifmgmt.c
+ src/usr/imgmgmt.c
+ src/usr/imgtrust.c
+ src/usr/ipstat.c
+ src/usr/lotest.c
+ src/usr/neighmgmt.c
+ src/usr/pingmgmt.c
+ src/usr/profstat.c
+ src/usr/prompt.c
+ src/usr/pxemenu.c
+ src/usr/route.c
+ src/usr/route_ipv4.c
+ src/usr/route_ipv6.c
+ src/usr/sync.c
+ src/util/Option/ROM.pm
+ src/util/disrom.pl
+ src/util/efifatbin.c
+ src/util/efirom.c
+ src/util/einfo.c
+ src/util/elf2efi.c
+ src/util/fixrom.pl
+ src/util/fnrec.pl
+ src/util/genkeymap.pl
+ src/util/licence.pl
+ src/util/mergerom.pl
+Copyright: 2004-2015, Michael Brown <mbrown@fensystems.co.uk>
+License: GPL-2+
+
+Files: src/drivers/net/cs89x0.*
+Copyright: Copyright, 1988-2008, Russell Nelson, Crynwr Software
+License: GPL-2
+
+Files:
+ src/drivers/net/igbvf/*
+Copyright: 1999, - 2008, Intel Corporation
+License: GPL-2
+
+Files: src/drivers/net/igbvf/igbvf_main.c
+Copyright: 2009, Intel Corporation
+  2010, Eric Keller <ekeller@princeton.edu>
+  2010, Red Hat Inc
+License: GPL-2
+
+Files:
+ src/drivers/net/myri10ge*
+Copyright: 2005-2010, Myricom, Inc
+License: GPL-2
+
+Files:
+ src/drivers/net/rtl818x/rtl8180_grf5101.c
+ src/drivers/net/rtl818x/rtl8180_max2820.c
+ src/drivers/net/rtl818x/rtl8180_sa2400.c
+ src/drivers/net/rtl818x/rtl8185_rtl8225.c
+ src/drivers/net/rtl818x/rtl818x.c
+ src/drivers/net/rtl818x/rtl818x.h
+Copyright: 2004-2007, Andrea Merello <andreamrl@tiscali.it>
+  2005-2007, Andrea Merello <andreamrl@tiscali.it>, et al
+License: GPL-2
+
+Files: src/drivers/net/skge.c
+ src/drivers/net/sky2.c
+Copyright: 2004-2005, Stephen Hemminger <shemminger@osdl.org>
+License: GPL-2
+
+Files: src/drivers/net/tg3/*
+Copyright: 2001-2003, Jeff Garzik (jgarzik@pobox.com)
+  2001-2004, David S. Miller (davem@redhat.com)
+  2004, Sun Microsystems Inc
+  2000-2011, Broadcom Corporation
+License: GPL-2
+
+Files: src/drivers/net/vxge/*
+Copyright: 2002-2010, Neterion Inc
+License: GPL-2
+
+Files: src/include/i82365.h
+Copyright: 1999, David A. Hinds.
+License: GPL-2
+
+Files: src/include/mii.h
+Copyright: 1996, 1999, 2001, David S. Miller (davem@redhat.com)
+License: GPL-2
+
+Files:
+ src/crypto/axtls/aes.c
+ src/crypto/axtls/bigint.h
+ src/crypto/axtls/crypto.h
+ src/crypto/axtls/bigint_impl.h
+Copyright: 2007, Cameron Rich
+License: BSD-3-clause
+
+Files:
+ src/drivers/bus/mca.c
+ src/drivers/net/3c509.c
+ src/drivers/net/3c529.c
+Copyright: *No copyright*
+License: BSD-2-clause
+
+Files:
+ src/drivers/net/ns8390.h
+Copyright: Martin Renters
+License: BSD-2-clause
+
+Files: src/drivers/net/3c509.h
+Copyright: 1993 Herb Peyerl (hpeyerl@novatel.ca)
+License: BSD-3-clause
+
+Files:
+ src/drivers/net/3c595.c
+ src/drivers/net/3c5x9.c
+ src/drivers/net/ne2k_isa.c
+ src/drivers/net/ns8390.c
+Copyright:
+ 1993-1994 David Greenman, Martin Renters
+ 1993-1995 Andres Vega Garcia
+ 1994 Herb Peyerl <hpeyerl@novatel.ca>
+ 1995 Serge Babkin
+ 2000 Shusuke Nisiyama <shu@athena.qe.eng.hokudai.ac.jp>
+License: BSD-2-clause
+
+Files: src/drivers/net/3c595.h
+Copyright:
+ 2000 Shusuke Nisiyama <shu@athena.qe.eng.hokudai.ac.jp>
+License: BSD-3-clause
+
+Files: src/drivers/net/3c90x.*
+Copyright:
+ 1999 LightSys Technology Services, Inc.
+ 1999 Steve Smith
+ 2009 Thomas Miletich
+License: BSD-2-clause
+
+Files:
+ src/net/infiniband/ib_cmrc.c
+ src/net/infiniband/ib_srp.c
+Copyright: 2009 Fen Systems Ltd <mbrown@fensystems.co.uk>
+License: BSD-2-clause
+
+Files:
+ src/drivers/net/ath/ath5k/ath5k.c
+ src/drivers/net/ath/ath5k/ath5k_rfkill.c
+ src/drivers/net/ath/ath5k/base.h
+Copyright:
+ 2002-2007 Sam Leffler, Errno Consulting
+ 2004-2005 Atheros Communications, Inc.
+ 2006 Devicescape Software, Inc.
+ 2007 Jiri Slaby <jirislaby@gmail.com>
+ 2007 Luis R. Rodriguez <mcgrof@winlab.rutgers.edu>
+ 2009 Tobias Doerffel <tobias.doerffel@gmail.com>
+ 2002-2007 Sam Leffler, Errno Consulting
+License: BSD-3-clause
+
+Files:
+ src/include/ipxe/ib_cmrc.h
+ src/include/ipxe/ib_srp.h
+ src/include/ipxe/srp.h
+Copyright: *No copyright*
+License: BSD-2-clause
+
+Files: src/include/ipxe/efi/*
+Copyright:
+ 2006-2010 Intel Corporation
+ 2008-2009 Apple
+License: BSD-3-clause
+
+
+Files: src/include/ipxe/ibft.h
+Copyright:
+ 2007 Fen Systems Ltd
+ 2004,2007 IBM Corporation
+License: BSD-2-clause
+
+Files:
+ src/include/ipxe/list.h
+ src/include/ipxe/pci.h
+Copyright: *No copyright*
+License: GPL-2 or UBDL
+
+Files: debian/*
+Copyright: 2011 Bastian Blank <waldi@debian.org>
+License: GPL-2+
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY <COPYRIGHT HOLDER> ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+ EVENT SHALL <COPYRIGHT HOLDER> OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+ * Neither the name of the <organization> nor the
+   names of its contributors may be used to endorse or promote products
+   derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: UBDL
+ The GNU General Public License provides a legal guarantee that
+ software covered by it remains free (in the sense of freedom, not
+ price).  It achieves this guarantee by imposing obligations on anyone
+ who chooses to distribute the software.
+ .
+ Some of these obligations may be seen as unnecessarily burdensome.  In
+ particular, when the source code for the software is already publicly
+ and freely available, there is minimal value in imposing upon each
+ distributor the obligation to provide the complete source code (or an
+ equivalent written offer to provide the complete source code).
+ .
+ This Licence allows for the distribution of unmodified binaries built
+ from publicly available source code, without imposing the obligations
+ of the GNU General Public License upon anyone who chooses to
+ distribute only the unmodified binaries built from that source code.
+ .
+ The extra permissions granted by this Licence apply only to unmodified
+ binaries built from source code which has already been made available
+ to the public in accordance with the terms of the GNU General Public
+ Licence.  Nothing in this Licence allows for the creation of
+ closed-source modified versions of the Program.  Any modified versions
+ of the Program are subject to the usual terms and conditions of the
+ GNU General Public License.
+ .
+ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+ This Licence applies to any Program or other work which contains a
+ notice placed by the copyright holder saying it may be distributed
+ under the terms of this Unmodified Binary Distribution Licence.  All
+ terms used in the text of this Licence are to be interpreted as they
+ are used in version 2 of the GNU General Public License as published
+ by the Free Software Foundation.
+ .
+ If you have made this Program available to the public in both source
+ code and executable form in accordance with the terms of the GNU
+ General Public License as published by the Free Software Foundation;
+ either version 2 of the License, or (at your option) any later
+ version, then you are hereby granted an additional permission to use,
+ copy, and distribute the unmodified executable form of this Program
+ (the "Unmodified Binary") without restriction, including the right to
+ permit persons to whom the Unmodified Binary is furnished to do
+ likewise, subject to the following conditions:
+ .
+ - when started running, the Program must display an announcement which
+   includes the details of your existing publication of the Program
+   made in accordance with the terms of the GNU General Public License.
+   For example, the Program could display the URL of the publicly
+   available source code from which the Unmodified Binary was built.
+ .
+ - when exercising your right to grant permissions under this Licence,
+   you do not need to refer directly to the text of this Licence, but
+   you may not grant permissions beyond those granted to you by this
+   Licence.

@@ -1,0 +1,103 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: socat
+Upstream-Contact: Gerhard Rieger <socat@dest-unreach.org>
+Source: https://repo.or.cz/socat.git
+
+Files: *
+Copyright: Copyright (C) 2002-     Gerhard Rieger <gerhard@dest-unreach.org>
+License: GPL-2 with OpenSSL exception
+
+Files: install-sh
+Copyright: Copyright 1991 by the Massachusetts Institute of Technology
+License: MIT
+ Permission to use, copy, modify, distribute, and sell this software and its
+ documentation for any purpose is hereby granted without fee, provided that
+ the above copyright notice appear in all copies and that both that
+ copyright notice and this permission notice appear in supporting
+ documentation, and that the name of M.I.T. not be used in advertising or
+ publicity pertaining to distribution of the software without specific,
+ written prior permission.  M.I.T. makes no representations about the
+ suitability of this software for any purpose.  It is provided "as is"
+ without express or implied warranty.
+
+Files: socat_buildscript_for_android.sh
+Copyright: Copyright (C) 1998 Zack Weinberg <zack@rabi.phys.columbia.edu>
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: Copyright (C) 2002-2009 Thomas Seyrat <tomasera@debian.org>
+           Copyright (C) 2010      Chris Taylor <ctaylor@debian.org>
+           Copyright (C) 2013-     Laszlo Boszormenyi (GCS) <gcs@debian.org>
+License: GPL-3
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files: debian/patches/*
+Copyright: Copyright (C) Vasyl Gello <vasek.gello@gmail.com>
+           Copyright (C) Chris Taylor <ctaylor@debian.org>
+           Copyright (C) Andreas Henriksson <andreas@fatal.se>
+License: GPL-2 with OpenSSL exception
+
+License: GPL-2 with OpenSSL exception
+ socat is distributed under the terms of the GNU GPLv2;
+ except for install-sh, which is copyright MIT, with its own license;
+ .
+ In addition, as a special exception, the copyright holder
+ gives permission to link the code of this program with
+ any version of the OpenSSL library which is distributed
+ under a license identical to that listed in the included
+ COPYING.OpenSSL file, and distribute linked combinations
+ including the two. You must obey the GNU General Public
+ License in all respects for all of the code used other
+ than OpenSSL. If you modify this file, you may extend this
+ exception to your version of the file, but you are not
+ obligated to do so. If you do not wish to do so, delete
+ this exception statement from your version.
+ .
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, version 2 of the License
+ .
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+ .
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2.1+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.

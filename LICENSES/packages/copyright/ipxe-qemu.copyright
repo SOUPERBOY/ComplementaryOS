@@ -1,0 +1,718 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ipxe
+Source: git://git.ipxe.org/ipxe.git
+Files-Excluded:
+ src/drivers/net/bnx2.c
+ src/drivers/net/bnx2.h
+ src/drivers/net/bnx2_fw.h
+ src/drivers/infiniband/linda.c
+ src/drivers/infiniband/linda.h
+ src/drivers/infiniband/linda_fw.c
+ contrib
+ .github
+Comment:
+ src/drivers/*: Drivers bringing firmware without source, violating the DFSG
+ contrib:       Directory containing unused files of unclear licensing
+
+Files: *
+       src/include/ipxe/efi/efi*
+       src/include/ipxe/efi/ProcessorBind.h
+Copyright: 2004-2025 Michael Brown <mbrown@fensystems.co.uk>
+License: GPL-2+
+
+Files: src/arch/loong64/core/*.c
+Copyright: 2023      Xiaotian Wu <wuxiaotian@loongson.cn>
+License: GPL-2+
+
+Files: src/arch/loong64/core/loong64_string.c
+Copyright: 2016      Michael Brown <mbrown@fensystems.co.uk>
+           2023      Xiaotian Wu <wuxiaotian@loongson.cn>
+License: GPL-2+
+
+Files: src/arch/x86/core/gdbmach.c
+Copyright: 2008      Stefan Hajnoczi <stefanha@gmail.com>
+           2016      Michael Brown <mbrown@fensystems.co.uk>
+License: GPL-2+
+
+Files: src/arch/x86/core/patch_cf.S
+Copyright: 2009      H. Peter Anvin <hpa@zytor.com>
+License: GPL-2+
+
+Files: src/arch/x86/core/pci_autoboot.c
+Copyright: 2014      Red Hat Inc., Alex Williamson <alex.williamson@redhat.com>
+License: GPL-2+
+
+Files: src/arch/x86/image/com32.c
+       src/arch/x86/image/comboot.c
+       src/arch/x86/interface/syslinux/com32_call.c
+       src/arch/x86/interface/syslinux/com32_wrapper.S
+       src/arch/x86/interface/syslinux/comboot_call.c
+Copyright: 2008      Daniel Verkamp <daniel@drv.nu>
+License: GPL-2+
+
+Files: src/drivers/linux/linux.c
+       src/drivers/linux/tap.c
+       src/include/ipxe/linux.h
+       src/include/ipxe/linux_api.h
+Copyright: 2010      Piotr Jaroszyński <p.jaroszynski@gmail.com>
+License: GPL-2+
+
+Files: src/arch/x86/include/vga.h
+Copyright: 1999      Ben Pfaff <pfaffben@debian.org>, Petr Vandrovec <VANDROVE@vc.cvut.cz>
+License: GPL-2+
+
+Files: src/arch/x86/interface/pcbios/apm.c
+Copyright: 2013      Marin Hannache <ipxe@mareo.fr>
+License: GPL-2+
+
+Files: src/arch/x86/interface/pxe/pxe_exit_hook.c
+Copyright: 2010      Shao Miller <shao.miller@yrdsb.edu.on.ca>
+License: GPL-2+
+
+Files: src/arch/x86/prefix/dskprefix.S
+Copyright: 1991-1992 Linus Torvalds
+License: GPL-2
+
+Files: src/core/fnrec.c
+       src/core/gdbserial.c
+       src/core/gdbstub.c
+       src/core/gdbudp.c
+Copyright: 2008,2010 Stefan Hajnoczi <stefanha@gmail.com>
+License: GPL-2+
+
+Files: src/core/i82365.c
+       src/include/i82365.h
+Copyright: 1999      David A. Hinds <dahinds@users.sourceforge.net>
+License: GPL-2
+
+Files: src/core/pcmcia.c
+Copyright:           Anselm Martin Hoffmeister
+License: GPL-2
+
+Files: src/core/stringextra.c
+Copyright: 1991-1992 Linus Torvalds
+           2004      Tobias Lorenz
+License: GPL-2
+
+Files: src/crypto/aes_wrap.c
+       src/crypto/arc4.c
+       src/crypto/crc32.c
+       src/crypto/sha1extra.c
+       src/include/ipxe/sec80211.h
+       src/include/ipxe/net80211_err.h
+       src/include/ipxe/wpa.h
+       src/net/80211/*
+       src/usr/iwmgmt.c
+Copyright: 2009      Joshua Oreman <oremanj@rwcr.net>
+License: GPL-2+
+
+Files: src/drivers/bitbash/mii_bit.c
+Copyright: 2018      Sylvie Barlow <sylvie.c.barlow@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/block/ibft.c
+       src/include/ipxe/ibft.h
+Copyright: 2004-2007 IBM Corporation
+           2007      Fen Systems Ltd.
+License: Expat
+
+Files: src/drivers/block/srp.c
+Copyright: 2009      Fen Systems Ltd <mbrown@fensystems.co.uk>
+License: BSD-2-clause
+
+Files: src/drivers/bus/mca.c
+       src/drivers/net/3c529.c
+Copyright: *No copyright*
+License: BSD-2-clause
+
+Files: src/drivers/bus/isapnp.c
+       src/include/ipxe/isapnp.h
+Copyright: 2001      P.J.H.Fox <fox@roestock.demon.co.uk>
+License: GPL-2+
+
+Files: src/drivers/bus/virtio-pci.c
+       src/drivers/bus/virtio-ring.c
+Copyright: 2007      IBM Corporation
+           2008      Bull S.A.S.
+License: GPL-2+
+
+Files: src/drivers/infiniband/*
+Copyright: 2004-2015 Mellanox Technologies Ltd.
+License: GPL-2+
+
+Files: src/drivers/infiniband/MT25218_PRM.h
+       src/drivers/infiniband/MT25408_PRM.h
+Copyright: 2004i     Mellanox Technologies Ltd.
+License: GPL-2
+
+Files: src/drivers/infiniband/arbel.c
+Copyright: 2007      Michael Brown <mbrown@fensystems.co.uk>
+License: GPL-2+
+
+Files: src/drivers/infiniband/qib_7220_regs.h
+       src/drivers/infiniband/qib_7322_regs.h
+Copyright: 2008-2009 QLogic Corporation.
+License: GPL-2
+
+Files: src/drivers/linux/af_packet.c
+Copyright: 2016      David Decotigny <ddecotig@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/marvell/*
+Copyright: 2017-2024 Marvell
+License: BSD-2-clause
+
+Files: src/drivers/net/3c509.*
+Copyright: 1993      Herb Peyerl <hpeyerl@novatel.ca>
+License: BSD-3-clause
+
+Files: src/drivers/net/3c515.*
+Copyright: 1995      Martin Renters
+           1997-2002 Donald Becker
+           1999      LightSys Technology Services, Inc.
+           1999      Steve Smith
+           2000      Shusuke Nisiyama <shu@athena.qe.eng.hokudai.ac.jp>
+           2001      P.J.H.Fox <fox@roestock.demon.co.uk>
+           2002      Jaroslav Kysela <perex@suse.cz>
+           2002      Timothy Legge <tlegge@rogers.com>
+License: GPL-2+
+
+Files: src/drivers/net/3c595.*
+Copyright: 1993-1994 David Greenman, Martin Renters
+           1993-1995 Andres Vega Garcia
+           1993-1994 Herb Peyerl <hpeyerl@novatel.ca>
+           1995      Serge Babkin
+           2000      Shusuke Nisiyama <shu@athena.qe.eng.hokudai.ac.jp>
+License: GPL-2+
+
+Files: src/drivers/net/3c5x9.*
+Copyright: 1993-1994 David Greenman, Martin Renters
+           1993-1995 Andres Vega Garcia
+           1995      Serge Babkin
+License: GPL-2+
+
+Files: src/drivers/net/3c90x.*
+Copyright: 1999      Steve Smith
+           1999      LightSys Technology Services, Inc.
+           2009      Thomas Miletich
+License: GPL-2+
+
+Files: src/drivers/net/amd8111e.*
+Copyright: 1993      United States Government
+           1996-1999 Thomas Bogendoerfer
+           2000 MIPS Technologies, Inc.
+           2001-2002 Jeff Garzik <jgarzik@mandrakesoft.com>
+           2001-2002 David S. Miller <davem@redhat.com>
+           2003      Advanced Micro Devices
+           2005      Liu Tao <liutao1980@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/ath/*.*
+Copyright: 2008-2009 Atheros Communications Inc.
+           2010 Bruno Randolf <br1@einfach.org>
+License: ISC
+
+Files: src/drivers/net/ath/ath5k/*
+Copyright: 2004-2008 Reyk Floeter <reyk@openbsd.org>
+           2006-2009 Nick Kossifidis <mickflemm@gmail.com>
+           2007-2008 Jiri Slaby <jirislaby@gmail.com>
+           2007-2008 Luis Rodriguez <mcgrof@winlab.rutgers.edu>
+           2007-2008 Pavel Roskin <proski@gnu.org>
+           2007-2008 Matthew W. S. Bell <mentor@madwifi.org>
+           2007-2008 Michael Taylor <mike.taylor@apprion.com>
+           2008-2009 Felix Fietkau <nbd@openwrt.org>
+           2008-2011 Atheros Communications Inc.
+License: ISC
+
+Files: src/drivers/net/ath/ath5k/ath5k.c
+       src/drivers/net/ath/ath5k/base.h
+Copyright: 2002-2007 Sam Leffler, Errno Consulting
+           2004-2005 Atheros Communications, Inc.
+           2006      Devicescape Software, Inc.
+           2007      Jiri Slaby <jirislaby@gmail.com>
+           2007      Luis R. Rodriguez <mcgrof@winlab.rutgers.edu>
+License: BSD-3-clause or GPL-2
+
+Files: src/drivers/net/ath/ath5k/ath5k_rfkill.c
+Copyright: 2009      Tobias Doerffel <tobias.doerffel@gmail.com>
+License: BSD-3-clause
+
+Files: src/drivers/net/ath/ath9k/*
+Copyright: 2008-2011 Atheros Communications Inc.
+License: ISC
+
+Files: src/drivers/net/atl1e.*
+Copyright: 1999-2005 Intel Corporation
+           2007      Atheros Corporation
+           2007      xiong huang <xiong.huang@atheros.com>
+License: GPL-2+
+
+Files: src/drivers/net/b44.*
+Copyright: 2002      David S. Miller <davem@redhat.com>
+                     Pekka Pietikainen <pp@ee.oulu.fi>
+           2006      Broadcom Corporation
+                     Michael Buesch
+           2008      Pantelis Koukousoulas <pktoss@gmail.com>
+           2008      Stefan Hajnoczi <stefanha@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/bnxt/*
+Copyright: 2014-2019 Broadcom Corporation
+License: GPL-2
+
+Files: src/drivers/net/cs89x0.*
+Copyright: 1988-2008 Russell Nelson, Crynwr Software
+License: GPL-2
+
+Files: src/drivers/net/depca.c
+Copyright: 1994      David C. Davies <davies@maniac.ultranet.com>
+           1995      Digital Equipment Corporation
+License: GPL
+
+Files: src/drivers/net/dmfe.c
+Copyright: 1997      Sten Wang
+           1997-1998 DAVICOM Semiconductor, Inc.
+           2003      Timothy Legge <tlegge@rogers.com>
+License: GPL-2+
+
+Files: src/drivers/net/eepro100.*
+Copyright: 1997      AW Computer Systems, R.E.Wolff <R.E.Wolff@BitWizard.nl>
+           2004      Kiszka
+           2008      Thomas Miletich<thomas.miletich@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/etherfabric*
+Copyright: 2005      Fen Systems Ltd.
+           2005      Level 5 Networks Inc.
+License: GPL
+
+Files: src/drivers/net/forcedeth.*
+Copyright: 2003-2005 Manfred Spraul
+           2004      Andrew de Quincey
+           2004      Carl-Daniel Hailfinger
+           2004-2009 NVIDIA Corporation
+License: GPL-2+
+
+Files: src/drivers/net/hfa384x.h
+       src/drivers/net/p80211hdr.h
+       src/drivers/net/wlan_compat.h
+Copyright: 1999      AbsoluteValue Systems, Inc.
+License: MPL-1.1 or GPL-2
+
+Files: src/drivers/net/icplus.*
+Copyright: 2018      Sylvie Barlow <sylvie.c.barlow@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/igbvf/*
+Copyright: 1999-2009 Intel Corporation
+           2010      Eric Keller <ekeller@princeton.edu>
+           2010      Red Hat Inc.
+License: GPL-2
+
+Files: src/drivers/net/jme.*
+Copyright: 2010      Guo-Fu Tseng <cooldavid@cooldavid.org>
+License: GPL-2+
+
+Files: src/drivers/net/myri10ge*
+Copyright: 2005-2010 Myricom, Inc.
+License: GPL-2
+
+Files: src/drivers/net/ne2k_isa.c
+       src/drivers/net/ns8390.*
+Copyright: 1993-1994 David Greenman
+           1993-1994 Martin Renters
+License: BSD-2-clause
+
+Files: src/drivers/net/pcnet32.*
+Copyright: 2010      Andrei Faur <da3drus@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/phantom/*
+Copyright: 2008      NetXen, Inc.
+           2008      Michael Brown <mbrown@fensystems.co.uk>
+License: GPL-2+
+
+Files: src/drivers/net/rhine.*
+Copyright: 2012      Adrian Jamroz <adrian.jamroz@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/rtl818x/*
+Copyright: 2004-2007 Andrea Merello <andreamrl@tiscali.it>, et al
+License: GPL-2
+
+Files: src/drivers/net/sfc/*
+Copyright: 2005-2006 Fen Systems Ltd.
+           2005      Level 5 Networks Inc.
+           2006-2019 Solarflare Communications Inc.
+           2019-2020 Xilinx Inc.
+License: GPL-2+
+
+Files: src/drivers/net/sis190.*
+Copyright: 2003      K.M. Liu <kmliu@sis.com>
+           2003-2004 Jeff Garzik <jgarzik@pobox.com>
+           2003-2005 Francois Romieu <romieu@fr.zoreil.com>
+License: GPL
+
+Files: src/drivers/net/sis900.*
+Copyright: 2001      Entity Cyber, Inc.
+License: GPL
+
+Files: src/drivers/net/skge.c
+       src/drivers/net/sky2.c
+Copyright: 2004-2005 Stephen Hemminger <shemminger@osdl.org>
+License: GPL-2
+
+Files: src/drivers/net/smc9000.*
+Copyright: 1996      Erik Stahlman <eric@vt.edu>
+           1998      Daniel Engström
+License: GPL
+
+Files: src/drivers/net/sundance.c
+Copyright: 1999-2002 Donald Becker
+           2001      Entity Cyber, Inc.
+           2002-2002 Timothy Legge <tlegge@rogers.com>
+License: GPL-2+
+
+Files: src/drivers/net/tg3/*
+Copyright: 2000-2011 Broadcom Corporation
+           2001-2003 Jeff Garzik <jgarzik@pobox.com>
+           2001-2004 David S. Miller <davem@redhat.com>
+           2004      Sun Microsystems Inc.
+License: GPL-2
+
+Files: src/drivers/net/thunderxcfg.h
+Copyright: 2015      Cavium Inc.
+License: BSD-2-clause
+
+Files: src/drivers/net/tulip.*
+Copyright: 2001      Entity Cyber, Inc.
+License: GPL
+
+Files: src/drivers/net/velocity.*
+Copyright: 2012      Adrian Jamróz <adrian.jamroz@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/virtio-net.*
+Copyright: 2007      IBM Corporation
+           2008      Bull S.A.S.
+           2010      Stefan Hajnoczi <stefanha@gmail.com>
+License: GPL-2+
+
+Files: src/drivers/net/vxge/*
+Copyright: 2002-2010 Neterion Inc.
+License: GPL
+
+Files: src/hci/*
+Copyright: 2006-2021 Michael Brown <mbrown@fensystems.co.uk>
+           2008      Stefan Hajnoczi <stefanha@gmail.com>
+           2009      Daniel Verkamp <daniel@drv.nu>
+           2009      Joshua Oreman <oremanj@rwcr.net>
+           2010      Piotr Jaroszyński <p.jaroszynski@gmail.com>
+           2013      Marin Hannache <ipxe@mareo.fr>
+License: GPL-2+
+
+Files: src/hci/keymap/*
+Copyright: 2011 Michael Brown <mbrown@fensystems.co.uk>
+License: public-domain
+
+Files: src/include/ipxe/efi/*
+Copyright: 2004-2022 Intel Corporation
+           2008-2009 Apple Inc.
+                     Microsoft Corporation
+           2014-2020 Hewlett Packard Enterprise Development LP.
+           2022      Loongson Technology Corporation Limited
+           2011-2021 ARM Ltd.
+License: BSD-2-Clause-Patent
+
+Files: src/include/ipxe/efi/Protocol/AppleNetBoot.h
+       src/include/ipxe/efi/Protocol/ShimLock.h
+Copyright: 2016-2023 Michael Brown <mbrown@fensystems.co.uk>
+License: BSD-3-clause
+
+Files: src/include/ipxe/efi/Protocol/ConsoleControl/ConsoleControl.h
+Copyright: 2004-2010 Intel Corporation
+License: BSD-3-clause
+
+Files: src/include/ipxe/efi/efi_download.h
+       src/interface/efi/efi_download.c
+Copyright: 2010      VMware, Inc.
+License: GPL-2+
+
+Files: src/include/ipxe/ib_cmrc.h
+       src/include/ipxe/ib_srp.h
+       src/include/ipxe/srp.h
+Copyright: *No copyright*
+License: BSD-2-clause
+
+Files: src/include/ipxe/list.h
+       src/include/ipxe/pci.h
+Copyright: *No copyright*
+License: GPL-2
+
+Files: src/include/mii.h
+Copyright: 1996-2001 David S. Miller <davem@redhat.com>
+License: GPL-2
+
+Files: src/include/valgrind/*
+Copyright: 2000-2010 Julian Seward
+License: BSD-3-clause
+
+Files: src/include/xen/*
+Copyright: 2003-2007 Keir Fraser <keir@xensource.com>
+           2005      XenSource Ltd.
+           2005      Rusty Russell IBM Corporation
+           2005      Bin Ren
+           2005      Nguyen Anh Quynh <aquynh@gmail.com>
+           2006      Christian Limpach
+           2011      Citrix Systems
+License: Expat
+
+Files: src/interface/linux/*
+Copyright: 2010      Piotr Jaroszyński <p.jaroszynski@gmail.com>
+           2012-2021 Michael Brown <mbrown@fensystems.co.uk>
+License: GPL-2+
+
+Files: src/net/infiniband/ib_cmrc.c
+       src/net/infiniband/ib_srp.c
+Copyright: 2009      Fen Systems Ltd <mbrown@fensystems.co.uk>
+License: BSD-2-clause
+
+Files: src/net/ipv4.c
+Copyright: 2006      Michael Brown <mbrown@fensystems.co.uk>
+           2006      Nikhil Chandru Rao
+License: GPL-2+
+
+Files: src/net/oncrpc/*
+       src/net/tcp/oncrpc.c
+Copyright: 2013-2014 Marin Hannache <ipxe@mareo.fr>
+License: GPL-2+
+
+Files: src/usr/nslookup.c
+Copyright: 2012      Patrick Plenefisch <phplenefisch@wpi.edu>
+License: GPL-2+
+
+Files: src/util/eficompress.c
+Copyright: 2006-2018 Intel Corporation
+License: BSD-2-Clause-Patent
+
+Files: src/util/get-pci-ids
+Copyright: 2003      Georg Baum <gbaum@users.sf.net>
+License: GPL-2+
+
+Files: src/util/niclist.pl
+Copyright:           Robin Smidsrød <robin@smidsrod.no>
+           2007      Christian Bach
+License: GPL-2+ and Expat
+
+Files: src/util/nrv2b.c
+Copyright: 1988      Haruyasu Yoshizaki
+           1989      Haruhiko Okumura
+           1996-2002 Markus Franz Xaver Johannes Oberhumer
+           1997      Markus Gutschke <gutschk@math.uni-muenster.de>
+           1997,2001 Ken Yap <ken_yap@users.sourceforge.net>
+           1998      Jim Hague <jim.hague@acm.org>
+           2002      Eric Biederman <ebiederman@lnxi.com>
+License: GPL
+
+Files: debian/*
+Copyright: 2011-2020 Bastian Blank <waldi@debian.org>
+           2014      Julián Moreno Patiño <julian@debian.org>
+           2021      Chris Hofstaedtler <zeha@debian.org>
+           2024-2025 Sven Geuer <sge@debian.org>
+           2025      Shengqi Chen <harry@debian.org>
+           2025      Miao Wang <shankerwangmiao@gmail.com>
+License: GPL-2+
+
+License: GPL
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in "/usr/share/common-licenses/GPL".
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: MPL-1.1
+ The contents of this file are subject to the Mozilla Public
+ License Version 1.1 (the "License"); you may not use this file
+ except in compliance with the License. You may obtain a copy of
+ the License at http://www.mozilla.org/MPL/
+ .
+ Software distributed under the License is distributed on an "AS
+ IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ implied. See the License for the specific language governing
+ rights and limitations under the License.
+ .
+ On Debian systems, the complete text of the Mozilla Public License
+ Version 1.1 can be found in "/usr/share/common-licenses/MPL-1.1".
+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY <COPYRIGHT HOLDER> ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+ EVENT SHALL <COPYRIGHT HOLDER> OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+ * Neither the name of the <organization> nor the
+   names of its contributors may be used to endorse or promote products
+   derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ IN THE SOFTWARE.
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ PERFORMANCE OF THIS SOFTWARE.
+
+License: BSD-2-Clause-Patent
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ .
+ Subject to the terms and conditions of this license, each copyright holder
+ and contributor hereby grants to those receiving rights under this license
+ a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+ (except for failure to satisfy the conditions of this license) patent
+ license to make, have made, use, offer to sell, sell, import, and otherwise
+ transfer this software, where such license applies only to those patent
+ claims, already acquired or hereafter acquired, licensable by such copyright
+ holder or contributor that are necessarily infringed by:
+ .
+ (a) their Contribution(s) (the licensed copyrights of copyright holders and
+     non-copyrightable additions of contributors, in source or binary form)
+     alone; or
+ .
+ (b) combination of their Contribution(s) with the work of authorship to
+     which such Contribution(s) was added by such copyright holder or
+     contributor, if, at the time the Contribution is added, such addition
+     causes such combination to be necessarily infringed. The patent license
+     shall not apply to any other combinations which include the
+     Contribution.
+ .
+ Except as expressly stated above, no rights or licenses from any copyright
+ holder or contributor is granted under this license, whether expressly, by
+ implication, estoppel or otherwise.
+ .
+ DISCLAIMER
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: public-domain
+ The keymap files are generated from src/util/genkeymap.pl.
+ The author has declared these files to be in public domain.

@@ -1,0 +1,37 @@
+gcc-mingw-w64 for Debian
+------------------------
+
+This package provides the standard Debian gcc, built to target Windows
+using MinGW-w64: the resulting executables and DLLs won't require any
+runtime DLL beyond those you'd expect (any library explicitly used,
+and potentially libgcc and/or libstdc++).
+
+gcc is configured as follows:
+* static and shared builds are supported;
+* multilib is not supported (use explicit 32- or 64-bit targets
+  instead);
+* exceptions use Dwarf2 on 32-bit Windows, structured exception
+  handling (SEH) on 64-bit Windows;
+* LTO is supported;
+* GOMP is enabled;
+* language front-ends are built for C, C++, Fortran, Ada, Objective-C
+  and Objective-C++.
+
+Both Windows and POSIX threading models are supported; the default
+model is Windows, but it can be changed using alternatives. The
+threading model can also be selected explicitly by specifying the
+appropriate compiler; for example, i686-w64-mingw32-gcc-posix for
+POSIX-threaded 32-bit C code, x86_64-w64-mingw32-g++-win32 for
+Windows-threaded 64-bit C++ code.
+
+The POSIX threading model enables support for C++11 threads and GOMP,
+but produces binaries which need the libwinpthread-1.dll at runtime.
+The Windows threading doesn't support C++11 threads currently but
+produces binaries with no requirement for the pthreads DLL.
+
+To use this package to build Windows software, simply use the
+appropriate target:
+* i686-w64-mingw32 for 32-bit Windows;
+* x86_64-w64-mingw32 for 64-bit Windows.
+
+ -- Stephen Kitt <skitt@debian.org>, Sat, 28 Nov 2020 12:18:40 +0100

@@ -1,0 +1,1627 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: MuseScore Studio
+Upstream-Contact: https://musescore.org/
+Source: https://github.com/musescore/MuseScore/
+ PDFs and binary files removed to comply with the DFSG.
+ Fonts under GPLv3 removed as to avoid accidentally embedding them.
+ Bundled convenience copies already packaged also removed.
+Copyright: 2002-2018, Werner Schweer and others
+License: GPL-2 with Font exception (MuseScore)
+Comment: The interpretation guidelines from the homepage of the
+ MirBSD licence stanza apply, especially regarding so-called “AI”.
+Files-Excluded: *.pdf
+                fonts/FreeSans*
+                fonts/FreeSerif*
+                mscore/musescorefonts-Free.qrc
+                mscore/musescorefonts-FreeSerif.qrc
+                omr
+                rdoc
+                share/sound
+                thirdparty/diff
+                thirdparty/freetype
+                thirdparty/openssl
+                thirdparty/portmidi
+                thirdparty/rtf2html/librtf2html.a
+                thirdparty/rtf2html/rtf2html
+
+Files: *
+Copyright: 2002-2018, Werner Schweer and others
+License: GPL-2
+
+Files: debian/*
+Copyright:
+ 2002-2019, Werner Schweer and others
+ 2019-2020, MuseScore BVBA and others
+ 2015, Tiago Bortoletto Vaz <tiago@debian.org>
+ 2015, Toby Smithe <git@tsmithe.net>
+ 2016, James Cowgill <james410@cowgill.org.uk>
+ 2016, Peter Jonas <pjonas56@gmail.com>
+ 2018, Dr. Tobias Quathamer <toddy@debian.org>
+ 2017, 2018, 2019, 2020, 2021, 2024, 2025, mirabilos <tg@debian.org>
+License: GPL-2 with Font exception (MuseScore)
+Comment: This includes packaging (mostly trivial) and patches
+ (including backports from upstream and submissions under CLA).
+
+License: GPL-2 with Font exception (MuseScore)
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License version 2 as published
+ by the Free Software Foundation and reproduce below with
+ the following exception:
+ .
+ If you create a document which uses fonts included in MuseScore, and
+ embed this font or unaltered portions of this font into the document,
+ then this font does not by itself cause the resulting document to be
+ covered by the GNU General Public License. This exception does not
+ however invalidate any other reasons why the document might be covered
+ by the GNU General Public License. If you modify this font, you may
+ extend this exception to your version of the font, but you are not
+ obligated to do so. If you do not wish to do so, delete this exception
+ statement from your version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.
+ See the GNU General Public License for more details.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+Files: aeolus/addsynth.cpp
+       aeolus/addsynth.h
+       aeolus/aeolus.cpp
+       aeolus/asection.cpp
+       aeolus/asection.h
+       aeolus/audio.cpp
+       aeolus/callbacks.h
+       aeolus/division.cpp
+       aeolus/division.h
+       aeolus/exp2ap.cpp
+       aeolus/messages.h
+       aeolus/model.cpp
+       aeolus/model.h
+       aeolus/prbsgen.h
+       aeolus/rankwave.cpp
+       aeolus/rankwave.h
+       aeolus/rngen.cpp
+       aeolus/rngen.h
+       aeolus/scales.cpp
+       aeolus/scales.h
+       effects/chorus/*
+       effects/zita1/zita.cpp
+       effects/zita1/zita.h
+Copyright: 2003-2010, Fons Adriaensen <fons@kokkinizita.net>
+License: GPL-2+
+
+Files: aeolus/global.h
+Copyright: 2003-2010, Fons Adriaensen <fons@kokkinizita.net>
+           2008, Hans Fugal <hans@fugal.net>
+License: GPL-2+
+
+Files: awl/fastlog.h
+Copyright: Laurent de Soras <laurent@ohmforce.com>
+License: WTFPL-2
+
+Files: build/ECMQt4To5Porting.cmake
+Copyright: 2005-2011, Kitware, Inc.
+License: BSD-3-clause
+
+Files: build/FindPulseAudio.cmake
+Copyright: 2008, Andreas Schneider <mail@cynapses.org>
+                 Lasse Kärkkäinen <tronic>
+License: BSD-3-clause
+
+Files: build/travis/job2_AppImage/bintray.sh
+Copyright: 2004-2016, Simon Peter
+License: Expat
+
+Files: build/travis/job_macos/extract-qt-installer
+Copyright: QT-CI Project <https://github.com/benlau/qtci>
+License: Apache-2.0
+
+Files: demos/All_Dudes.mscz
+       demos/Triumph.mscz
+Copyright: 2011, Outside Shore Music
+License: GPL-2
+
+Files: demos/Reunion.mscz
+Copyright: 2012, Marc Sabatella
+License: CC-BY-3.0
+
+Files: effects/freeverb/freeverb.cpp
+       effects/freeverb/freeverb.h
+Copyright: 2009, Werner Schweer
+License: Freeverb-PD and GPL-2 with Font exception (MuseScore)
+
+License: Freeverb-PD
+ Written by Jezar at Dreampoint, June 2000
+ “This code is public domain” (well, it originally was)
+
+Files: fluid/chan.cpp
+       fluid/conv.cpp
+       fluid/conv.h
+       fluid/dsp.cpp
+       fluid/fluid.cpp
+       fluid/fluid.h
+       fluid/gen.cpp
+       fluid/gen.h
+       fluid/mod.cpp
+       fluid/sfont.cpp
+       fluid/sfont.h
+       fluid/voice.cpp
+       fluid/voice.h
+Copyright: 2003, Peter Hanappe and others.
+License: GPL-2+
+
+Files: fluid/tuning.cpp
+       fluid/tuning.h
+Copyright: 2002-2005, Nasca Octavian Paul
+License: GPL-2
+
+Files: fonts/bravura/*
+Copyright: 2015, Steinberg Media Technologies GmbH <http://www.steinberg.net/>,
+ with Reserved Font Name "Bravura".
+License: OFL-1.1
+
+Files: fonts/gootville/*
+Copyright: Grzegorz Pruchniakowski
+ Daniel Spreadbury at Steinberg
+License: OFL-1.1
+
+Files: fonts/mscore/MScoreText.*
+Copyright: 2014, Werner Schweer and others <http://musescore.org>,
+ with Reserved Font Name "MScore Text".
+License: OFL-1.1
+
+Files: fonts/mscore/mscore.*
+       debian/patches/upstream/improve-mscore-font.diff
+       debian/upstream/mscore.ttf
+Comment: debian/upstream/mscore.ttf was generated by me on
+ Debian sid from the fully patched fonts/mscore/mscore.sfd
+ and included here (because running fontforge during build
+ is less portable / more problematic)
+Copyright:
+ MScore, the MuseScore 2 notational font, is Copyright (c)
+  - 2009, David Bolton <davidkbolton@gmail.com>
+  - 2012, Grzegorz Pruchniakowski <gootector@o2.pl>
+  - 2006-2014, Werner Schweer <ws@wschweer.de>
+  - 2014, John Pirie <jpirie23@gmail.com>
+  + 2010-2014, Maurizio M. Gavioli <mmg@vistamaresoft.com>
+  - 2013-2015, Nicolas Froment <lasconic@gmail.com>
+  + 2018-2020, mirabilos <tg@debian.org>
+ Parts of the font are derived from Parnassus, which is Copyright (c)
+  + 2005-2013, Kristof Bastiaensen (www.resonata.be)
+ Parts of the font are derived from Emmentaler, the GNU LilyPond
+ notational font, which is Copyright (c)
+  - 1997-2012, Han-Wen Nienhuys <hanwen@xs4all.nl>
+  - 1997-2012, Jan Nieuwenhuizen <janneke@gnu.org>
+  - 2000-2012, Jürgen Reuter <reuter_j@web.de>
+  - 2011-2012, Bertrand Bordage <bordage.bertrand@gmail.com>
+  + 1998-2012, Mats Bengtsson <matsb@s3.kth.se>
+  + 1998-2012, Christian Mondrup <cmo@icking-music-archive.org>
+License: GPL-3+ with Font exception (MScore/LilyPond)
+ Emmentaler currently is dual-licenced, in SPDX terms:
+  OFL-1.1 OR GPL-3.0-or-later WITH Font-exception-2.0
+ The Emmentaler version MScore forked off was not dual-licenced
+ with the SIL OFL. However, those co-authors marked with a plus
+ instead of hyphen-minus sign above explicitly agreed for the
+ relicencing to be applied retroactively; the hyphen-minus-marked
+ co-authors have yet to respond either way but all were informed.
+ .
+ Parnassus for MScore is also dual-licenced with identical terms.
+ .
+ MScore has the same co-author markings as used for Emmentaler.
+ (Replace “fonts included in LilyPond” with “this font” in the
+ font exception terms below for them to make sense.) MScore is
+ developed within MuseScore, which requires contributions to be
+ assigned to MuseScore BVBA currently, which also distributes
+ MuseScore with the MScore font embedded. This can be interpreted
+ as concludent act permitting the embedding which is only possible
+ (out of the licences inherited from Emmentaler) under the OFL.
+ Therefore MScore as embedded into the binaries of MuseScore is
+ most likely OFL-licenced; everywhere else it should be treated
+ as GPLv3+ with font exception until clarification is achieved.
+ .
+ The licence grant for GPLv3+ with font exception follows verbatim:
+ .
+ GNU LilyPond is free software: you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation, either version 3 of the License, or (at your
+ option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ The following exceptions apply:
+ .
+ If you create a document which uses fonts included in LilyPond, and
+ embed this font or unaltered portions of this font into the document,
+ then this font does not by itself cause the resulting document to be
+ covered by the GNU General Public License. This exception does not
+ however invalidate any other reasons why the document might be covered
+ by the GNU General Public License. If you modify one or more of the
+ fonts, you may extend this exception to your version of the fonts but
+ you are not obliged to do so. If you do not wish to do so, delete this
+ exception statement from your version.
+
+Files: fonts/mscore-BC.* fonts/mscoreTab.* fonts/mscore_tab.sfd
+Copyright: 2012-2015, Maurizio M. Gavioli
+License: OFL-1.1
+
+Files: fonts/MuseJazz*
+Copyright: 2004, Jochen Pietsch; transferred by verbal agreement
+           2009, Werner Schweer <ws@seh.de> (CLA licensee)
+           2012, 2014, 2015, Marc Sabatella <marc@outsideshore.com>
+ with Reserved Font Name MuseJazz
+Comment: renamed to MuseJazz Text for Mu͒seScore 3
+License: OFL-1.1
+
+Files: mscore/alsa.cpp
+       mscore/alsa.h
+       mscore/alsamidi.h
+       mscore/mididriver.cpp
+       mscore/mididriver.h
+Copyright:      2002, Paul Davis
+                2003, Fons Adriaensen
+           2002-2015, Werner Schweer and others.
+License: GPL-2
+
+Files: mscore/click.h
+Copyright: 2002, Paul Davis
+License: GPL-2+
+
+Files: mscore/data/icons/*
+Copyright: Mirek Mazel, GNOME Project (http://www.gnome.org)
+License: CC-BY-SA-3.0
+
+Files: mscore/data/icons/acciaccatura.svg
+       mscore/data/icons/appoggiatura.svg
+       mscore/data/icons/beam32.svg
+       mscore/data/icons/beam64.svg
+       mscore/data/icons/brackets.svg
+       mscore/data/icons/clef.svg
+       mscore/data/icons/fbeam1.svg
+       mscore/data/icons/fbeam2.svg
+       mscore/data/icons/grace16.svg
+       mscore/data/icons/grace16after.svg
+       mscore/data/icons/grace32.svg
+       mscore/data/icons/grace32after.svg
+       mscore/data/icons/grace4.svg
+       mscore/data/icons/grace8after.svg
+       mscore/data/icons/grace8b.svg
+       mscore/data/icons/mbeam.svg
+       mscore/data/icons/mscore.png
+       mscore/data/icons/nbeam.svg
+       mscore/data/icons/sbeam.svg
+       mscore/data/icons/timesig_allabreve.svg
+       mscore/data/icons/timesig_common.svg
+       mscore/data/icons/timesig_prolatio01.svg
+       mscore/data/icons/timesig_prolatio02.svg
+       mscore/data/icons/timesig_prolatio03.svg
+       mscore/data/icons/timesig_prolatio04.svg
+       mscore/data/icons/timesig_prolatio05.svg
+       mscore/data/icons/timesig_prolatio07.svg
+       mscore/data/icons/timesig_prolatio08.svg
+       mscore/data/icons/timesig_prolatio10.svg
+       mscore/data/icons/timesig_prolatio11.svg
+Copyright: 2002-2018, Werner Schweer and others
+License: GPL-2
+
+Files: mscore/importgtp-gp6.cpp
+Copyright: 2014, John Pirie
+License: GPL-2
+
+Files: mscore/schema/*
+Copyright: 2004-2011, Recordare LLC
+License: MusicXML-3.0
+
+Files: mscore/svggenerator.cpp
+       mscore/svggenerator.h
+Copyright: 2011, Nokia Corporation and/or its subsidiary(-ies)
+ <qt-info@nokia.com>
+License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1 or GPL-3
+
+Files: mscore/toolbuttonmenu.cpp
+       mscore/toolbuttonmenu.h
+Copyright: 2016, Peter Jonas <shoogle@users.noreply.github.com>
+License: GPL-2
+
+Files: mstyle/*.cpp
+       mstyle/*.h
+Copyright: 2009-2010, Hugo Pereira Da Costa <hugo.pereira@free.fr>
+License: Expat
+
+Files: mstyle/colorscheme.cpp
+       mstyle/colorscheme.h
+Copyright: 2007, Matthew Woehlke <mw_triad@users.sourceforge.net>
+License: GPL-2+
+
+Files: mstyle/tileset.cpp
+       mstyle/tileset.h
+Copyright:      2007, Matthew Woehlke <mw_triad@users.sourceforge.net>
+                2008, Long Huynh Huu <long.upcase@googlemail.com>
+           2009-2010, Hugo Pereira Da Costa <hugo@oxygen-icons.org>
+License: GPL-2
+
+Files: mstyle/colorutils.cpp
+       mstyle/mconfig.cpp
+       mstyle/mconfig.h
+       mstyle/mstyle.cpp
+       mstyle/mstyle.h
+       mstyle/stylehelper.cpp
+       mstyle/stylehelper.h
+Copyright: 2010, Werner Schweer and others
+License: GPL-2
+
+Files: share/plugins/abc_import.qml
+Copyright: 2013, Stephane Groleau (vgstef)
+License: GPL-2
+
+Files: share/plugins/colornotes.qml
+Copyright:      2012, Werner Schweer
+           2013-2015, Nicolas Froment, Joachim Schmitz
+                2014, Jörn Eichler
+License: GPL-2
+
+Files: share/plugins/notenames.qml
+Copyright:      2012, Werner Schweer
+           2013-2017, Joachim Schmitz
+                2014, Jörn Eichler
+License: GPL-2
+
+Files: share/wallpaper/paper4.png
+       share/wallpaper/paper5.png
+Copyright: 2008, Sun Microsystems, Inc
+           2008, Toby Smithe
+License: LGPL-3
+
+Files: thirdparty/beatroot/*
+Copyright: 2011, Simon Dixon, Chris Cannam and QMUL
+License: GPL-2+
+
+Files: thirdparty/intervaltree/*
+Copyright: 2011, Erik Garrison <erik.garrison@gmail.com>
+License: Expat
+
+Files: thirdparty/kQOAuth/*
+Copyright: Johan Paul <johan.paul@gmail.com>
+License: LGPL-2.1+
+
+Files: thirdparty/ofqf/*
+Copyright: 2007, Arnold Krille <arnold@arnoldarts.de>
+License: GPL-2+
+
+Files: thirdparty/qzip/qzipreader_p.h thirdparty/qzip/qzipwriter_p.h
+Copyright: 2012, Nokia Corporation and/or its subsidiary(-ies)
+ <qt-info@nokia.com>
+License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1 or GPL-3
+
+Files: thirdparty/qzip/qzip.cpp
+Copyright: 2016, The Qt Company Ltd. <https://www.qt.io/licensing/>
+License: Qt-Commercial-or-LGPL-3-or-GPL-2+
+
+Files: thirdparty/rtf2html/*
+Copyright: 2003, Valentin Lavrinenko <vlavrinenko@users.sourceforge.net>
+License: LGPL-2.1+
+
+Files: thirdparty/singleapp/*
+Copyright: 2013, Digia Plc and/or its subsidiary(-ies).
+ <http://www.qt-project.org/legal>
+License: BSD-3-clause
+
+Files: thirdparty/xmlstream/*
+Copyright: 2013, Digia Plc and/or its subsidiary(-ies).
+ <http://www.qt-project.org/legal>
+License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+
+Files: *CMakeLists.txt
+Copyright: 2002-2018, Werner Schweer and others
+License: GPL-2
+
+Files: debian/patches/experiments/arm-asserts.diff
+Copyright: 2024, mirabilos <tg@debian.org>
+License: MirBSD
+
+License: MirBSD
+  Provided that these terms and disclaimer and all copyright notices
+  are retained or reproduced in an accompanying document, permission
+  is granted to deal in this work without restriction, including un‐
+  limited rights to use, publicly perform, distribute, sell, modify,
+  merge, give away, or sublicence.
+ .
+  This work is provided “AS IS” and WITHOUT WARRANTY of any kind, to
+  the utmost extent permitted by applicable law, neither express nor
+  implied; without malicious intent or gross negligence. In no event
+  may a licensor, author or contributor be held liable for indirect,
+  direct, other damage, loss, or other issues arising in any way out
+  of dealing in the work, even if advised of the possibility of such
+  damage or existence of a defect, except proven that it results out
+  of said person’s immediate fault when using the work as intended.
+Comment: The interpretation guidelines from the homepage
+ <https://mbsd.evolvis.org/MirOS-Licence.htm> apply, especially
+ in regard to so-called “AI”.
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+   http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the full text of the Apache License, Version 2.0
+ can be found in the file `/usr/share/common-licenses/Apache-2.0'.
+
+License: BSD-3-clause
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its
+ contributors may be used to endorse or promote products derived
+ from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1`.
+
+License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
+ GNU Lesser General Public License version 2.1:
+ This file may be used under the terms of the GNU Lesser General Public
+ License version 2.1 as published by the Free Software Foundation and
+ appearing in the file LICENSE.LGPL included in the packaging of this
+ file. Please review the following information to ensure the GNU Lesser
+ General Public License version 2.1 requirements will be met:
+ http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ .
+ In addition, as a special exception, Digia gives you certain additional
+ rights. These rights are described in the Digia Qt LGPL Exception
+ version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1`.
+ .
+ Digia Qt LGPL Exception version 1.1:
+ As an additional permission to the GNU Lesser General Public License version
+ 2.1, the object code form of a "work that uses the Library" may incorporate
+ material from a header file that is part of the Library.  You may distribute
+ such object code under terms of your choice, provided that:
+     (i)   the header files of the Library have not been modified; and
+     (ii)  the incorporated material is limited to numerical parameters, data
+           structure layouts, accessors, macros, inline functions and
+           templates; and
+     (iii) you comply with the terms of Section 6 of the GNU Lesser General
+           Public License version 2.1.
+ .
+ Moreover, you may apply this exception to a modified version of the Library,
+ provided that such modification does not involve copying material from the
+ Library into the modified Library's header files unless such material is
+ limited to (i) numerical parameters; (ii) data structure layouts;
+ (iii) accessors; and (iv) small macros, templates and inline functions of
+ five lines or less in length.
+ .
+ Furthermore, you are not required to apply this additional permission to a
+ modified version of the Library.
+
+License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1
+ This file may be used under the terms of the GNU Lesser General Public
+ License version 2.1 as published by the Free Software Foundation and
+ appearing in the file LICENSE.LGPL included in the packaging of this
+ file. Please review the following information to ensure the GNU Lesser
+ General Public License version 2.1 requirements will be met:
+ http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
+ .
+ In addition, as a special exception, Nokia gives you certain additional
+ rights. These rights are described in the Nokia Qt LGPL Exception
+ version 1.1 (immediately below).
+ .
+ Nokia Qt LGPL Exception version 1.1
+ .
+ As an additional permission to the GNU Lesser General Public License
+ version 2.1, the object code form of a "work that uses the Library"
+ may incorporate material from a header file that is part of the
+ Library.  You may distribute such object code under terms of your
+ choice, provided that:
+ (i) the header files of the Library have not been modified; and
+ (ii) the incorporated material is limited to numerical parameters,
+ data structure layouts, accessors, macros, inline functions and
+ templates; and
+ (iii) you comply with the terms of Section 6 of the GNU
+ Lesser General Public License version 2.1.
+ .
+ Moreover, you may apply this exception to a modified version of the
+ Library, provided that such modification does not involve copying
+ material from the Library into the modified Library?s header files
+ unless such material is limited to (i) numerical parameters; (ii) data
+ structure layouts; (iii) accessors; and (iv) small macros, templates
+ and inline functions of five lines or less in length.
+ .
+ Furthermore, you are not required to apply this additional permission
+ to a modified version of the Library.
+
+License: Qt-Commercial-or-LGPL-3-or-GPL-2+
+ Licensees holding valid commercial Qt licenses may use this file in
+ accordance with the commercial license agreement provided with the
+ Software or, alternatively, in accordance with the terms contained in
+ a written agreement between you and The Qt Company. For licensing terms
+ and conditions see https://www.qt.io/terms-conditions. For further
+ information use the contact form at https://www.qt.io/contact-us.
+ .
+ The above paragraph is only included for completeness and has no
+ bearing on Debian.
+ .
+ Alternatively, this file may be used under the terms of the GNU Lesser
+ General Public License version 3 as published by the Free Software
+ Foundation and appearing in the file LICENSE.LGPL3 included in the
+ packaging of this file. Please review the following information to
+ ensure the GNU Lesser General Public License version 3 requirements
+ will be met: https://www.gnu.org/licenses/lgpl-3.0.html.
+ .
+ On Debian systems, /usr/share/common-licenses/LGPL-3 contains the
+ text of this licence.
+ .
+ Alternatively, this file may be used under the terms of the GNU
+ General Public License version 2.0 or (at your option) the GNU General
+ Public license version 3 or any later version approved by the KDE Free
+ Qt Foundation. The licenses are as published by the Free Software
+ Foundation and appearing in the file LICENSE.GPL2 and LICENSE.GPL3
+ included in the packaging of this file. Please review the following
+ information to ensure the GNU General Public License requirements will
+ be met: https://www.gnu.org/licenses/gpl-2.0.html and
+ https://www.gnu.org/licenses/gpl-3.0.html.
+ .
+ On Debian systems, /usr/share/common-licenses/GPL-2 and
+ /usr/share/common-licenses/GPL-3 respectively contain the
+ texts of these licences.
+
+License: LGPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/LGPL-3`.
+
+License: MusicXML-3.0
+ MusicXML™ Public License Version 3.0
+ .
+ This MusicXML™ work (including software, documents, or other related
+ items) is being provided by the Copyright Holder under the following
+ license. By obtaining, using and/or copying this work, each Contributor
+ and Recipient (hereinafter, collectively known as "Licensee") agree that
+ he/she has read, understood, and will comply with the following terms and
+ conditions:
+ .
+ A. DEFINITIONS
+ .
+ "Copyright Holder" means MakeMusic, Inc.
+ .
+ "Contribution" means:
+ .
+ in the case of MakeMusic, Inc., the Original Program, and
+ in the case of each Contributor,
+ changes to the Program, and
+ additions to the Program;
+ where such changes and/or additions to the Program originate from and are
+ distributed by that particular Contributor. A Contribution 'originates'
+ from a Contributor if it was added to the Program by such Contributor
+ itself or anyone acting on such Contributor's behalf. Contributions do not
+ include additions to the Program which: (i) are separate modules of
+ software distributed in conjunction with the Program under their own
+ license agreement, and (ii) are not derivative works of the Program.
+ "Contributor" means MakeMusic, Inc. and any other entity that distributes
+ the Program.
+ .
+ "MusicXML™ Mark" means the MusicXML™ trademark owned by MakeMusic, Inc.
+ .
+ "Original Program" means the original version of the software accompanying
+ this Agreement as released by MakeMusic, Inc., including source code,
+ object code and documentation, if any.
+ .
+ "Program" means the Original Program and Contributions.
+ .
+ "Recipient" means anyone who receives the Program under this Agreement,
+ including all Contributors.
+ .
+ B. GRANT OF RIGHTS
+ .
+ Permission to use, copy, modify, and distribute the Program, with or
+ without modification, for any purpose and without fee or royalty is hereby
+ granted, provided that each Recipient include the following on ALL copies
+ of the Program or portions thereof, including modifications, that he/she
+ make:
+ .
+ The full text of this License in a location viewable to users of the
+ redistributed or derivative work.
+ .
+ Any pre-existing intellectual property disclaimers, notices, or terms and
+ conditions. If none exist, a short notice of the following form (hypertext
+ is preferred, text is permitted) should be used within the body of any
+ redistributed or derivative code: "© MakeMusic, Inc. All rights reserved.
+ http://www.makemusic.com"
+ .
+ Notice of any changes or modifications to the MusicXML™ files, including
+ the date changes were made. (We recommend you provide URLs to the location
+ from which the code is derived.)
+ .
+ In addition, creators of derivative works must include the full text of
+ this License in a location viewable to users of the derivative work.
+ .
+ Title to copyright in the Program will at all times remain with Copyright
+ Holder.
+ .
+ C. NO WARRANTY
+ .
+ EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED
+ ON AN "AS IS" BASIS, AND COPYRIGHT HOLDER MAKES NO WARRANTIES OR
+ CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT
+ LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT,
+ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is
+ solely responsible for determining the appropriateness of using and
+ distributing the Program and assumes all risks associated with its
+ exercise of rights under this Agreement, including but not limited to the
+ risks and costs of program errors, compliance with applicable laws, damage
+ to or loss of data, programs or equipment, and unavailability or
+ interruption of operations.
+ .
+ D. DISCLAIMER OF LIABILITY
+ .
+ EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER COPYRIGHT HOLDER
+ NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING
+ WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION
+ OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ .
+ E. TRADEMARK
+ .
+ 1. The MusicXML™ Mark (or a derivative Mark, such as MusicXML™ Plus)
+ may not be used to identify any product or service not originating from or
+ licensed by Copyright Holder without specific, written prior permission.
+ However, it is acceptable for a Contributor product or service to be
+ described as being MusicXML™-compatible, assuming that the claim is true
+ in Copyright Holder’s reasonable judgment.
+ .
+ 2. This License does not grant any rights to use any other trademarks
+ owned by Copyright Holder, including without limitation "Recordare®",
+ "Dolet®", and "In the Beginning Was the Note®", even if such marks are
+ included in the Program. For purposes of clarification and the avoidance
+ of doubt, the trademarks "Recordare®", "Dolet®", and "In the Beginning
+ Was the Note®" must not be used to endorse or promote Contributor
+ versions of the Program without the prior written permission of Copyright
+ Holder.
+ .
+ 3. All rights not expressly granted herein by Copyright Holder with
+ respect to the MusicXML™ Mark or any other trademarks owned by Copyright
+ Holder are reserved by and to Copyright Holder.
+ .
+ F. GENERAL
+ .
+ If any provision of this Agreement is invalid or unenforceable under
+ applicable law, it shall not affect the validity or enforceability of the
+ remainder of the terms of this Agreement, and without further action by
+ the parties hereto, such provision shall be reformed to the minimum extent
+ necessary to make such provision valid and enforceable.
+ .
+ All Recipient's rights under this Agreement shall terminate if it fails to
+ comply with any of the material terms or conditions of this Agreement and
+ does not cure such failure in a reasonable period of time after becoming
+ aware of such noncompliance. If all Recipient's rights under this
+ Agreement terminate, Recipient agrees to cease use and distribution of the
+ Program as soon as reasonably practicable. However, Recipient's
+ obligations under this Agreement and any licenses granted by Recipient
+ relating to the Program shall continue and survive.
+ .
+ MakeMusic, Inc. may publish new versions (including revisions) of this
+ Agreement from time to time. Each new version of the Agreement will be
+ given a distinguishing version number. The Program (including
+ Contributions) may always be distributed subject to the version of the
+ Agreement under which it was received. In addition, after a new version of
+ the Agreement is published, Contributor may elect to distribute the
+ Program (including its Contributions) under the new version. No one other
+ than MakeMusic, Inc. has the right to modify this Agreement. Except as
+ expressly stated in Sections B and E above, Recipient receives no rights
+ or licenses to the intellectual property of any Contributor under this
+ Agreement, whether expressly, by implication, estoppel or otherwise. All
+ rights in the Program not expressly granted under this Agreement are
+ reserved.
+ .
+ This Agreement is governed by the laws of the State of California and the
+ intellectual property laws of the United States of America.
+
+License: OFL-1.1
+ This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ This license is copied below, and is also available with a FAQ at:
+ http://scripts.sil.org/OFL
+ .
+ -----------------------------------------------------------
+ SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+ -----------------------------------------------------------
+ .
+ PREAMBLE
+ The goals of the Open Font License (OFL) are to stimulate worldwide
+ development of collaborative font projects, to support the font creation
+ efforts of academic and linguistic communities, and to provide a free and
+ open framework in which fonts may be shared and improved in partnership
+ with others.
+ .
+ The OFL allows the licensed fonts to be used, studied, modified and
+ redistributed freely as long as they are not sold by themselves. The
+ fonts, including any derivative works, can be bundled, embedded,
+ redistributed and/or sold with any software provided that any reserved
+ names are not used by derivative works. The fonts and derivatives,
+ however, cannot be released under any other type of license. The
+ requirement for fonts to remain under this license does not apply
+ to any document created using the fonts or their derivatives.
+ .
+ DEFINITIONS
+ "Font Software" refers to the set of files released by the Copyright
+ Holder(s) under this license and clearly marked as such. This may
+ include source files, build scripts and documentation.
+ .
+ "Reserved Font Name" refers to any names specified as such after the
+ copyright statement(s).
+ .
+ "Original Version" refers to the collection of Font Software components as
+ distributed by the Copyright Holder(s).
+ .
+ "Modified Version" refers to any derivative made by adding to, deleting,
+ or substituting -- in part or in whole -- any of the components of the
+ Original Version, by changing formats or by porting the Font Software to a
+ new environment.
+ .
+ "Author" refers to any designer, engineer, programmer, technical
+ writer or other person who contributed to the Font Software.
+ .
+ PERMISSION & CONDITIONS
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of the Font Software, to use, study, copy, merge, embed, modify,
+ redistribute, and sell modified and unmodified copies of the Font
+ Software, subject to the following conditions:
+ .
+ 1) Neither the Font Software nor any of its individual components,
+ in Original or Modified Versions, may be sold by itself.
+ .
+ 2) Original or Modified Versions of the Font Software may be bundled,
+ redistributed and/or sold with any software, provided that each copy
+ contains the above copyright notice and this license. These can be
+ included either as stand-alone text files, human-readable headers or
+ in the appropriate machine-readable metadata fields within text or
+ binary files as long as those fields can be easily viewed by the user.
+ .
+ 3) No Modified Version of the Font Software may use the Reserved Font
+ Name(s) unless explicit written permission is granted by the corresponding
+ Copyright Holder. This restriction only applies to the primary font name as
+ presented to the users.
+ .
+ 4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+ Software shall not be used to promote, endorse or advertise any
+ Modified Version, except to acknowledge the contribution(s) of the
+ Copyright Holder(s) and the Author(s) or with their explicit written
+ permission.
+ .
+ 5) The Font Software, modified or unmodified, in part or in whole,
+ must be distributed entirely under this license, and must not be
+ distributed under any other license. The requirement for fonts to
+ remain under this license does not apply to any document created
+ using the Font Software.
+ .
+ TERMINATION
+ This license becomes null and void if any of the above conditions are
+ not met.
+ .
+ DISCLAIMER
+ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+ OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+ OTHER DEALINGS IN THE FONT SOFTWARE.
+
+License: WTFPL-2
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+ .
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ .
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+ .
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+License: CC-BY-3.0
+ Attribution 3.0 Unported
+ .
+     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+     LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN
+     ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+     INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+     REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR
+     DAMAGES RESULTING FROM ITS USE.
+ .
+ License
+ .
+ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
+ COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
+ COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
+ AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+ .
+ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
+ TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY
+ BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS
+ CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
+ CONDITIONS.
+ .
+ 1. Definitions
+ .
+  a. "Adaptation" means a work based upon the Work, or upon the Work and
+     other pre-existing works, such as a translation, adaptation,
+     derivative work, arrangement of music or other alterations of a
+     literary or artistic work, or phonogram or performance and includes
+     cinematographic adaptations or any other form in which the Work may be
+     recast, transformed, or adapted including in any form recognizably
+     derived from the original, except that a work that constitutes a
+     Collection will not be considered an Adaptation for the purpose of
+     this License. For the avoidance of doubt, where the Work is a musical
+     work, performance or phonogram, the synchronization of the Work in
+     timed-relation with a moving image ("synching") will be considered an
+     Adaptation for the purpose of this License.
+  b. "Collection" means a collection of literary or artistic works, such as
+     encyclopedias and anthologies, or performances, phonograms or
+     broadcasts, or other works or subject matter other than works listed
+     in Section 1(f) below, which, by reason of the selection and
+     arrangement of their contents, constitute intellectual creations, in
+     which the Work is included in its entirety in unmodified form along
+     with one or more other contributions, each constituting separate and
+     independent works in themselves, which together are assembled into a
+     collective whole. A work that constitutes a Collection will not be
+     considered an Adaptation (as defined above) for the purposes of this
+     License.
+  c. "Distribute" means to make available to the public the original and
+     copies of the Work or Adaptation, as appropriate, through sale or
+     other transfer of ownership.
+  d. "Licensor" means the individual, individuals, entity or entities that
+     offer(s) the Work under the terms of this License.
+  e. "Original Author" means, in the case of a literary or artistic work,
+     the individual, individuals, entity or entities who created the Work
+     or if no individual or entity can be identified, the publisher; and in
+     addition (i) in the case of a performance the actors, singers,
+     musicians, dancers, and other persons who act, sing, deliver, declaim,
+     play in, interpret or otherwise perform literary or artistic works or
+     expressions of folklore; (ii) in the case of a phonogram the producer
+     being the person or legal entity who first fixes the sounds of a
+     performance or other sounds; and, (iii) in the case of broadcasts, the
+     organization that transmits the broadcast.
+  f. "Work" means the literary and/or artistic work offered under the terms
+     of this License including without limitation any production in the
+     literary, scientific and artistic domain, whatever may be the mode or
+     form of its expression including digital form, such as a book,
+     pamphlet and other writing; a lecture, address, sermon or other work
+     of the same nature; a dramatic or dramatico-musical work; a
+     choreographic work or entertainment in dumb show; a musical
+     composition with or without words; a cinematographic work to which are
+     assimilated works expressed by a process analogous to cinematography;
+     a work of drawing, painting, architecture, sculpture, engraving or
+     lithography; a photographic work to which are assimilated works
+     expressed by a process analogous to photography; a work of applied
+     art; an illustration, map, plan, sketch or three-dimensional work
+     relative to geography, topography, architecture or science; a
+     performance; a broadcast; a phonogram; a compilation of data to the
+     extent it is protected as a copyrightable work; or a work performed by
+     a variety or circus performer to the extent it is not otherwise
+     considered a literary or artistic work.
+  g. "You" means an individual or entity exercising rights under this
+     License who has not previously violated the terms of this License with
+     respect to the Work, or who has received express permission from the
+     Licensor to exercise rights under this License despite a previous
+     violation.
+  h. "Publicly Perform" means to perform public recitations of the Work and
+     to communicate to the public those public recitations, by any means or
+     process, including by wire or wireless means or public digital
+     performances; to make available to the public Works in such a way that
+     members of the public may access these Works from a place and at a
+     place individually chosen by them; to perform the Work to the public
+     by any means or process and the communication to the public of the
+     performances of the Work, including by public digital performance; to
+     broadcast and rebroadcast the Work by any means including signs,
+     sounds or images.
+  i. "Reproduce" means to make copies of the Work by any means including
+     without limitation by sound or visual recordings and the right of
+     fixation and reproducing fixations of the Work, including storage of a
+     protected performance or phonogram in digital form or other electronic
+     medium.
+ .
+ 2. Fair Dealing Rights. Nothing in this License is intended to reduce,
+ limit, or restrict any uses free from copyright or rights arising from
+ limitations or exceptions that are provided for in connection with the
+ copyright protection under copyright law or other applicable laws.
+ .
+ 3. License Grant. Subject to the terms and conditions of this License,
+ Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
+ perpetual (for the duration of the applicable copyright) license to
+ exercise the rights in the Work as stated below:
+ .
+  a. to Reproduce the Work, to incorporate the Work into one or more
+     Collections, and to Reproduce the Work as incorporated in the
+     Collections;
+  b. to create and Reproduce Adaptations provided that any such Adaptation,
+     including any translation in any medium, takes reasonable steps to
+     clearly label, demarcate or otherwise identify that changes were made
+     to the original Work. For example, a translation could be marked "The
+     original work was translated from English to Spanish," or a
+     modification could indicate "The original work has been modified.";
+  c. to Distribute and Publicly Perform the Work including as incorporated
+     in Collections; and,
+  d. to Distribute and Publicly Perform Adaptations.
+  e. For the avoidance of doubt:
+ .
+      i. Non-waivable Compulsory License Schemes. In those jurisdictions in
+         which the right to collect royalties through any statutory or
+         compulsory licensing scheme cannot be waived, the Licensor
+         reserves the exclusive right to collect such royalties for any
+         exercise by You of the rights granted under this License;
+     ii. Waivable Compulsory License Schemes. In those jurisdictions in
+         which the right to collect royalties through any statutory or
+         compulsory licensing scheme can be waived, the Licensor waives the
+         exclusive right to collect such royalties for any exercise by You
+         of the rights granted under this License; and,
+    iii. Voluntary License Schemes. The Licensor waives the right to
+         collect royalties, whether individually or, in the event that the
+         Licensor is a member of a collecting society that administers
+         voluntary licensing schemes, via that society, from any exercise
+         by You of the rights granted under this License.
+ .
+ The above rights may be exercised in all media and formats whether now
+ known or hereafter devised. The above rights include the right to make
+ such modifications as are technically necessary to exercise the rights in
+ other media and formats. Subject to Section 8(f), all rights not expressly
+ granted by Licensor are hereby reserved.
+ .
+ 4. Restrictions. The license granted in Section 3 above is expressly made
+ subject to and limited by the following restrictions:
+ .
+  a. You may Distribute or Publicly Perform the Work only under the terms
+     of this License. You must include a copy of, or the Uniform Resource
+     Identifier (URI) for, this License with every copy of the Work You
+     Distribute or Publicly Perform. You may not offer or impose any terms
+     on the Work that restrict the terms of this License or the ability of
+     the recipient of the Work to exercise the rights granted to that
+     recipient under the terms of the License. You may not sublicense the
+     Work. You must keep intact all notices that refer to this License and
+     to the disclaimer of warranties with every copy of the Work You
+     Distribute or Publicly Perform. When You Distribute or Publicly
+     Perform the Work, You may not impose any effective technological
+     measures on the Work that restrict the ability of a recipient of the
+     Work from You to exercise the rights granted to that recipient under
+     the terms of the License. This Section 4(a) applies to the Work as
+     incorporated in a Collection, but this does not require the Collection
+     apart from the Work itself to be made subject to the terms of this
+     License. If You create a Collection, upon notice from any Licensor You
+     must, to the extent practicable, remove from the Collection any credit
+     as required by Section 4(b), as requested. If You create an
+     Adaptation, upon notice from any Licensor You must, to the extent
+     practicable, remove from the Adaptation any credit as required by
+     Section 4(b), as requested.
+  b. If You Distribute, or Publicly Perform the Work or any Adaptations or
+     Collections, You must, unless a request has been made pursuant to
+     Section 4(a), keep intact all copyright notices for the Work and
+     provide, reasonable to the medium or means You are utilizing: (i) the
+     name of the Original Author (or pseudonym, if applicable) if supplied,
+     and/or if the Original Author and/or Licensor designate another party
+     or parties (e.g., a sponsor institute, publishing entity, journal) for
+     attribution ("Attribution Parties") in Licensor's copyright notice,
+     terms of service or by other reasonable means, the name of such party
+     or parties; (ii) the title of the Work if supplied; (iii) to the
+     extent reasonably practicable, the URI, if any, that Licensor
+     specifies to be associated with the Work, unless such URI does not
+     refer to the copyright notice or licensing information for the Work;
+     and (iv) , consistent with Section 3(b), in the case of an Adaptation,
+     a credit identifying the use of the Work in the Adaptation (e.g.,
+     "French translation of the Work by Original Author," or "Screenplay
+     based on original Work by Original Author"). The credit required by
+     this Section 4 (b) may be implemented in any reasonable manner;
+     provided, however, that in the case of a Adaptation or Collection, at
+     a minimum such credit will appear, if a credit for all contributing
+     authors of the Adaptation or Collection appears, then as part of these
+     credits and in a manner at least as prominent as the credits for the
+     other contributing authors. For the avoidance of doubt, You may only
+     use the credit required by this Section for the purpose of attribution
+     in the manner set out above and, by exercising Your rights under this
+     License, You may not implicitly or explicitly assert or imply any
+     connection with, sponsorship or endorsement by the Original Author,
+     Licensor and/or Attribution Parties, as appropriate, of You or Your
+     use of the Work, without the separate, express prior written
+     permission of the Original Author, Licensor and/or Attribution
+     Parties.
+  c. Except as otherwise agreed in writing by the Licensor or as may be
+     otherwise permitted by applicable law, if You Reproduce, Distribute or
+     Publicly Perform the Work either by itself or as part of any
+     Adaptations or Collections, You must not distort, mutilate, modify or
+     take other derogatory action in relation to the Work which would be
+     prejudicial to the Original Author's honor or reputation. Licensor
+     agrees that in those jurisdictions (e.g. Japan), in which any exercise
+     of the right granted in Section 3(b) of this License (the right to
+     make Adaptations) would be deemed to be a distortion, mutilation,
+     modification or other derogatory action prejudicial to the Original
+     Author's honor and reputation, the Licensor will waive or not assert,
+     as appropriate, this Section, to the fullest extent permitted by the
+     applicable national law, to enable You to reasonably exercise Your
+     right under Section 3(b) of this License (right to make Adaptations)
+     but not otherwise.
+ .
+ 5. Representations, Warranties and Disclaimer
+ .
+ UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR
+ OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY
+ KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE,
+ INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF
+ LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS,
+ WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION
+ OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+ .
+ 6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE
+ LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR
+ ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES
+ ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS
+ BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ .
+ 7. Termination
+ .
+  a. This License and the rights granted hereunder will terminate
+     automatically upon any breach by You of the terms of this License.
+     Individuals or entities who have received Adaptations or Collections
+     from You under this License, however, will not have their licenses
+     terminated provided such individuals or entities remain in full
+     compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will
+     survive any termination of this License.
+  b. Subject to the above terms and conditions, the license granted here is
+     perpetual (for the duration of the applicable copyright in the Work).
+     Notwithstanding the above, Licensor reserves the right to release the
+     Work under different license terms or to stop distributing the Work at
+     any time; provided, however that any such election will not serve to
+     withdraw this License (or any other license that has been, or is
+     required to be, granted under the terms of this License), and this
+     License will continue in full force and effect unless terminated as
+     stated above.
+ .
+ 8. Miscellaneous
+ .
+  a. Each time You Distribute or Publicly Perform the Work or a Collection,
+     the Licensor offers to the recipient a license to the Work on the same
+     terms and conditions as the license granted to You under this License.
+  b. Each time You Distribute or Publicly Perform an Adaptation, Licensor
+     offers to the recipient a license to the original Work on the same
+     terms and conditions as the license granted to You under this License.
+  c. If any provision of this License is invalid or unenforceable under
+     applicable law, it shall not affect the validity or enforceability of
+     the remainder of the terms of this License, and without further action
+     by the parties to this agreement, such provision shall be reformed to
+     the minimum extent necessary to make such provision valid and
+     enforceable.
+  d. No term or provision of this License shall be deemed waived and no
+     breach consented to unless such waiver or consent shall be in writing
+     and signed by the party to be charged with such waiver or consent.
+  e. This License constitutes the entire agreement between the parties with
+     respect to the Work licensed here. There are no understandings,
+     agreements or representations with respect to the Work not specified
+     here. Licensor shall not be bound by any additional provisions that
+     may appear in any communication from You. This License may not be
+     modified without the mutual written agreement of the Licensor and You.
+  f. The rights granted under, and the subject matter referenced, in this
+     License were drafted utilizing the terminology of the Berne Convention
+     for the Protection of Literary and Artistic Works (as amended on
+     September 28, 1979), the Rome Convention of 1961, the WIPO Copyright
+     Treaty of 1996, the WIPO Performances and Phonograms Treaty of 1996
+     and the Universal Copyright Convention (as revised on July 24, 1971).
+     These rights and subject matter take effect in the relevant
+     jurisdiction in which the License terms are sought to be enforced
+     according to the corresponding provisions of the implementation of
+     those treaty provisions in the applicable national law. If the
+     standard suite of rights granted under applicable copyright law
+     includes additional rights not granted under this License, such
+     additional rights are deemed to be included in the License; this
+     License is not intended to restrict the license of any rights under
+     applicable law.
+ .
+ Creative Commons Notice
+ .
+     Creative Commons is not a party to this License, and makes no warranty
+     whatsoever in connection with the Work. Creative Commons will not be
+     liable to You or any party on any legal theory for any damages
+     whatsoever, including without limitation any general, special,
+     incidental or consequential damages arising in connection to this
+     license. Notwithstanding the foregoing two (2) sentences, if Creative
+     Commons has expressly identified itself as the Licensor hereunder, it
+     shall have all rights and obligations of Licensor.
+ .
+     Except for the limited purpose of indicating to the public that the
+     Work is licensed under the CCPL, Creative Commons does not authorize
+     the use by either party of the trademark "Creative Commons" or any
+     related trademark or logo of Creative Commons without the prior
+     written consent of Creative Commons. Any permitted use will be in
+     compliance with Creative Commons' then-current trademark usage
+     guidelines, as may be published on its website or otherwise made
+     available upon request from time to time. For the avoidance of doubt,
+     this trademark restriction does not form part of this License.
+ .
+     Creative Commons may be contacted at https://creativecommons.org/.
+
+License: CC-BY-SA-3.0
+ Creative Commons Legal Code
+ .
+ Attribution-ShareAlike 3.0 Unported
+ .
+     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+     LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN
+     ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+     INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+     REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR
+     DAMAGES RESULTING FROM ITS USE.
+ .
+ License
+ .
+ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
+ COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
+ COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
+ AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+ .
+ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
+ TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY
+ BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS
+ CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
+ CONDITIONS.
+ .
+ 1. Definitions
+ .
+  a. "Adaptation" means a work based upon the Work, or upon the Work and
+     other pre-existing works, such as a translation, adaptation,
+     derivative work, arrangement of music or other alterations of a
+     literary or artistic work, or phonogram or performance and includes
+     cinematographic adaptations or any other form in which the Work may be
+     recast, transformed, or adapted including in any form recognizably
+     derived from the original, except that a work that constitutes a
+     Collection will not be considered an Adaptation for the purpose of
+     this License. For the avoidance of doubt, where the Work is a musical
+     work, performance or phonogram, the synchronization of the Work in
+     timed-relation with a moving image ("synching") will be considered an
+     Adaptation for the purpose of this License.
+  b. "Collection" means a collection of literary or artistic works, such as
+     encyclopedias and anthologies, or performances, phonograms or
+     broadcasts, or other works or subject matter other than works listed
+     in Section 1(f) below, which, by reason of the selection and
+     arrangement of their contents, constitute intellectual creations, in
+     which the Work is included in its entirety in unmodified form along
+     with one or more other contributions, each constituting separate and
+     independent works in themselves, which together are assembled into a
+     collective whole. A work that constitutes a Collection will not be
+     considered an Adaptation (as defined below) for the purposes of this
+     License.
+  c. "Creative Commons Compatible License" means a license that is listed
+     at https://creativecommons.org/compatiblelicenses that has been
+     approved by Creative Commons as being essentially equivalent to this
+     License, including, at a minimum, because that license: (i) contains
+     terms that have the same purpose, meaning and effect as the License
+     Elements of this License; and, (ii) explicitly permits the relicensing
+     of adaptations of works made available under that license under this
+     License or a Creative Commons jurisdiction license with the same
+     License Elements as this License.
+  d. "Distribute" means to make available to the public the original and
+     copies of the Work or Adaptation, as appropriate, through sale or
+     other transfer of ownership.
+  e. "License Elements" means the following high-level license attributes
+     as selected by Licensor and indicated in the title of this License:
+     Attribution, ShareAlike.
+  f. "Licensor" means the individual, individuals, entity or entities that
+     offer(s) the Work under the terms of this License.
+  g. "Original Author" means, in the case of a literary or artistic work,
+     the individual, individuals, entity or entities who created the Work
+     or if no individual or entity can be identified, the publisher; and in
+     addition (i) in the case of a performance the actors, singers,
+     musicians, dancers, and other persons who act, sing, deliver, declaim,
+     play in, interpret or otherwise perform literary or artistic works or
+     expressions of folklore; (ii) in the case of a phonogram the producer
+     being the person or legal entity who first fixes the sounds of a
+     performance or other sounds; and, (iii) in the case of broadcasts, the
+     organization that transmits the broadcast.
+  h. "Work" means the literary and/or artistic work offered under the terms
+     of this License including without limitation any production in the
+     literary, scientific and artistic domain, whatever may be the mode or
+     form of its expression including digital form, such as a book,
+     pamphlet and other writing; a lecture, address, sermon or other work
+     of the same nature; a dramatic or dramatico-musical work; a
+     choreographic work or entertainment in dumb show; a musical
+     composition with or without words; a cinematographic work to which are
+     assimilated works expressed by a process analogous to cinematography;
+     a work of drawing, painting, architecture, sculpture, engraving or
+     lithography; a photographic work to which are assimilated works
+     expressed by a process analogous to photography; a work of applied
+     art; an illustration, map, plan, sketch or three-dimensional work
+     relative to geography, topography, architecture or science; a
+     performance; a broadcast; a phonogram; a compilation of data to the
+     extent it is protected as a copyrightable work; or a work performed by
+     a variety or circus performer to the extent it is not otherwise
+     considered a literary or artistic work.
+  i. "You" means an individual or entity exercising rights under this
+     License who has not previously violated the terms of this License with
+     respect to the Work, or who has received express permission from the
+     Licensor to exercise rights under this License despite a previous
+     violation.
+  j. "Publicly Perform" means to perform public recitations of the Work and
+     to communicate to the public those public recitations, by any means or
+     process, including by wire or wireless means or public digital
+     performances; to make available to the public Works in such a way that
+     members of the public may access these Works from a place and at a
+     place individually chosen by them; to perform the Work to the public
+     by any means or process and the communication to the public of the
+     performances of the Work, including by public digital performance; to
+     broadcast and rebroadcast the Work by any means including signs,
+     sounds or images.
+  k. "Reproduce" means to make copies of the Work by any means including
+     without limitation by sound or visual recordings and the right of
+     fixation and reproducing fixations of the Work, including storage of a
+     protected performance or phonogram in digital form or other electronic
+     medium.
+ .
+ 2. Fair Dealing Rights. Nothing in this License is intended to reduce,
+ limit, or restrict any uses free from copyright or rights arising from
+ limitations or exceptions that are provided for in connection with the
+ copyright protection under copyright law or other applicable laws.
+ .
+ 3. License Grant. Subject to the terms and conditions of this License,
+ Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
+ perpetual (for the duration of the applicable copyright) license to
+ exercise the rights in the Work as stated below:
+ .
+  a. to Reproduce the Work, to incorporate the Work into one or more
+     Collections, and to Reproduce the Work as incorporated in the
+     Collections;
+  b. to create and Reproduce Adaptations provided that any such Adaptation,
+     including any translation in any medium, takes reasonable steps to
+     clearly label, demarcate or otherwise identify that changes were made
+     to the original Work. For example, a translation could be marked "The
+     original work was translated from English to Spanish," or a
+     modification could indicate "The original work has been modified.";
+  c. to Distribute and Publicly Perform the Work including as incorporated
+     in Collections; and,
+  d. to Distribute and Publicly Perform Adaptations.
+  e. For the avoidance of doubt:
+ .
+      i. Non-waivable Compulsory License Schemes. In those jurisdictions in
+         which the right to collect royalties through any statutory or
+         compulsory licensing scheme cannot be waived, the Licensor
+         reserves the exclusive right to collect such royalties for any
+         exercise by You of the rights granted under this License;
+     ii. Waivable Compulsory License Schemes. In those jurisdictions in
+         which the right to collect royalties through any statutory or
+         compulsory licensing scheme can be waived, the Licensor waives the
+         exclusive right to collect such royalties for any exercise by You
+         of the rights granted under this License; and,
+    iii. Voluntary License Schemes. The Licensor waives the right to
+         collect royalties, whether individually or, in the event that the
+         Licensor is a member of a collecting society that administers
+         voluntary licensing schemes, via that society, from any exercise
+         by You of the rights granted under this License.
+ .
+ The above rights may be exercised in all media and formats whether now
+ known or hereafter devised. The above rights include the right to make
+ such modifications as are technically necessary to exercise the rights in
+ other media and formats. Subject to Section 8(f), all rights not expressly
+ granted by Licensor are hereby reserved.
+ .
+ 4. Restrictions. The license granted in Section 3 above is expressly made
+ subject to and limited by the following restrictions:
+ .
+  a. You may Distribute or Publicly Perform the Work only under the terms
+     of this License. You must include a copy of, or the Uniform Resource
+     Identifier (URI) for, this License with every copy of the Work You
+     Distribute or Publicly Perform. You may not offer or impose any terms
+     on the Work that restrict the terms of this License or the ability of
+     the recipient of the Work to exercise the rights granted to that
+     recipient under the terms of the License. You may not sublicense the
+     Work. You must keep intact all notices that refer to this License and
+     to the disclaimer of warranties with every copy of the Work You
+     Distribute or Publicly Perform. When You Distribute or Publicly
+     Perform the Work, You may not impose any effective technological
+     measures on the Work that restrict the ability of a recipient of the
+     Work from You to exercise the rights granted to that recipient under
+     the terms of the License. This Section 4(a) applies to the Work as
+     incorporated in a Collection, but this does not require the Collection
+     apart from the Work itself to be made subject to the terms of this
+     License. If You create a Collection, upon notice from any Licensor You
+     must, to the extent practicable, remove from the Collection any credit
+     as required by Section 4(c), as requested. If You create an
+     Adaptation, upon notice from any Licensor You must, to the extent
+     practicable, remove from the Adaptation any credit as required by
+     Section 4(c), as requested.
+  b. You may Distribute or Publicly Perform an Adaptation only under the
+     terms of: (i) this License; (ii) a later version of this License with
+     the same License Elements as this License; (iii) a Creative Commons
+     jurisdiction license (either this or a later license version) that
+     contains the same License Elements as this License (e.g.,
+     Attribution-ShareAlike 3.0 US)); (iv) a Creative Commons Compatible
+     License. If you license the Adaptation under one of the licenses
+     mentioned in (iv), you must comply with the terms of that license. If
+     you license the Adaptation under the terms of any of the licenses
+     mentioned in (i), (ii) or (iii) (the "Applicable License"), you must
+     comply with the terms of the Applicable License generally and the
+     following provisions: (I) You must include a copy of, or the URI for,
+     the Applicable License with every copy of each Adaptation You
+     Distribute or Publicly Perform; (II) You may not offer or impose any
+     terms on the Adaptation that restrict the terms of the Applicable
+     License or the ability of the recipient of the Adaptation to exercise
+     the rights granted to that recipient under the terms of the Applicable
+     License; (III) You must keep intact all notices that refer to the
+     Applicable License and to the disclaimer of warranties with every copy
+     of the Work as included in the Adaptation You Distribute or Publicly
+     Perform; (IV) when You Distribute or Publicly Perform the Adaptation,
+     You may not impose any effective technological measures on the
+     Adaptation that restrict the ability of a recipient of the Adaptation
+     from You to exercise the rights granted to that recipient under the
+     terms of the Applicable License. This Section 4(b) applies to the
+     Adaptation as incorporated in a Collection, but this does not require
+     the Collection apart from the Adaptation itself to be made subject to
+     the terms of the Applicable License.
+  c. If You Distribute, or Publicly Perform the Work or any Adaptations or
+     Collections, You must, unless a request has been made pursuant to
+     Section 4(a), keep intact all copyright notices for the Work and
+     provide, reasonable to the medium or means You are utilizing: (i) the
+     name of the Original Author (or pseudonym, if applicable) if supplied,
+     and/or if the Original Author and/or Licensor designate another party
+     or parties (e.g., a sponsor institute, publishing entity, journal) for
+     attribution ("Attribution Parties") in Licensor's copyright notice,
+     terms of service or by other reasonable means, the name of such party
+     or parties; (ii) the title of the Work if supplied; (iii) to the
+     extent reasonably practicable, the URI, if any, that Licensor
+     specifies to be associated with the Work, unless such URI does not
+     refer to the copyright notice or licensing information for the Work;
+     and (iv) , consistent with Ssection 3(b), in the case of an
+     Adaptation, a credit identifying the use of the Work in the Adaptation
+     (e.g., "French translation of the Work by Original Author," or
+     "Screenplay based on original Work by Original Author"). The credit
+     required by this Section 4(c) may be implemented in any reasonable
+     manner; provided, however, that in the case of a Adaptation or
+     Collection, at a minimum such credit will appear, if a credit for all
+     contributing authors of the Adaptation or Collection appears, then as
+     part of these credits and in a manner at least as prominent as the
+     credits for the other contributing authors. For the avoidance of
+     doubt, You may only use the credit required by this Section for the
+     purpose of attribution in the manner set out above and, by exercising
+     Your rights under this License, You may not implicitly or explicitly
+     assert or imply any connection with, sponsorship or endorsement by the
+     Original Author, Licensor and/or Attribution Parties, as appropriate,
+     of You or Your use of the Work, without the separate, express prior
+     written permission of the Original Author, Licensor and/or Attribution
+     Parties.
+  d. Except as otherwise agreed in writing by the Licensor or as may be
+     otherwise permitted by applicable law, if You Reproduce, Distribute or
+     Publicly Perform the Work either by itself or as part of any
+     Adaptations or Collections, You must not distort, mutilate, modify or
+     take other derogatory action in relation to the Work which would be
+     prejudicial to the Original Author's honor or reputation. Licensor
+     agrees that in those jurisdictions (e.g. Japan), in which any exercise
+     of the right granted in Section 3(b) of this License (the right to
+     make Adaptations) would be deemed to be a distortion, mutilation,
+     modification or other derogatory action prejudicial to the Original
+     Author's honor and reputation, the Licensor will waive or not assert,
+     as appropriate, this Section, to the fullest extent permitted by the
+     applicable national law, to enable You to reasonably exercise Your
+     right under Section 3(b) of this License (right to make Adaptations)
+     but not otherwise.
+ .
+ 5. Representations, Warranties and Disclaimer
+ .
+ UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR
+ OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY
+ KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE,
+ INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF
+ LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS,
+ WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION
+ OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+ .
+ 6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE
+ LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR
+ ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES
+ ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS
+ BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ .
+ 7. Termination
+ .
+  a. This License and the rights granted hereunder will terminate
+     automatically upon any breach by You of the terms of this License.
+     Individuals or entities who have received Adaptations or Collections
+     from You under this License, however, will not have their licenses
+     terminated provided such individuals or entities remain in full
+     compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will
+     survive any termination of this License.
+  b. Subject to the above terms and conditions, the license granted here is
+     perpetual (for the duration of the applicable copyright in the Work).
+     Notwithstanding the above, Licensor reserves the right to release the
+     Work under different license terms or to stop distributing the Work at
+     any time; provided, however that any such election will not serve to
+     withdraw this License (or any other license that has been, or is
+     required to be, granted under the terms of this License), and this
+     License will continue in full force and effect unless terminated as
+     stated above.
+ .
+ 8. Miscellaneous
+ .
+  a. Each time You Distribute or Publicly Perform the Work or a Collection,
+     the Licensor offers to the recipient a license to the Work on the same
+     terms and conditions as the license granted to You under this License.
+  b. Each time You Distribute or Publicly Perform an Adaptation, Licensor
+     offers to the recipient a license to the original Work on the same
+     terms and conditions as the license granted to You under this License.
+  c. If any provision of this License is invalid or unenforceable under
+     applicable law, it shall not affect the validity or enforceability of
+     the remainder of the terms of this License, and without further action
+     by the parties to this agreement, such provision shall be reformed to
+     the minimum extent necessary to make such provision valid and
+     enforceable.
+  d. No term or provision of this License shall be deemed waived and no
+     breach consented to unless such waiver or consent shall be in writing
+     and signed by the party to be charged with such waiver or consent.
+  e. This License constitutes the entire agreement between the parties with
+     respect to the Work licensed here. There are no understandings,
+     agreements or representations with respect to the Work not specified
+     here. Licensor shall not be bound by any additional provisions that
+     may appear in any communication from You. This License may not be
+     modified without the mutual written agreement of the Licensor and You.
+  f. The rights granted under, and the subject matter referenced, in this
+     License were drafted utilizing the terminology of the Berne Convention
+     for the Protection of Literary and Artistic Works (as amended on
+     September 28, 1979), the Rome Convention of 1961, the WIPO Copyright
+     Treaty of 1996, the WIPO Performances and Phonograms Treaty of 1996
+     and the Universal Copyright Convention (as revised on July 24, 1971).
+     These rights and subject matter take effect in the relevant
+     jurisdiction in which the License terms are sought to be enforced
+     according to the corresponding provisions of the implementation of
+     those treaty provisions in the applicable national law. If the
+     standard suite of rights granted under applicable copyright law
+     includes additional rights not granted under this License, such
+     additional rights are deemed to be included in the License; this
+     License is not intended to restrict the license of any rights under
+     applicable law.
+ .
+ .
+ Creative Commons Notice
+ .
+     Creative Commons is not a party to this License, and makes no warranty
+     whatsoever in connection with the Work. Creative Commons will not be
+     liable to You or any party on any legal theory for any damages
+     whatsoever, including without limitation any general, special,
+     incidental or consequential damages arising in connection to this
+     license. Notwithstanding the foregoing two (2) sentences, if Creative
+     Commons has expressly identified itself as the Licensor hereunder, it
+     shall have all rights and obligations of Licensor.
+ .
+     Except for the limited purpose of indicating to the public that the
+     Work is licensed under the CCPL, Creative Commons does not authorize
+     the use by either party of the trademark "Creative Commons" or any
+     related trademark or logo of Creative Commons without the prior
+     written consent of Creative Commons. Any permitted use will be in
+     compliance with Creative Commons' then-current trademark usage
+     guidelines, as may be published on its website or otherwise made
+     available upon request from time to time. For the avoidance of doubt,
+     this trademark restriction does not form part of the License.
+ .
+     Creative Commons may be contacted at https://creativecommons.org/.

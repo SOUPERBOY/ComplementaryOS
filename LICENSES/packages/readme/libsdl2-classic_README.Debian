@@ -1,0 +1,19 @@
+libsdl2-classic
+===============
+
+This package provides the "classic" implementation of SDL 2 as a
+library in /usr/lib/${DEB_HOST_MULTIARCH}/sdl2-classic. You can force
+SDL 2 programs to use this by loading the library using SDL_DYNAMIC_API,
+for example:
+
+    $ SDL_DYNAMIC_API='/usr/$LIB/sdl2-classic/libSDL2-2.0.so.0' \
+        openarena
+
+even on systems where sdl2-compat is the default (which can be achieved by
+installing the libsdl2-compat-shim package).
+
+Please see the README.Debian of the libsdl2-compat package for details
+of how to test sdl2-compat:
+
+<https://salsa.debian.org/sdl-team/sdl2-compat/-/blob/HEAD/debian/README.Debian>
+<file:///usr/share/doc/libsdl2-compat/README.Debian>

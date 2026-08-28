@@ -1,0 +1,48 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Tornado
+Upstream-Contact: python-tornado@googlegroups.com
+Source: http://www.tornadoweb.org/
+
+Files: *
+Copyright: 2009-2014 Facebook
+License: Apache-2.0
+
+Files: tornado/locks.py tornado/queues.py tornado/routing.py
+Copyright: 2015 The Tornado Authors
+License: Apache-2.0
+
+Files: tornado/websocket.py
+Copyright: 2010 Jacob Kristhammar
+License: Apache-2.0
+
+Files: tornado/test/twisted_test.py
+Copyright: 2011 Ovidiu Predescu
+License: Apache-2.0
+
+Files: demos/chat/static/chat.js
+ demos/chat/static/chat.css
+ demos/blog/schema.sql
+ demos/websocket/static/chat.js
+ demos/websocket/static/chat.css
+Copyright: 2009 FriendFeed
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2010, 2011 Carl Chenet <chaica@ohmytux.com>
+ 2011 Yaroslav Halchenko
+ 2012 Thomas Kluyver
+ 2012 Julian Taylor
+ 2015-2020 Julien Puydt <jpuydt@debian.org>
+ 2016-2018 Ondřej Nový <onovy@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ Licensed to the Apache Software Foundation (ASF) under one or more contributor
+ license agreements. The ASF licenses this work to You under the Apache License,
+ Version 2.0 (the "License"); you may not use this work except in compliance
+ with the License.  You may obtain a copy of the License at
+ .
+     http://www.apache.org/licenses/LICENSE-2.0
+ .
+ On a Debian system, the license can be found at
+ /usr/share/common-licenses/Apache-2.0 .

@@ -1,0 +1,128 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: manpages-zh
+Upstream-Contact: Boyuan Yang <073plan@gmail.com>
+Source: https://github.com/man-pages-zh/manpages-zh.git
+
+Files: *
+Copyright: 2005, Carlos Z.F. Liu <carlosliu@users.sourceforge.net>
+           2008, LI Daobing <lidaobing@gmail.com>
+           2008, Ji ZhengYu <zhengyuji@gmail.com>
+           2000-2004, CMPP Project <http://cmpp.linuxforum.net>
+           2016-2020, Boyuan Yang <073plan@gmail.com>
+License: GFDL-1.2+
+
+Files: debian/*
+Copyright: 2008-2011, LI Daobing <lidaobing@gmail.com>
+           2016-2021, Boyuan Yang <073plan@gmail.com>
+License: GFDL-1.2+
+
+Files: utils/*
+Copyright:
+ 2016-2020 Boyuan Yang <byang@debian.org>
+License: public-domain
+
+Files: CMakeLists.txt
+Copyright:
+ 2022 Boyuan Yang <073plan@gmail.com>
+License: CC0-1.0 or BSD-2-Clause
+
+Files:
+ src/man1/kill.1
+Copyright:
+ Albert Cahalan
+ Michael K. Johnson
+License: GPL-2.0
+Comment: Files from procps-ng.
+
+Files:
+ src/man6/intro.6
+Copyright:
+ 1993 Michael Haardt <michael@moria.de>
+License: GPLv2+_DOC_FULL
+
+Files:
+ src/man7/epoll.7
+Copyright:
+ 2003 Davide Libenzi <davidel@xmailserver.org>
+ 2021 Phi-Li (translator)
+License: GPL-2.0+
+
+License: GPL-2.0
+ Licensed under version 2 of the GNU General Public License.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+
+License: GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+
+License: GPLv2+_DOC_FULL
+ This is free documentation; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License, or (at your option) any later version.
+ .
+ The GNU General Public License's references to "object code"
+ and "executables" are to be interpreted as the output of any
+ document formatting or typesetting system, including
+ intermediate and printed output.
+ .
+ This manual is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this manual; if not, see
+ <https://www.gnu.org/licenses/>.
+
+License: public-domain
+ These files are release into the public domain.
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ The complete text of the GNU Free Documentation License Version 1.2 can be
+ found in  `/usr/share/common-licenses/GFDL-1.2'.
+
+License: CC0-1.0
+ On Debian systems, the complete text of the Creative Commons Zero v1.0
+ Universal License can be found in "/usr/share/common-licenses/CC0-1.0".
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.

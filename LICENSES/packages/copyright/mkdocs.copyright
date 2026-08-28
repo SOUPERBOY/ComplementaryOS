@@ -1,0 +1,298 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mkdocs
+Source: https://github.com/mkdocs/mkdocs
+Files-Excluded:
+ mkdocs/themes/mkdocs/css/bootstrap.min.css
+ mkdocs/themes/mkdocs/css/bootstrap.min.css.map
+ mkdocs/themes/mkdocs/js/bootstrap.bundle.min.js
+ mkdocs/themes/mkdocs/js/bootstrap.bundle.min.js.map
+ mkdocs/themes/readthedocs/css/theme.css
+ mkdocs/themes/readthedocs/fonts
+ mkdocs/themes/readthedocs/js/html5shiv.min.js
+ mkdocs/themes/readthedocs/js/jquery*.js
+ mkdocs/themes/readthedocs/js/theme.js
+Comment: As usual in such projects upstream ships some minimized files where
+ we have packages which provide these files. Upstream ships also files from
+ Font-Awesome based on version 6.5.1 which hasn't got into Debian yet.
+ We do not exclude these files but provide the non minimized files taken from
+ https://github.com/FortAwesome/Font-Awesome/tree/6.5.1/css
+ in debian/missing-sources.
+
+Files: *
+Copyright: 2014 - 2024 Tom Christie
+License: BSD-2-Clause
+
+Files: debian/*
+Copyright: 2015 Brian May <bam@debian.org>
+ 2022-2025 Carsten Schoenert <c.schoenert@t-online.de>
+License: BSD-2-Clause
+
+Files: debian/missing-sources/*
+ mkdocs/themes/mkdocs/css/*
+Copyright: 2023 Fonticons, Inc.
+License: Expat
+
+Files: mkdocs/contrib/search/templates/search/lunr.js
+Copyright: 2018 Oliver Nightingale
+License: Expat
+
+Files: mkdocs/contrib/search/lunr-language/lunr.ar.js
+Copyright: 2018, Dalia Al-Shahrabi
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.da.js
+ mkdocs/contrib/search/lunr-language/lunr.de.js
+ mkdocs/contrib/search/lunr-language/lunr.du.js
+ mkdocs/contrib/search/lunr-language/lunr.es.js
+ mkdocs/contrib/search/lunr-language/lunr.fi.js
+ mkdocs/contrib/search/lunr-language/lunr.fr.js
+ mkdocs/contrib/search/lunr-language/lunr.hu.js
+ mkdocs/contrib/search/lunr-language/lunr.it.js
+ mkdocs/contrib/search/lunr-language/lunr.nl.js
+ mkdocs/contrib/search/lunr-language/lunr.no.js
+ mkdocs/contrib/search/lunr-language/lunr.pt.js
+ mkdocs/contrib/search/lunr-language/lunr.ro.js
+ mkdocs/contrib/search/lunr-language/lunr.ru.js
+ mkdocs/contrib/search/lunr-language/lunr.sv.js
+ mkdocs/contrib/search/lunr-language/lunr.tr.js
+Copyright: 2014, Mihai Valentin
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.hi.js
+Copyright: 2020, Mihir Kumar
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.hy.js
+ mkdocs/contrib/search/lunr-language/lunr.ko.js
+ mkdocs/contrib/search/lunr-language/lunr.ta.js
+Copyright: 2021, Manikandan Venkatasubban
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.ja.js
+Copyright: 2014, Chad Liu
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.kn.js
+ mkdocs/contrib/search/lunr-language/lunr.sa.js
+ mkdocs/contrib/search/lunr-language/lunr.te.js
+Copyright: 2023, India
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.th.js
+ mkdocs/contrib/search/lunr-language/lunr.vi.js
+Copyright: 2017, Keerati Thiwanruk
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.zh.js
+Copyright: 2019, Felix Lian (repairearth)
+           2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/tinyseg.js
+Copyright: 2008, Taku Kudo <taku@chasen.org>
+License: BSD-3-Clause
+
+Files: mkdocs/contrib/search/lunr-language/lunr.stemmer.support.js
+Copyright: 2010, Oleg Mazko
+License: MPL-1.1
+
+Files: mkdocs/contrib/search/lunr-language/lunr.multi.js
+Copyright: 2015, Leonid Shevtsov
+License: MPL-1.1
+
+Files: mkdocs/themes/mkdocs/webfonts/*
+ mkdocs/themes/readthedocs/css/fonts/*
+Copyright: 2023 Fonticons, Inc.
+License: OFL-1.1
+
+Files: mkdocs/utils/meta.py
+Copyright: 2015 Waylan Limberg
+License: BSD-3-Clause
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation
+ and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its contributors
+ may be used to endorse or promote products derived from this software without
+ specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+License: OFL-1.1
+ PREAMBLE
+ .
+ The goals of the Open Font License (OFL) are
+ to stimulate worldwide development of collaborative font projects,
+ to support the font creation efforts
+ of academic and linguistic communities,
+ and to provide a free and open framework
+ in which fonts may be shared and improved
+ in partnership with others.
+ .
+ The OFL allows the licensed fonts
+ to be used, studied, modified and redistributed freely
+ as long as they are not sold by themselves.
+ The fonts, including any derivative works,
+ can be bundled, embedded, redistributed and/or sold with any software
+ provided that any reserved names are not used by derivative works.
+ The fonts and derivatives, however, cannot be released
+ under any other type of license.
+ The requirement for fonts to remain under this license
+ does not apply to any document created
+ using the fonts or their derivatives.
+ .
+ DEFINITIONS
+ .
+ "Font Software" refers to
+ the set of files released by the Copyright Holder(s)
+ under this license and clearly marked as such.
+ This may include source files, build scripts and documentation.
+ .
+ "Reserved Font Name" refers to
+ any names specified as such after the copyright statement(s).
+ .
+ "Original Version" refers to
+ the collection of Font Software components
+ as distributed by the Copyright Holder(s).
+ .
+ "Modified Version" refers to
+ any derivative made by adding to, deleting, or substituting --
+ in part or in whole --
+ any of the components of the Original Version,
+ by changing formats
+ or by porting the Font Software to a new environment.
+ .
+ "Author" refers to
+ any designer, engineer, programmer, technical writer
+ or other person who contributed to the Font Software.
+ .
+ PERMISSION & CONDITIONS
+ .
+ Permission is hereby granted, free of charge,
+ to any person obtaining a copy of the Font Software,
+ to use, study, copy, merge, embed, modify, redistribute,
+ and sell modified and unmodified copies of the Font Software,
+ subject to the following conditions:
+ .
+  1) Neither the Font Software nor any of its individual components,
+     in Original or Modified Versions,
+     may be sold by itself.
+  2) Original or Modified Versions of the Font Software
+     may be bundled, redistributed and/or sold with any software,
+     provided that each copy contains
+     the above copyright notice and this license.
+     These can be included either as stand-alone text files,
+     human-readable headers
+     or in the appropriate machine-readable metadata fields
+     within text or binary files
+     as long as those fields can be easily viewed by the user.
+  3) No Modified Version of the Font Software may use
+     the Reserved Font Name(s)
+     unless explicit written permission is granted
+     by the corresponding Copyright Holder.
+     This restriction only applies to the primary font name
+     as presented to the users.
+  4) The name(s) of the Copyright Holder(s)
+     or the Author(s) of the Font Software
+     shall not be used
+     to promote, endorse or advertise any Modified Version,
+     except to acknowledge the contribution(s)
+     of the Copyright Holder(s) and the Author(s)
+     or with their explicit written permission.
+  5) The Font Software,
+     modified or unmodified, in part or in whole,
+     must be distributed entirely under this license,
+     and must not be distributed under any other license.
+     The requirement for fonts to remain under this license
+     does not apply to any document created using the Font Software.
+ .
+ TERMINATION
+ .
+ This license becomes null and void
+ if any of the above conditions are not met.
+ .
+ DISCLAIMER
+ .
+ THE FONT SOFTWARE IS PROVIDED "AS IS",
+ WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ INCLUDING BUT NOT LIMITED TO
+ ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+ AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT.
+ IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE
+ FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL,
+ OR CONSEQUENTIAL DAMAGES,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE
+ OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+
+License: MPL-1.1
+ the full text of the Mozilla Public License version 1.1 can be found in
+ /usr/share/common-licenses/MPL-1.1 on every Debian system.
+

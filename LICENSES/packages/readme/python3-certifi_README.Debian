@@ -1,0 +1,8 @@
+certifi is patched to return the location of Debian-provided CA
+certificates.
+
+Certificates provided by upstream are not part of this package, and
+can be found on the upstream website if needed.
+
+ -- Sebastien Delafond <seb@debian.org>, Mon,  7 Oct 2024 14:18:19 +0200
+

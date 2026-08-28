@@ -1,0 +1,17 @@
+libsdl2-2.0-0
+=============
+
+This package provides the "classic" implementation of SDL 2 on the
+normal search path. The intention is for sdl2-compat, a reimplementation
+of SDL 2 as a wrapper around SDL 3, to take over as the default SDL 2
+implementation during the Debian 14 'forky' release cycle.
+
+To get a preview of the future situation, install libsdl2-compat-shim,
+libsdl2-classic and (if wanted) libsdl2-compat-dev, removing libsdl2-2.0-0
+and libsdl2-dev.
+
+Please see the README.Debian of the libsdl2-compat package for details
+of how to test sdl2-compat:
+
+<https://salsa.debian.org/sdl-team/sdl2-compat/-/blob/HEAD/debian/README.Debian>
+<file:///usr/share/doc/libsdl2-compat/README.Debian>

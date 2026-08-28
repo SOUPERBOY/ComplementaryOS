@@ -1,0 +1,81 @@
+General
+=======
+
+coreutils is packaged in an unusual way. The binaries are published on
+crates.io. As we don't want to package them separately, we have to do
+some voodoo magic to make it more maintainable but not following
+the typical debcargo process.
+
+To be coinstallable with GNU coreutils, manpages are called rust-$PROGRAM.
+
+
+Reminder
+========
+
+It is NOT recommended to use that in production.
+See the package description for the list of reasons.
+
+
+Install
+=======
+
+Because rust-coreutils can easily break a system, it isn't replacing the
+GNU coreutils.
+Instead, we are installing the binaries in /usr/lib/cargo/bin/coreutils/.
+
+Usage
+=====
+
+To use rust-coreutils instead GNU, use:
+
+$ export PATH=/usr/lib/cargo/bin/coreutils/:$PATH
+
+As rust-coreutils aims at being a drop-in replacement, it is possible
+to override the GNU coreutils binaries.
+
+We are NOT installing the binaries in /usr/lib/cargo/bin/ to avoid unexpected errors
+in case users already added /usr/lib/cargo/bin/ in their PATH to get fd or others binaries.
+
+Zsh-completion
+==============
+
+Add:
+
+  fpath=(/usr/share/zsh/site-functions/rust-coreutils/ $fpath)
+
+to your ~/.zshrc
+
+And maybe run:
+
+  rm -f ~/.zcompdump; compinit
+
+Repack
+======
+
+cd $TARGET
+# Update the version
+$EDITOR src/coreutils/debian/changelog
+rm -rf build/coreutils
+./update.sh coreutils # will fail
+
+git clone git@github.com:uutils/coreutils.git -b 0.0.30 coreutils
+cd <tagged-source-of-coreutils>
+cp -R $TARGET/src/coreutils/debian $TARGET/build/coreutils/
+cp Cargo.toml $TARGET/build/coreutils/
+cp -R src/* $TARGET/build/coreutils/src/
+cd $TARGET/build
+rm -rf coreutils.orig coreutils/.pc/
+tar Jcvf rust-coreutils_0.0.30.orig.tar.xz coreutils/
+dpkg-source -b -i coreutils
+
+If the patches do not apply, you will have to do
+cd coreutils
+quilt push -f
+and do the rebase dance.
+
+For now, we are following upstream version.
+If one day, we want to replace GNU/coreutils package with this one,
+we will have to follow the version of the GNU version as we have some packages
+having an explicit minimal dep (ex: initramfs-tools-core, xinit, initscripts)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>, Sun, 22 Dec 2024 14:17:56 +0100

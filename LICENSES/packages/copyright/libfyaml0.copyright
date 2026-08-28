@@ -1,0 +1,168 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libfyaml
+Source: https://github.com/pantoniou/libfyaml
+
+Files: *
+Copyright: 2019-2025, Pantelis Antoniou <pantelis.antoniou@konsulko.com>
+License: Expat
+
+Files: src/xxhash/*
+Copyright: 2012-2014, Yann Collet
+License: BSD-2-clause
+
+Files: m4/ax_check_enable_debug.m4
+       m4/ax_cxx_compile_stdcxx.m4
+       m4/ax_cxx_compile_stdcxx_11.m4
+       m4/ax_define_dir.m4
+       m4/ax_is_release.m4
+Copyright: 2008, Alexandre Oliva
+           2008, Andreas Schwab <schwab@suse.de>
+           2008, Benjamin Kosnik <bkoz@redhat.com>
+           2016, Collabora Ltd
+           2014-2015, Google Inc.; contributed by Alexey Sokolov <sokolov@google.com>
+           2008, Guido U. Draheim <guidod@gmx.de>
+           2015, Moritz Klammler <moritz@klammler.eu>
+           2015, Paul Norman <penorman@mac.com>
+           2014-2015, Philip Withnall <philip@tecnocode.co.uk>
+           2011, Rhys Ulerich <rhys.ulerich@gmail.com>
+           2013, Roy Stogner <roystgnr@ices.utexas.edu>
+           2008, Stepan Kasal <kasal@ucw.cz>
+           2012, Zack Weinberg <zackw@panix.com>
+License: FSFAP
+
+Files: m4/ax_check_compile_flag.m4
+       m4/ax_check_define.m4
+       m4/ax_check_flag.m4
+       m4/ax_pthread.m4
+       m4/ax_tls.m4
+Copyright: 2008, Alan Woodland <ajw05@aber.ac.uk>
+           2011, Daniel Richard G <skunk@iSKUNK.ORG>
+           2010, Diego Elio Petteno` <flameeyes@gmail.com>
+           2008, Guido U. Draheim <guidod@gmx.de>
+           2011, Maarten Bosmans <mkbosmans@gmail.com>
+           2009, Matteo Frigo
+           2008-2009, Steven G. Johnson <stevenj@alum.mit.edu>
+License: GPL-3+ with AutoConf exception
+
+Files: build-aux/git-version-gen
+Copyright: 2007-2011, Free Software Foundation, Inc
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2021-2022, Jose Luis Blanco Claraco <joseluisblancoc@gmail.com>
+           2019, Pantelis Antoniou <pantelis.antoniou@konsulko.com>
+License: Expat
+
+License: BSD-2-clause
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+  .
+  1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+  .
+  2. Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+  .
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+  .
+  The above copyright notice and this permission notice shall be included
+  in all copies or substantial portions of the Software.
+  .
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: FSFAP
+  Copying and distribution of this file, with or without modification, are
+  permitted in any medium without royalty provided the copyright notice and
+  this notice are preserved. This file is offered as-is, without any warranty.
+
+License: GPL-2
+  In Debian systems this license can be found in:
+  /usr/share/common-licenses/GPL-2
+
+License: GPL-3+
+  This program is free software: you can redistribute it and/or modify it under
+  the terms of the GNU General Public License as published by the Free Software
+  Foundation, either version 3 of the License, or (at your option) any later
+  version.
+  .
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  .
+  You should have received a copy of the GNU General Public License along with
+  this program. If not, see <https://www.gnu.org/licenses/>.
+  .
+  On Debian systems, the complete text of the GNU General Public License
+  can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: GPL-3+ with AutoConf exception
+    Based on the GNU General Public License, which on Debian systems can be
+    found in `/usr/share/common-licenses/GPL-3', with the following exception:
+    .
+    AUTOCONF CONFIGURE SCRIPT EXCEPTION
+    .
+    Version 3.0, 18 August 2009
+    .
+    Copyright © 2009 Free Software Foundation, Inc. >http://fsf.org/<
+    .
+    Everyone is permitted to copy and distribute verbatim copies of this license
+    document, but changing it is not allowed.
+    .
+    This Exception is an additional permission under section 7 of the GNU
+    General Public License, version 3 ("GPLv3"). It applies to a given file that
+    bears a notice placed by the copyright holder of the file stating that the
+    file is governed by GPLv3 along with this Exception.
+    .
+    The purpose of this Exception is to allow distribution of Autoconf's typical
+    output under terms of the recipient's choice (including proprietary).
+    .
+    0. Definitions.
+    "Covered Code" is the source or object code of a version of Autoconf that is
+    a covered work under this License.
+    .
+    "Normally Copied Code" for a version of Autoconf means all parts of its
+    Covered Code which that version can copy from its code (i.e., not from its
+    input file) into its minimally verbose, non-debugging and non-tracing
+    output.
+    .
+    "Ineligible Code" is Covered Code that is not Normally Copied Code.
+    .
+    1. Grant of Additional Permission.
+    You have permission to propagate output of Autoconf, even if such
+    propagation would otherwise violate the terms of GPLv3. However, if by
+    modifying Autoconf you cause any Ineligible Code of the version you
+    received to become Normally Copied Code of your modified version, then
+    you void this Exception for the resulting covered work. If you convey
+    that resulting covered work, you must remove this Exception in accordance
+    with the second paragraph of Section 7 of GPLv3.
+    .
+    2. No Weakening of Autoconf Copyleft.
+    The availability of this Exception does not imply any general presumption
+    that third-party software is unaffected by the copyleft requirements of the
+    license of Autoconf.

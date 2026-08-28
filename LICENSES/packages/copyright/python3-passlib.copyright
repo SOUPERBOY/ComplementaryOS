@@ -1,0 +1,83 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: python-passlib
+Source: https://foss.heptapod.net/python-libs/passlib
+
+Files: *
+Copyright: 2008-2020 Assurance Technologies <http://www.assurancetechnologies.com>`
+License: BSD-3-Clause
+
+Files: debian/*
+Copyright: 2011 Julien Danjou <acid@debian.org>
+License: BSD-3-Clause
+
+Files: passlib/handlers/md5_crypt.py
+Copyright: phk@login.dknet.dk
+License: BEER-WARE
+ "THE BEER-WARE LICENSE" (Revision 42):
+ <phk@login.dknet.dk> wrote this file.  As long as you retain this notice you
+ can do whatever you want with this stuff. If we meet some day, and you think
+ this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
+ .
+ converted to python May 2008
+ by Eli Collins
+
+Files: passlib/utils/des.py
+Copyright: 1996 Aki Yoshida
+License: Aki-Yoshida
+ UnixCrypt.java 0.9 96/11/25
+ Copyright (c) 1996 Aki Yoshida. All rights reserved.
+ Permission to use, copy, modify and distribute this software
+ for non-commercial or commercial purposes and without fee is
+ hereby granted provided that this copyright notice appears in
+ all copies.
+ .
+ modified April 2001
+ by Iris Van den Broeke, Daniel Deville
+ .
+ modified Aug 2005
+ by Greg Wilkins (gregw)
+ .
+ converted to python Jun 2009
+ by Eli Collins
+
+Files: passlib/crypto/_blowfish/base.py
+Copyright: 2006 Damien Miller <djm@mindrot.org>
+License: Damien-Miller
+ Copyright (c) 2006 Damien Miller <djm@mindrot.org>
+ .
+ Permission to use, copy, modify, and distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.

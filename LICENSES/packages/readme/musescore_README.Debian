@@ -1,0 +1,19 @@
+Note on possible security issues from untrusted input:
+
+Upstream has never considered it on scope that the software
+cannot “crash” on incorrect input, unfortunately. There is
+also no security or other support for this version branch
+from upstream. Please consider this and don’t expose the
+software to untrusted, possibly incorrect, input files to
+avoid triggering DoS or possible security problems in its
+parsers without suitable confining measures. This is even
+more true for import filters than for the native formats’
+parsers (and includes the MusicXML import).
+
+Mu͒seScore Studio was designed to operate as an unconnected
+desktop program and not as a remotely accessible service,
+so please take care.
+
+You may wish to export MSCORE_ASSERT_ABORT=1 if working with
+untrusted input; this makes some internal consistency checks
+fatal on failure. Do not rely, however, on these checks only.
