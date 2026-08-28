@@ -1,0 +1,30 @@
+# Large build artifacts (ISOs, disk images, squashfs, archives)
+*.iso
+*.qcow2
+*.img
+*.squashfs
+*.tar.*
+initrd-*
+
+# Build environment / intermediate directories
+rootfs/
+live-rootfs/
+initramfs/
+iso/
+
+# Logs
+Logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
