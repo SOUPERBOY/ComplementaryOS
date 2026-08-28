@@ -138,3 +138,16 @@ qemu-system-x86_64 -m 2G -cpu host -smp 2 -enable-kvm \
 ## 许可证
 
 本项目仅供教育和个人使用。Debian 基础系统遵循 Debian 自由软件指南（DFSG）。第三方软件包遵循其各自的许可证。
+
+### 源码获取方式
+
+为遵守所包含 Debian 软件包（GPL、LGPL、Apache、BSD、MPL 等）的许可证要求，本发行版使用的所有软件包的完整源代码可从以下途径获取：
+
+- **Debian 软件包源码**：在任何 Debian/Ubuntu 系统上可通过 `apt-get source <软件包名>` 获取各软件包的源代码。官方 Debian 源码源：
+  - `deb-src http://deb.debian.org/debian bookworm main`
+  - `deb-src http://deb.debian.org/debian bookworm-updates main`
+  - `deb-src http://deb.debian.org/debian-security bookworm-security main`
+- **在线源码浏览器**：访问 [https://sources.debian.org](https://sources.debian.org) 浏览软件包源代码
+- **软件包特定源码地址**：`LICENSES/packages/copyright/` 中每个软件包的 `copyright` 文件均包含上游源码 URL
+- **自定义 Linux 内核**：内核源码（Linux 7.1.3）可从 [https://kernel.org](https://kernel.org) 获取
+- **构建脚本**：`optimize-build.sh` 记录了本发行版使用的精确软件包版本和构建配置

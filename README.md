@@ -138,3 +138,16 @@ The installer provides a step-by-step installation wizard:
 ## License
 
 This project is distributed for educational and personal use. The Debian base system is subject to the Debian Free Software Guidelines (DFSG). Third-party packages are subject to their respective licenses.
+
+### Source Code Availability
+
+In compliance with the licenses of the included Debian packages (GPL, LGPL, Apache, BSD, MPL, etc.), the complete source code for all packages used in this distribution is available from the following sources:
+
+- **Debian Package Source**: Each package's source code can be obtained via `apt-get source <package-name>` on any Debian/Ubuntu system. The official Debian source mirrors are at:
+  - `deb-src http://deb.debian.org/debian bookworm main`
+  - `deb-src http://deb.debian.org/debian bookworm-updates main`
+  - `deb-src http://deb.debian.org/debian-security bookworm-security main`
+- **Online Source Browser**: Browse package source code at [https://sources.debian.org](https://sources.debian.org)
+- **Package-Specific Source URLs**: Each package's `copyright` file in `LICENSES/packages/copyright/` contains the original upstream source URL(s) where the specific version's source code can be obtained.
+- **Custom Linux Kernel**: The kernel source (Linux 7.1.3) is available at [https://kernel.org](https://kernel.org)
+- **Build Script**: The `optimize-build.sh` script documents the exact package versions and build configuration used to produce this distribution.
