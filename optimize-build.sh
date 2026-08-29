@@ -364,20 +364,17 @@ mkdir -p "${LIVE_DIR}/etc/systemd/system"
 cat > "${LIVE_DIR}/etc/systemd/system/cos-auto-installer.service" << 'SERVICEEOF'
 [Unit]
 Description=ComplementaryOS Auto Installer
-After=local-fs.target systemd-udev-settle.service getty.target
-Requires=systemd-udev-settle.service
+After=multi-user.target
 Conflicts=getty@tty1.service
 
 [Service]
 Type=oneshot
-ExecStartPre=/bin/sleep 2
 ExecStart=/usr/local/bin/cos-installer --tui
-StandardInput=tty-force
+StandardInput=tty
 TTYPath=/dev/tty1
 TTYReset=yes
 TTYVHangup=yes
 TimeoutStartSec=infinity
-SendSIGHUP=yes
 
 [Install]
 WantedBy=multi-user.target
