@@ -352,6 +352,12 @@ rm -rf "${LIVE_DIR}/var/cache" "${LIVE_DIR}/var/log" "${LIVE_DIR}/var/tmp" \
        "${LIVE_DIR}/var/lib/apt" 2>/dev/null || true
 rm -rf "${LIVE_DIR}/lib/firmware" 2>/dev/null || true
 
+# Copy installer script
+echo "  Copying installer script..."
+mkdir -p "${LIVE_DIR}/usr/local/bin"
+cp "$(dirname "$0")/cos-installer-tui.sh" "${LIVE_DIR}/usr/local/bin/cos-installer"
+chmod +x "${LIVE_DIR}/usr/local/bin/cos-installer"
+
 # Create auto-installer service
 echo "  Creating auto-installer service..."
 mkdir -p "${LIVE_DIR}/etc/systemd/system"
@@ -378,6 +384,7 @@ WantedBy=multi-user.target
 SERVICEEOF
 
 # Enable the service (ensure /dev/null exists in chroot first)
+mkdir -p "${LIVE_DIR}/dev"
 [ -e "${LIVE_DIR}/dev/null" ] || mknod -m 666 "${LIVE_DIR}/dev/null" c 1 3
 [ -e "${LIVE_DIR}/dev/random" ] || mknod -m 666 "${LIVE_DIR}/dev/random" c 1 8
 chroot "${LIVE_DIR}" /bin/bash -c "systemctl enable cos-auto-installer" 2>&1

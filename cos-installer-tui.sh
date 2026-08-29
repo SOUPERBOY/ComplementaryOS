@@ -75,7 +75,6 @@ configure_locale() {
     KEYBOARD=$(dialog --title "Keyboard Layout" \
         --menu "Choose your keyboard layout:" 14 50 5 \
         "us" "United States (default)" \
-        "us" "United States" \
         "gb" "United Kingdom" \
         "de" "Germany" \
         "fr" "France" \
@@ -90,7 +89,6 @@ configure_locale() {
     TIMEZONE=$(dialog --title "Time Zone" \
         --menu "Select your time zone:" 14 50 6 \
         "Asia/Shanghai" "China Standard Time (default)" \
-        "Asia/Shanghai" "China - Beijing" \
         "Asia/Tokyo" "Japan - Tokyo" \
         "Asia/Singapore" "Singapore" \
         "America/New_York" "US - Eastern" \
