@@ -655,16 +655,28 @@ main() {
     # Initialize log
     rm -f "$LOG_FILE"
     log "ComplementaryOS Installer v${VERSION} started"
+    log "TERM=$TERM, LINES=$(stty size 2>/dev/null | cut -d' ' -f1 || echo '?'), COLS=$(stty size 2>/dev/null | cut -d' ' -f2 || echo '?')"
+    
+    # Error trap for debugging
+    trap 'log "ERROR at line $LINENO: command exited with code $?"' ERR
     
     # Run installation steps
     welcome || exit 1
+    log "Step 1 (welcome) completed"
     configure_locale || exit 1
+    log "Step 2 (locale) completed, KEYBOARD=$KEYBOARD TIMEZONE=$TIMEZONE"
     configure_mirror || exit 1
+    log "Step 3 (mirror) completed, MIRROR=$MIRROR"
     select_disk || exit 1
+    log "Step 4 (disk) completed, DISK=$DISK"
     choose_partition || exit 1
+    log "Step 5 (partition) completed"
     create_user || exit 1
+    log "Step 6 (user) completed, USERNAME=$USERNAME"
     configure_ssh || exit 1
+    log "Step 7 (ssh) completed"
     show_summary || exit 1
+    log "Step 8 (summary) completed"
     
     # Confirm again
     dialog --title "Final Warning" \
